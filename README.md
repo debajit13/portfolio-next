@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img style="border-width: 0" width="400" height="400" src="https://ik.imagekit.io/debajit13/utilitis/logo.png?updatedAt=1700115191300" alt="App logo">
+</p>
+
+# Portfolio Website
+
+A NextJS and Tailwind CSS based portfolio website.
+
+## Tech/ Framework Used
+
+**Built with**
+
+1. [NextJS](https://nextjs.org/)
+1. [TypeScript](https://www.typescriptlang.org/)
+1. [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 
