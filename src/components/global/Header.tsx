@@ -26,10 +26,19 @@ const Header = () => {
           width={50}
         />
       </NavbarBrand>
-      <NavbarToggle />
+      <NavbarToggle
+        theme={{
+          base: 'inline-flex items-center rounded-lg p-2 text-sm text-gray-500  focus:outline-none   dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden',
+        }}
+      />
       <NavbarCollapse>
         {data.routes.map((route) => (
           <NavbarLink
+            theme={{
+              active: {
+                on: 'block py-2 pr-4 pl-3 md:p-0 bg-blue-600 text-white dark:text-white md:bg-transparent md:text-blue-600',
+              },
+            }}
             key={route.title}
             as={Link}
             href={route.path}

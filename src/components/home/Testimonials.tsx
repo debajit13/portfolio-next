@@ -10,13 +10,21 @@ const Testimonials: React.FC<{
   }[];
 }> = ({ testimonialsData }) => {
   return (
-    <div className='px-4 mx-auto max-w-screen-xl h-96 lg:px-6 sm:h-96 xl:h-140 2xl:h-96 mb-8'>
+    <div className='px-4 mx-auto max-w-screen-xl  lg:px-6 sm:h-96 h-[29rem]  xl:h-140 2xl:h-96 mb-8'>
       <div className='max-w-screen-md mb-4 lg:mb-8'>
         <h2 className='mb-3 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
           Testimonials
         </h2>
       </div>
-      <Carousel indicators={false}>
+      <Carousel
+        theme={{
+          control: {
+            base: 'inline-flex h-8 w-8 items-center justify-center rounded-full bg-white border-4 group-hover:bg-white group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10',
+            icon: 'h-5 w-5 text-dark dark:text-gray-200 sm:h-6 sm:w-6',
+          },
+        }}
+        indicators={false}
+      >
         {testimonialsData.map(
           (testimonialData: {
             name: string;
@@ -42,9 +50,9 @@ const Testimonials: React.FC<{
                     />
                   </svg>
                   <blockquote>
-                    <p className='text-sm font-medium text-gray-900 dark:text-white'>
+                    <h1 className='lg:text-xl sm:text-xs xs:text-xs font-medium text-gray-900 dark:text-white'>
                       {`"${testimonialData.testimonial}"`}
-                    </p>
+                    </h1>
                   </blockquote>
                   <figcaption className='flex items-center justify-center mt-4 space-x-2'>
                     <Image
