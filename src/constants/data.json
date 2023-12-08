@@ -361,5 +361,55 @@
       "Top Contributor of HacktoberFest 2019 and HacktoberFest 2020.",
       "Top Contributor of JGEC Winter of Code 2020"
     ]
-  }
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "companyName": "P360",
+      "role": "Software Engineer",
+      "skills": ["ReactJS", "VueJS", "TypeScript", "MUI", "Azure DevOps"],
+      "keyAchivements": [
+        "Developed reusable component for capturing user audio data using webRTC and Vue.js.",
+        "Built reusable component and integrate APIs with them in React.js and TypeScript.",
+        "Optimised the frontend code of a communication application to improve web performance."
+      ],
+      "timeline": "May 2022 - Present"
+    },
+    {
+      "id": 2,
+      "companyName": "Blackspektro",
+      "role": "Software Engineer",
+      "skills": ["VueJS", "JavaScript", "BootstrapVue", "REST API Integration"],
+      "keyAchivements": [
+        "Refactored the frontend code to make it more modular.",
+        "Integrated REST APIs with reusable frontend components.",
+        "Optimised the frontend to make the performance better."
+      ],
+      "timeline": "Oct 2021 - Apr 2022"
+    },
+    {
+      "id": 3,
+      "companyName": "Blackspektro",
+      "role": "Junior Software Engineer",
+      "skills": ["VueJS", "JavaScript", "BootstrapVue", "REST API Integration"],
+      "keyAchivements": [
+        "Integrate APIs with VueJS frontend of a dashboard application.",
+        "Fixed bugs of the dashboard application.",
+        "Built reusable components to make application modular."
+      ],
+      "timeline": "Apr 2021 - Sep 2021"
+    },
+    {
+      "id": 4,
+      "companyName": "TIKAJ",
+      "role": "Full Stack Intern",
+      "skills": ["VueJS", "TypeScript", "StoryBook", "REST API Integration"],
+      "keyAchivements": [
+        "Built a reusable multi-input component for taking users' contact numbers using Vue.js.",
+        "Exposed API endpoints using Node.js and TypeScript.",
+        "Documented and Tested frontend components using Storybook."
+      ],
+      "timeline": "Feb 2021 - Apr 2021"
+    }
+  ]
 }

@@ -1,4 +1,5 @@
 import data from '@/constants/data.json';
+import { Card } from 'flowbite-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -15,7 +16,7 @@ const Projects = () => {
           <div className='max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24'>
             <div className='grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3'>
               {data.projects.map((projectData) => (
-                <div key={projectData?.title} className='space-y-4'>
+                <Card key={projectData?.title} className='space-y-4'>
                   <div className=' w-full flex content-center justify-center'>
                     <Image
                       className='rounded-full'
@@ -30,14 +31,16 @@ const Projects = () => {
                   <h3 className='text-2xl font-bold leading-tight text-gray-900 dark:text-white'>
                     {projectData?.title}
                   </h3>
-                  {projectData?.techstack.map((tech: string) => (
-                    <span
-                      key={tech}
-                      className='bg-gray-100 mr-1 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  <div>
+                    {projectData?.techstack.map((tech: string) => (
+                      <span
+                        key={tech}
+                        className='bg-gray-100 mr-1 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
 
                   <p className='text-lg font-normal text-gray-500 dark:text-gray-400'>
                     {projectData?.description}
@@ -86,7 +89,7 @@ const Projects = () => {
                       />
                     </svg>
                   </Link>
-                </div>
+                </Card>
               ))}
             </div>
           </div>
