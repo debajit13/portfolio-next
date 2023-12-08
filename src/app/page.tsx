@@ -11,17 +11,15 @@ const Home = () => {
         <div className='grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
           <div className='lg:mt-0 lg:col-span-5 lg:flex place-self-center p-5'>
             <Image
-              src={data?.home?.profileImage}
+              src='https://ik.imagekit.io/debajit13/utilitis/profile-pic.webp?updatedAt=1700025456700'
               alt='mockup'
-              loading='eager'
               className='rounded-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]'
               width={500}
               height={500}
-              priority
             />
           </div>
           <div className='mr-auto place-self-center lg:col-span-7'>
-            <h1 className='max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white mb-6'>
+            <h1 className='max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white mb-6'>
               👋 Hi, Welcome to my space
             </h1>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>

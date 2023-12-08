@@ -79,32 +79,28 @@
       "description": "A ReactJS based URL shortener",
       "image": "https://ik.imagekit.io/debajit13/Projects/short_link_logo.webp?updatedAt=1700108916890",
       "webURL": "https://short-link-app.netlify.app/",
-      "githubURL": "https://github.com/debajit13/short-link",
-      "techstack": ["ReactJS", "ReactStrap"]
+      "githubURL": "https://github.com/debajit13/short-link"
     },
     {
       "title": "Game Star",
       "description": "A project to display the list of your favourite games",
       "image": "https://ik.imagekit.io/debajit13/Projects/game_star_logo.webp?updatedAt=1700108916778",
       "webURL": "https://gamestar.netlify.app/",
-      "githubURL": "https://github.com/debajit13/Game-Star",
-      "techstack": ["ReactJS", "MUI"]
+      "githubURL": "https://github.com/debajit13/Game-Star"
     },
     {
       "title": "Joke React",
       "description": "A simple Joke App that makes you laugh.",
       "image": "https://ik.imagekit.io/debajit13/Projects/joke_react.webp?updatedAt=1700108916771",
       "webURL": "https://joke-react.netlify.app/",
-      "githubURL": "https://github.com/debajit13/joke-react",
-      "techstack": ["ReactJS", "ReactStrap"]
+      "githubURL": "https://github.com/debajit13/joke-react"
     },
     {
       "title": "JSeekr",
       "description": "Find jobs of top multinational companies",
       "image": "https://ik.imagekit.io/debajit13/Projects/jseekr.webp?updatedAt=1700108916884",
       "webURL": "https://jseekr.netlify.app/",
-      "githubURL": "https://github.com/debajit13/JSeeker",
-      "techstack": ["ReactJS", "MDBReact"]
+      "githubURL": "https://github.com/debajit13/JSeeker"
     }
   ],
 

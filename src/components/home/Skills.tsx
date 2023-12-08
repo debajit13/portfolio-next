@@ -21,12 +21,7 @@ const Skills: React.FC<{
               <div className='flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-16 lg:w-16 dark:bg-primary-900'>
                 <picture>
                   <source srcSet={skill?.image} type='image/svg' />
-                  <img
-                    src={skill?.image}
-                    alt={skill?.name}
-                    height='150px'
-                    width='150px'
-                  />
+                  <img src={skill?.image} alt={skill?.name} />
                 </picture>
               </div>
               <h3 className='mb-2 text-xl font-bold dark:text-white'>
