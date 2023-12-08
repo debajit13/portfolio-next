@@ -9,67 +9,67 @@
     {
       "blogTitle": "Boosting Performance: Image Optimization in React",
       "blogDescription": "Image Optimization is one of the most crucial parameters for optimizing web performance. In many parts of the world, the internet is still slow and takes a lot of time to load the pages. As frontend developers, we have to think about all the users. Our goal is to make the web apps faster. This blog will help you in your journey to make your web app faster.",
-      "blogImage": "https://ik.imagekit.io/debajit13/Image_Optimization_in_React.jpg?updatedAt=1694498688276",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/boostingPerformanceImageOptimizationInReact.webp?updatedAt=1700111667628",
       "blogLink": "https://dev.to/debajit13/boosting-performance-image-optimization-in-react-1f4g"
     },
     {
       "blogTitle": "Deep Dive Into the useReducer() hook",
       "blogDescription": "In React, useReducer() is one of the most important hooks. We use the useState() hook for component-based state management. That is good if your component only has two or three states. But if you have many states in the component, then useReducer() can be a better choice.",
-      "blogImage": "https://ik.imagekit.io/debajit13/deepDiveUseReducer.jpg?updatedAt=1689745412907",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveUseReducer.webp?updatedAt=1700109426589",
       "blogLink": "https://dev.to/debajit13/deep-dive-into-the-usereducer-hook-1kom"
     },
     {
       "blogTitle": "Conditional Rendering and Rendering List in React",
       "blogDescription": "Sometimes we want to show a React component when a condition yields true. It is called Conditional Rendering. Also, rendering through a list of values to display a Component multiple times is very common in React. In this blog, we are discussing these two topics.",
-      "blogImage": "https://ik.imagekit.io/debajit13/conditional_rendering.jpg?updatedAt=1689745413078",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/conditional%20rendering.webp?updatedAt=1700109426264",
       "blogLink": "https://dev.to/debajit13/conditional-rendering-and-rendering-list-in-react-4886"
     },
     {
       "blogTitle": "Prop Types and Default Props in React",
       "blogDescription": "prop-types is a library with which you can check the type of props in React. With defaultProps, we can pass default values to props.",
-      "blogImage": "https://ik.imagekit.io/debajit13/prop-types-default-props.jpg?updatedAt=1689745413079",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/propTypesDefaultProps.webp?updatedAt=1700109426591",
       "blogLink": "https://dev.to/debajit13/prop-types-and-default-props-in-react-55jh"
     },
     {
       "blogTitle": "All You Need to Know About Props in React",
       "blogDescription": "In React, we always think about Components. These components need a way to communicate with each other. Props are a great way to communicate between components by sharing data between them.",
-      "blogImage": "https://ik.imagekit.io/debajit13/AllAboutProps.jpg?updatedAt=1689745412973",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/allAboutProps.webp?updatedAt=1700109426188",
       "blogLink": "https://dev.to/debajit13/all-you-need-to-know-about-props-in-react-1l40"
     },
     {
       "blogTitle": "An in-depth guide on State in React",
       "blogDescription": "In React, State is one of the essential concepts to learn. If you are new to React or an intermediate-level developer, this article will help you to dive deep into State and help you to write better code.",
-      "blogImage": "https://ik.imagekit.io/debajit13/InDepthState.jpg?updatedAt=1689745412993",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/inDepthState.webp?updatedAt=1700109426170",
       "blogLink": "https://dev.to/debajit13/an-in-depth-guide-on-state-in-react-34m7"
     },
     {
       "blogTitle": "'this' keyword in JavaScript",
       "blogDescription": "If you are new to the world of JavaScript, then you may find 'this' keyword a little bit tricky. In this blog, I will discuss some basics of 'this' keyword, how we can use and its problems.",
-      "blogImage": "https://ik.imagekit.io/debajit13/thisKeywordBlog.jpg?updatedAt=1689745413042",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/thisKeyword.webp?updatedAt=1700109426120",
       "blogLink": "https://dev.to/debajit13/this-keyword-in-javascript-2gh"
     },
     {
       "blogTitle": "JavaScript Variables (var vs let vs const)",
       "blogDescription": "If you are new to the world of JavaScript, then you might be thinking that why JavaScript uses different keywords to declare a simple variable. So in this blog, I am going to discuss all of this and clear all your doubts.",
-      "blogImage": "https://ik.imagekit.io/debajit13/javascriptVariables.jpg?updatedAt=1689745413200",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/javascriptVariables.webp?updatedAt=1700109426593",
       "blogLink": "https://dev.to/debajit13/javascript-variables-var-vs-let-vs-const-57nj"
     },
     {
       "blogTitle": "Get Started with TypeScript",
       "blogDescription": "Do you want to take your first step in the world of TypeScript? Do read this blog to get started on this journey.",
-      "blogImage": "https://ik.imagekit.io/debajit13/getStartedWithTypeScript.jpg?updatedAt=1689745412857",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/getStartedWithTypeScript.webp?updatedAt=1700109426123",
       "blogLink": "https://debajit13.hashnode.dev/get-started-with-typescript"
     },
     {
       "blogTitle": "Deep Dive into Git (Part I)",
       "blogDescription": "What is Git? Why understanding it is so much important? In this article, we are going to understand it.",
-      "blogImage": "https://ik.imagekit.io/debajit13/deepDiveIntoGit1.jpg?updatedAt=1689745413009",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveIntoGit1.webp?updatedAt=1700109426181",
       "blogLink": "https://medium.com/@debajit13/deep-dive-into-git-2e190c5404ea"
     },
     {
       "blogTitle": "Deep Dive into Git (Part II)",
       "blogDescription": "In my previous blog, I discussed 'what is Git?'. In this blog, I am going to share how you can get started with git commands.",
-      "blogImage": "https://ik.imagekit.io/debajit13/deepDiveIntoGit2.jpg?updatedAt=1689745412937",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveIntoGit2.webp?updatedAt=1700109426267",
       "blogLink": "https://medium.com/@debajit13/deep-dive-into-git-part-ii-e3fe2bb24456"
     }
   ],
@@ -297,27 +297,27 @@
     "skills": [
       {
         "name": "HTML 5",
-        "image": "https://ik.imagekit.io/debajit13/html5.svg?updatedAt=1689744900931"
+        "image": "https://ik.imagekit.io/debajit13/Skills/html5.svg?updatedAt=1700108666696"
       },
       {
         "name": "CSS 3",
-        "image": "https://ik.imagekit.io/debajit13/css3.svg?updatedAt=1689744900773"
+        "image": "https://ik.imagekit.io/debajit13/Skills/css3.svg?updatedAt=1700108678348"
       },
       {
         "name": "JavaScript",
-        "image": "https://ik.imagekit.io/debajit13/javascript.svg?updatedAt=1689744900852"
+        "image": "https://ik.imagekit.io/debajit13/Skills/javascript.svg?updatedAt=1700108662141"
       },
       {
         "name": "TypeScript",
-        "image": "https://ik.imagekit.io/debajit13/typescript.svg?updatedAt=1689744900820"
+        "image": "https://ik.imagekit.io/debajit13/Skills/typescript.svg?updatedAt=1700108681965"
       },
       {
         "name": "React.js",
-        "image": "https://ik.imagekit.io/debajit13/react.svg?updatedAt=1689744900903"
+        "image": "https://ik.imagekit.io/debajit13/Skills/react.svg?updatedAt=1700108674259"
       },
       {
         "name": "Vue.js",
-        "image": "https://ik.imagekit.io/debajit13/vue.svg?updatedAt=1689744900824"
+        "image": "https://ik.imagekit.io/debajit13/Skills/vue.svg?updatedAt=1700108670283"
       }
     ],
     "testimonials": [
@@ -411,5 +411,6 @@
       ],
       "timeline": "Feb 2021 - Apr 2021"
     }
-  ]
+  ],
+  "errorImage": "https://ik.imagekit.io/debajit13/utilitis/404-not-found.svg?updatedAt=1701668953919"
 }
