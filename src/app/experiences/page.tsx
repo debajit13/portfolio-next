@@ -15,7 +15,7 @@ const Experiences = () => {
             {data?.experiences.map((experience) => (
               <Card
                 key={experience?.id}
-                className='flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16'
+                className='flow-root max-w-7xl mx-auto mt-8 sm:mt-12 lg:mt-16'
               >
                 <div className='-my-4 divide-y divide-gray-200 dark:divide-gray-700'>
                   <div className='flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center'>
