@@ -11,7 +11,7 @@ const Experiences = () => {
           </h2>
         </div>
         <section className='bg-white dark:bg-gray-900 antialiased'>
-          <div className='max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-8'>
+          <div className='max-w-screen-xl px-2 py-1 mx-auto lg:px-6 sm:py-16 lg:py-8'>
             {data?.experiences.map((experience) => (
               <Card
                 key={experience?.id}
@@ -29,14 +29,16 @@ const Experiences = () => {
                       <h4 className='text-md font-semibold text-gray-600 dark:text-white'>
                         {experience?.role}
                       </h4>
-                      {experience?.skills.map((skill: string) => (
-                        <span
-                          key={skill}
-                          className='bg-gray-100 mr-1 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'
-                        >
-                          {skill}
-                        </span>
-                      ))}
+                      <div className='flex flex-row flex-wrap w-full'>
+                        {experience?.skills.map((skill: string) => (
+                          <span
+                            key={skill}
+                            className='mt-2 bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit'
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
                       <h4 className='text-md font-semibold text-gray-600 dark:text-white mt-3'>
                         key Achivements
                       </h4>
@@ -48,7 +50,7 @@ const Experiences = () => {
                               key={keyAchivement}
                             >
                               <svg
-                                className='w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0'
+                                className='w-3.5 h-3.5 me-2 text-blue-600 dark:text-blue-500 flex-shrink-0'
                                 aria-hidden='true'
                                 xmlns='http://www.w3.org/2000/svg'
                                 fill='currentColor'

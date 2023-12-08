@@ -1,5 +1,5 @@
 import data from '@/constants/data.json';
-import { Card } from 'flowbite-react';
+import { Button, Card } from 'flowbite-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -31,11 +31,11 @@ const Projects = () => {
                   <h3 className='text-2xl font-bold leading-tight text-gray-900 dark:text-white'>
                     {projectData?.title}
                   </h3>
-                  <div>
+                  <div className='flex flex-row flex-wrap w-full justify-center'>
                     {projectData?.techstack.map((tech: string) => (
                       <span
                         key={tech}
-                        className='bg-gray-100 mr-1 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'
+                        className='mt-2 bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit'
                       >
                         {tech}
                       </span>
@@ -45,50 +45,48 @@ const Projects = () => {
                   <p className='text-lg font-normal text-gray-500 dark:text-gray-400'>
                     {projectData?.description}
                   </p>
-                  <Link
-                    target='_blank'
-                    href={projectData?.webURL}
-                    className='text-dark bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800'
-                    role='button'
-                    rel='noopener noreferrer'
-                  >
-                    View Website
-                    <svg
-                      aria-hidden='true'
-                      className='w-5 h-5 ml-2 -mr-1'
-                      xmlns='http://www.w3.org/2000/svg'
-                      viewBox='0 0 20 20'
-                      fill='currentColor'
+                  <div className='flex mt-4 md:mt-6 justify-center '>
+                    <Button
+                      href={projectData?.githubURL}
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      className='inline-flex items-center px-2 py-1 text-sm font-small text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
                     >
-                      <path
-                        fill-rule='evenodd'
-                        d='M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z'
-                        clip-rule='evenodd'
-                      />
-                    </svg>
-                  </Link>
-                  <Link
-                    target='_blank'
-                    href={projectData?.githubURL}
-                    className='text-dark  bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800'
-                    role='button'
-                    rel='noopener noreferrer'
-                  >
-                    View GitHub
-                    <svg
-                      aria-hidden='true'
-                      className='w-5 h-5 ml-2 -mr-1'
-                      xmlns='http://www.w3.org/2000/svg'
-                      viewBox='0 0 20 20'
-                      fill='currentColor'
+                      GitHub
+                      <svg
+                        className='ml-2 w-4 h-4'
+                        fill='currentColor'
+                        viewBox='0 0 20 20'
+                        xmlns='http://www.w3.org/2000/svg'
+                      >
+                        <path
+                          fill-rule='evenodd'
+                          d='M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z'
+                          clip-rule='evenodd'
+                        ></path>
+                      </svg>
+                    </Button>
+                    <Button
+                      href={projectData?.webURL}
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      className='inline-flex items-center px-2 py-1 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3'
                     >
-                      <path
-                        fill-rule='evenodd'
-                        d='M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z'
-                        clip-rule='evenodd'
-                      />
-                    </svg>
-                  </Link>
+                      Website
+                      <svg
+                        className='ml-2 w-4 h-4'
+                        fill='currentColor'
+                        viewBox='0 0 20 20'
+                        xmlns='http://www.w3.org/2000/svg'
+                      >
+                        <path
+                          fill-rule='evenodd'
+                          d='M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z'
+                          clip-rule='evenodd'
+                        ></path>
+                      </svg>
+                    </Button>
+                  </div>
                 </Card>
               ))}
             </div>

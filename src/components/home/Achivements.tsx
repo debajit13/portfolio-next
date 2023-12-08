@@ -15,7 +15,7 @@ const Achivements: React.FC<{ achivementsData: string[] }> = ({
               {achivementsData.map((achivementData: string) => (
                 <li className='flex items-baseline mt-3' key={achivementData}>
                   <svg
-                    className='w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0'
+                    className='w-3.5 h-3.5 me-2 text-blue-600 dark:text-blue-500 flex-shrink-0'
                     aria-hidden='true'
                     xmlns='http://www.w3.org/2000/svg'
                     fill='currentColor'
