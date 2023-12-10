@@ -16,6 +16,21 @@ export const metadata: Metadata = {
   ],
   keywords:
     'Frontend Developer, ReactJS, VueJS, TypeScript, JavaScript, HTML5, CSS3, NuxtJS, NextJS',
+  manifest: '/manifest.json',
+  metadataBase: new URL('https://ik.imagekit.io/debajit13/utilitis'),
+  openGraph: {
+    type: 'website',
+    url: 'https://debajitmallick.com/',
+    title: 'Debajit Mallick',
+    description:
+      'A Software Engineer with 2+ years of experience in Frontend Development. Also, I am a Tech Speaker and active member in several tech communities.',
+    siteName: 'Debajit Mallick',
+    images: [
+      {
+        url: '/Debajit_Mallick_Open_Graphwebp.webp?updatedAt=1702190645178',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
