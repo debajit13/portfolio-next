@@ -1,3 +1,5 @@
+'use client';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -9,12 +11,18 @@ const BlogCard: React.FC<{
   blogImage: string;
 }> = ({ blogTitle, blogDescription, blogLink, blogImage }) => {
   return (
-    <article className='p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+    <motion.article
+      initial={{ opacity: 0 }}
+      whileInView={{
+        opacity: 1,
+      }}
+      viewport={{ once: true }}
+      className='p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'
+    >
       <div className='flex justify-between items-center mb-5 text-gray-500'>
         <Image
           className='w-full h-30 rounded-2xl'
           src={blogImage}
-          loading='lazy'
           height={150}
           width={200}
           alt={blogTitle}
@@ -48,7 +56,7 @@ const BlogCard: React.FC<{
           </svg>
         </Link>
       </div>
-    </article>
+    </motion.article>
   );
 };
 
