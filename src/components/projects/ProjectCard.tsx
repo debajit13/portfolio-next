@@ -1,5 +1,7 @@
+'use client';
 import { Button, Card } from 'flowbite-react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const ProjectCard: React.FC<{
   title: string;
@@ -10,8 +12,17 @@ const ProjectCard: React.FC<{
   webURL: string;
 }> = ({ title, image, techstack, description, githubURL, webURL }) => {
   return (
-    <Card key={title} className='space-y-4'>
-      <div className=' w-full flex content-center justify-center'>
+    <Card key={title} className='space-y-4 h-full'>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: 'spring',
+          stiffness: 260,
+          damping: 20,
+        }}
+        className=' w-full flex content-center justify-center'
+      >
         <Image
           className='rounded-full'
           loading='lazy'
@@ -20,7 +31,7 @@ const ProjectCard: React.FC<{
           width={150}
           alt={title}
         />
-      </div>
+      </motion.div>
 
       <h3 className='text-2xl font-bold leading-tight text-gray-900 dark:text-white'>
         {title}
