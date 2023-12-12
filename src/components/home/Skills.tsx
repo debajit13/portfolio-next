@@ -1,5 +1,7 @@
+'use client';
 import { Card } from 'flowbite-react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const Skills: React.FC<{
   skillsData: {
@@ -18,7 +20,23 @@ const Skills: React.FC<{
         <div className='space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
           {skillsData?.map((skill: { name: string; image: string }) => (
             <Card key={skill?.name} className='max-w-sm'>
-              <div className='flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-16 lg:w-16 dark:bg-primary-900'>
+              <motion.div
+                whileInView={{
+                  opacity: 1,
+                  scale: 1,
+                  rotate: 360,
+                }}
+                initial={{ scale: 0, opacity: 0 }}
+                className='flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-16 lg:w-16 dark:bg-primary-900'
+                transition={{
+                  type: 'spring',
+                  stiffness: 260,
+                  damping: 20,
+                }}
+                viewport={{
+                  once: true,
+                }}
+              >
                 <picture>
                   <source srcSet={skill?.image} type='image/svg' />
                   <Image
@@ -29,7 +47,7 @@ const Skills: React.FC<{
                     loading='lazy'
                   />
                 </picture>
-              </div>
+              </motion.div>
               <h3 className='mb-2 text-xl font-bold dark:text-white'>
                 {skill?.name}
               </h3>
