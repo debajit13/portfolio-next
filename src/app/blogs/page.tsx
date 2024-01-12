@@ -22,6 +22,7 @@ const Blogs = () => {
                 blogDescription={blog.blogDescription}
                 blogLink={blog.blogLink}
                 blogImage={blog.blogImage}
+                topics={blog.topics}
               />
             ))}
           </div>
