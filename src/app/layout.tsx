@@ -40,6 +40,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <head>
+        <link rel='apple-touch-icon' href='./assets/apple-touch-icon.png' />
+      </head>
       <body className={inter.className}>
         <Header />
         {children}
