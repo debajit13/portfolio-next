@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Exploring Zod: A Comprehensive Guide",
+      "blogDescription": "In the world of TypeScript, sometimes, the Typescript validations are not enough for us. In those situations, we want more control over the validations to make our code more robust. This is where Zod comes into the picture.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zod-banner.webp?updatedAt=1706209337121",
+      "blogLink": "https://dev.to/debajit13/exploring-zod-a-comprehensive-guide-1efn",
+      "topics": ["Zod", "TypeScript"]
+    },
+    {
       "blogTitle": "Mastering React Performance: Tips and Best Practices",
       "blogDescription": "Building a React app is easy. But optimization is the most difficult part. In this article, I will be discussing some of the most popular techniques to master web performance in React.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/masteringReactPerformance.webp?updatedAt=1700112409761",
