@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Decoding Zustand: Simplifying State in React",
+      "blogDescription": "Zustand is a state management library for React that offers a minimalistic yet powerful API. It provides a simple way to manage the state of your application without the need for complex abstractions.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zustandbanner.webp?updatedAt=1706344032529",
+      "blogLink": "https://dev.to/debajit13/decoding-zustand-simplifying-state-in-react-1g50",
+      "topics": ["State Management", "Zustand", "ReactJS"]
+    },
+    {
       "blogTitle": "Exploring Zod: A Comprehensive Guide",
       "blogDescription": "In the world of TypeScript, sometimes, the Typescript validations are not enough for us. In those situations, we want more control over the validations to make our code more robust. This is where Zod comes into the picture.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zod-banner.webp?updatedAt=1706209337121",
