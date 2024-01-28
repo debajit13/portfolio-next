@@ -5,6 +5,7 @@ import Image from 'next/image';
 import data from '@/constants/data.json';
 import Testimonials from '@/components/home/Testimonials';
 import Achivements from '@/components/home/Achivements';
+import Contact from '@/components/home/Contact';
 
 const Home = () => {
   return (
@@ -64,6 +65,7 @@ const Home = () => {
       <Skills skillsData={data?.home?.skills} />
       <Testimonials testimonialsData={data?.home?.testimonials} />
       <Achivements achivementsData={data?.home?.achivements} />
+      <Contact />
     </>
   );
 };
