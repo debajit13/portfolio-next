@@ -13,17 +13,12 @@ const Home = () => {
         <div className='grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
           <div className='lg:mt-0 lg:col-span-5 lg:flex place-self-center p-5'>
             <motion.div
-              whileInView='visible'
-              viewport={{
-                once: true,
-              }}
-              initial={{ scale: 0 }}
-              animate={{ rotate: 360, scale: 1 }}
-              transition={{
-                type: 'spring',
-                stiffness: 260,
-                damping: 20,
-              }}
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              transition={{ duration: 0.5 }}
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.9 }}
             >
               <Image
                 src={data?.home?.profileImage}
