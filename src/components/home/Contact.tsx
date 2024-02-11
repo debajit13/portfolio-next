@@ -15,7 +15,7 @@ import {
 const Contact = () => {
   return (
     <Footer container className='shadow-none'>
-      <div className='w-full'>
+      <div className='w-full py-8 px-0 mx-auto max-w-screen-xl sm:py-16 lg:px-6'>
         <h2 className='mb-6 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
           Contact Me
         </h2>
