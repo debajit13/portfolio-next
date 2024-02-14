@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Vite vs Webpack: A Comparative Analysis",
+      "blogDescription": "In this article, we'll delve into the features, strengths, and use cases of both Vite and Webpack to help you make an informed decision for your next project.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/viteVsWebpack.webp?updatedAt=1707941355720",
+      "blogLink": "https://dev.to/debajit13/vite-vs-webpack-a-comparative-analysis-851",
+      "topics": ["Web Tooling", "Vite", "Webpack"]
+    },
+    {
       "blogTitle": "Decoding Zustand: Simplifying State in React",
       "blogDescription": "Zustand is a state management library for React that offers a minimalistic yet powerful API. It provides a simple way to manage the state of your application without the need for complex abstractions.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zustandbanner.webp?updatedAt=1706344032529",
