@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import {
   BsFacebook,
   BsLinkedin,
@@ -31,58 +32,63 @@ const Contact = () => {
           </span>
           <div className='mt-4 flex space-x-6 sm:mt-0 sm:justify-center'>
             <div>
-              <a
+              <Link
+                aria-label='LinkedIn'
                 href='https://www.linkedin.com/in/debajit-mallick'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-500 dark:hover:text-white'
               >
                 <BsLinkedin className='w-6 h-6' />
-              </a>
+              </Link>
             </div>
 
             <div>
-              <a
+              <Link
+                aria-label='Twitter'
                 href='https://twitter.com/MallickDebajit'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-500 dark:hover:text-white'
               >
                 <BsTwitter className='w-6 h-6' />
-              </a>
+              </Link>
             </div>
 
             <div>
-              <a
+              <Link
+                aria-label='GitHub'
                 href='https://github.com/debajit13/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-500 dark:hover:text-white'
               >
                 <BsGithub className='w-6 h-6' />
-              </a>
+              </Link>
             </div>
 
             <div>
-              <a
+              <Link
+                aria-label='Facebook'
                 href='https://m.facebook.com/debajit.mallick.13/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-500 dark:hover:text-white'
               >
                 <BsFacebook className='w-6 h-6' />
-              </a>
+              </Link>
             </div>
 
             <div>
-              <a
+              <Link
+                aria-label='Instagram'
                 href='https://www.instagram.com/debajit_mallick_13/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-500 dark:hover:text-white'
               >
                 <BsInstagram className='w-6 h-6' />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
