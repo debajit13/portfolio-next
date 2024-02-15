@@ -1,6 +1,5 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Card } from 'flowbite-react';
 
 const Achivements: React.FC<{ achivementsData: string[] }> = ({
   achivementsData,
@@ -12,53 +11,56 @@ const Achivements: React.FC<{ achivementsData: string[] }> = ({
           <h2 className='mb-3 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
             Achivements
           </h2>
-          <Card>
-            <motion.ul
-              initial='hidden'
-              whileInView='visible'
-              viewport={{
-                once: true,
-              }}
-              variants={{
-                visible: {
-                  opacity: 1,
-                  transition: {
-                    when: 'beforeChildren',
-                    staggerChildren: 0.3,
+
+          <div className='flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col'>
+            <div className='flex h-full flex-col justify-center gap-4 p-6'>
+              <motion.ul
+                initial='hidden'
+                whileInView='visible'
+                viewport={{
+                  once: true,
+                }}
+                variants={{
+                  visible: {
+                    opacity: 1,
+                    transition: {
+                      when: 'beforeChildren',
+                      staggerChildren: 0.3,
+                    },
                   },
-                },
-                hidden: {
-                  opacity: 0,
-                  transition: {
-                    when: 'afterChildren',
+                  hidden: {
+                    opacity: 0,
+                    transition: {
+                      when: 'afterChildren',
+                    },
                   },
-                },
-              }}
-              className='max-w-3xl space-y-1 text-gray-500 list-inside dark:text-gray-400'
-            >
-              {achivementsData.map((achivementData: string) => (
-                <motion.li
-                  variants={{
-                    visible: { opacity: 1, x: 0 },
-                    hidden: { opacity: 0, x: -100 },
-                  }}
-                  className='flex items-baseline mt-3'
-                  key={achivementData}
-                >
-                  <svg
-                    className='w-3.5 h-3.5 me-2 text-blue-600 dark:text-blue-500 flex-shrink-0'
-                    aria-hidden='true'
-                    xmlns='http://www.w3.org/2000/svg'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'
+                }}
+                className='max-w-3xl space-y-1 text-gray-500 list-inside dark:text-gray-400'
+              >
+                {achivementsData.map((achivementData: string) => (
+                  <motion.li
+                    variants={{
+                      visible: { opacity: 1, x: 0 },
+                      hidden: { opacity: 0, x: -100 },
+                    }}
+                    className='flex items-baseline mt-3'
+                    key={achivementData}
                   >
-                    <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
-                  </svg>
-                  {achivementData}
-                </motion.li>
-              ))}
-            </motion.ul>
-          </Card>
+                    <svg
+                      className='w-3.5 h-3.5 me-2 text-blue-600 dark:text-blue-500 flex-shrink-0'
+                      aria-hidden='true'
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      viewBox='0 0 20 20'
+                    >
+                      <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
+                    </svg>
+                    {achivementData}
+                  </motion.li>
+                ))}
+              </motion.ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
