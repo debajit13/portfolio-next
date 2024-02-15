@@ -1,4 +1,4 @@
-import { Carousel, Card } from 'flowbite-react';
+import { Carousel } from 'flowbite-react';
 import Image from 'next/image';
 
 const Testimonials: React.FC<{
