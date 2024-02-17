@@ -2,22 +2,23 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import data from '@/constants/data.json';
+import { upperCaseFirstLetter } from '@/utils/utils';
 
 const Header = () => {
   const pathName = usePathname();
 
   return (
-    <nav className='mt-5 z-10 mx-auto flex flex-row justify-evenly items-center w-[350px] bg-gray-100 shadow-lg h-[45px] rounded-[40px] m-2 sticky top-0'>
+    <nav className='mt-5 p-2 z-10 mx-auto flex flex-row justify-evenly items-center w-[350px] bg-blue-100 shadow-lg h-[45px] rounded-[40px] m-2 sticky top-0'>
       {data &&
         data.routes.map((route) => (
           <Link key={route.title} href={route.path}>
             <span
               className={`text-sm hover:rounded-full p-2 ${
                 pathName === route.path &&
-                'bg-[#6558d3] hover:bg-[#6558d3] rounded-full text-white'
+                'bg-[#1a56db] hover:bg-[#1a56db] rounded-full text-white'
               }`}
             >
-              {route.title.charAt(0).toUpperCase() + route.title.slice(1)}
+              {upperCaseFirstLetter(route.title)}
             </span>
           </Link>
         ))}

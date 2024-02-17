@@ -1,3 +1,4 @@
+import SectionHeader from '@/components/global/SectionHeader';
 import ProjectCard from '@/components/projects/ProjectCard';
 import data from '@/constants/data.json';
 
@@ -6,9 +7,7 @@ const Projects = () => {
     <section className='bg-dark dark:bg-gray-900'>
       <div className='py-3 px-4 mx-auto max-w-screen-xl sm:py-8 lg:px-6'>
         <div className='max-w-screen-md mb-4 lg:mb-8'>
-          <h2 className='mb-3 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
-            Projects
-          </h2>
+          <SectionHeader title='Projects' />
         </div>
         <section className='bg-white dark:bg-gray-900 antialiased'>
           <div className='max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24'>

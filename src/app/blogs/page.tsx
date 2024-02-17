@@ -1,4 +1,5 @@
 import BlogCard from '@/components/blogs/BlogCard';
+import SectionHeader from '@/components/global/SectionHeader';
 import data from '@/constants/data.json';
 
 const Blogs = () => {
@@ -6,9 +7,7 @@ const Blogs = () => {
     <section className='bg-dark dark:bg-gray-900'>
       <div className='py-3 px-4 mx-auto max-w-screen-xl sm:py-8 lg:px-6'>
         <div className='max-w-screen-md mb-4 lg:mb-8'>
-          <h2 className='mb-3 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
-            Blogs
-          </h2>
+          <SectionHeader title='Blogs' />
         </div>
       </div>
 
