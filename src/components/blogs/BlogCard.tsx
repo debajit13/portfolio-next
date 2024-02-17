@@ -2,15 +2,16 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import { BlogDataType } from './BlogDataType.interface';
+import { Badge } from '../global/Badge';
 
-const BlogCard: React.FC<{
-  blogTitle: string;
-  blogDescription: string;
-  blogLink: string;
-  blogImage: string;
-  topics: string[];
-}> = ({ blogTitle, blogDescription, blogLink, blogImage, topics }) => {
+const BlogCard: React.FC<BlogDataType> = ({
+  blogTitle,
+  blogDescription,
+  blogLink,
+  blogImage,
+  topics,
+}) => {
   return (
     <motion.article
       initial={{ opacity: 0 }}
@@ -34,15 +35,10 @@ const BlogCard: React.FC<{
       </h2>
       <div className='flex flex-row flex-wrap w-full'>
         {topics.map((topic: string) => (
-          <span
-            key={topic}
-            className='mb-2 bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit'
-          >
-            {topic}
-          </span>
+          <Badge key={topic} title={topic} variant='pill' />
         ))}
       </div>
-      <p className='mb-5 font-light text-gray-500 dark:text-gray-400'>
+      <p className='mb-5 font-light text-gray-500 dark:text-gray-400 mt-2'>
         {blogDescription}
       </p>
       <div className='flex justify-end items-center'>
