@@ -12,16 +12,18 @@ const Experiences = () => {
         </div>
         <section className='bg-white dark:bg-gray-900 antialiased'>
           <div className='max-w-screen-xl px-2 py-1 mx-auto lg:px-6 sm:py-16 lg:py-8'>
-            {data?.experiences.map((experience) => (
-              <ExperienceCard
-                key={experience.id}
-                companyName={experience.companyName}
-                role={experience.role}
-                skills={experience.skills}
-                keyAchivements={experience.keyAchivements}
-                timeline={experience.timeline}
-              />
-            ))}
+            <ol className='relative border-s border-gray-200 dark:border-gray-700'>
+              {data?.experiences.map((experience) => (
+                <ExperienceCard
+                  key={experience.id}
+                  companyName={experience.companyName}
+                  role={experience.role}
+                  skills={experience.skills}
+                  keyAchivements={experience.keyAchivements}
+                  timeline={experience.timeline}
+                />
+              ))}
+            </ol>
           </div>
         </section>
       </div>
