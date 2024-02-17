@@ -31,10 +31,6 @@ const ExperienceCard: React.FC<{
         <time className='block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
           {timeline}
         </time>
-        <p className='text-base font-normal text-gray-500 dark:text-gray-400'>
-          All of the pages and components are first designed in Figma and we
-          keep a parity between the two versions even as we update the project.
-        </p>
         <h4 className='text-md font-semibold text-gray-600 dark:text-white mt-3'>
           key Achivements
         </h4>
