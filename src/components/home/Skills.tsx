@@ -20,7 +20,7 @@ const Skills: React.FC<{
           {skillsData?.map((skill: { name: string; image: string }) => (
             <div
               key={skill?.name}
-              className='flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col max-w-sm'
+              className='flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col max-w-md'
             >
               <div className='flex h-full flex-col justify-center gap-4 p-6'>
                 <motion.div
