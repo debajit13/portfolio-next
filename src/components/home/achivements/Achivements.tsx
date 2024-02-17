@@ -1,16 +1,14 @@
 'use client';
 import { motion } from 'framer-motion';
+import { AchievementDataType } from './AchievementDataType.interface';
+import SectionHeader from '@/components/global/SectionHeader';
 
-const Achivements: React.FC<{ achivementsData: string[] }> = ({
-  achivementsData,
-}) => {
+const Achivements: React.FC<AchievementDataType> = ({ achivementsData }) => {
   return (
     <section className='bg-white dark:bg-gray-900'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6'>
         <div className='max-w-screen-xl mb-4 lg:mb-8'>
-          <h2 className='mb-3 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
-            Achivements
-          </h2>
+          <SectionHeader title='Achievements' />
 
           <div className='flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col'>
             <div className='flex h-full flex-col justify-center gap-4 p-6'>

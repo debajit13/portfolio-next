@@ -1,13 +1,15 @@
 'use client';
 import { motion } from 'framer-motion';
+import { ExperienceDataType } from './ExperienceDataType.interface';
+import { Badge } from '../global/Badge';
 
-const ExperienceCard: React.FC<{
-  companyName: string;
-  role: string;
-  skills: string[];
-  keyAchivements: string[];
-  timeline: string;
-}> = ({ companyName, role, skills, keyAchivements, timeline }) => {
+const ExperienceCard: React.FC<ExperienceDataType> = ({
+  companyName,
+  role,
+  skills,
+  keyAchivements,
+  timeline,
+}) => {
   return (
     <li className='mb-10 ms-6'>
       <span className='absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900'>
@@ -31,6 +33,11 @@ const ExperienceCard: React.FC<{
         <time className='block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
           {timeline}
         </time>
+        <div className='flex flex-row flex-wrap w-full'>
+          {skills?.map((skill: string) => (
+            <Badge key={skill} variant='pill' title={skill} />
+          ))}
+        </div>
         <h4 className='text-md font-semibold text-gray-600 dark:text-white mt-3'>
           key Achivements
         </h4>
