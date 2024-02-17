@@ -305,23 +305,23 @@
   "routes": [
     {
       "path": "/",
-      "title": "Home"
+      "title": "home"
     },
     {
       "path": "/projects",
-      "title": "Projects"
+      "title": "projects"
     },
     {
       "path": "/experiences",
-      "title": "Experiences"
+      "title": "experiences"
     },
     {
       "path": "/blogs",
-      "title": "Blogs"
+      "title": "blogs"
     },
     {
       "path": "/talks",
-      "title": "Talks"
+      "title": "talks"
     }
   ],
 
