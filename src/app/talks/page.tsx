@@ -1,4 +1,4 @@
-import SectionHeader from '@/components/global/SectionHeader';
+import SectionHeader from '@/components/global/sectionHeader/SectionHeader';
 import TalkCard from '@/components/talks/TalkCard';
 import data from '@/constants/data.json';
 

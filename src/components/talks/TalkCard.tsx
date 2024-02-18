@@ -2,8 +2,8 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { TalkDataType } from './TalkDataType.interface';
-import Button from '../global/Button';
-import { Badge } from '../global/Badge';
+import Button from '../global/button/Button';
+import Badge from '../global/badge/Badge';
 
 const TalkCard: React.FC<TalkDataType> = ({
   date,

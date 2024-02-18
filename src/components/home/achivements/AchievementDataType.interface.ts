@@ -1,3 +1,3 @@
 export interface AchievementDataType {
-  achivementsData: string[];
+  achievementsData: string[];
 }
