@@ -1,4 +1,4 @@
-import SectionHeader from '@/components/global/SectionHeader';
+import SectionHeader from '@/components/global/sectionHeader/SectionHeader';
 import ProjectCard from '@/components/projects/ProjectCard';
 import data from '@/constants/data.json';
 

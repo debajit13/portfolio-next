@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ContactsDataType, ContactDataType } from './ContactDataType.interface';
-import { renderIconBasedOnTitle } from '@/utils/renderIconsBasedOnTitle';
-import SectionHeader from '@/components/global/SectionHeader';
+import { renderIconBasedOnTitle } from '../../../utils/renderIconsBasedOnTitle';
+import SectionHeader from '../../../components/global/sectionHeader/SectionHeader';
 
 const Contact: React.FC<ContactsDataType> = ({ contactsData }) => {
   return (
