@@ -2,8 +2,8 @@ import {
   TestimonialsDataType,
   TestimonialDataType,
 } from './TestimonialDataType.interface';
-import TestimonialCard from './TestimonialCard';
-import SectionHeader from '@/components/global/SectionHeader';
+import TestimonialCard from './testimonialCard/TestimonialCard';
+import SectionHeader from '../../../components/global/sectionHeader/SectionHeader';
 
 const Testimonials: React.FC<TestimonialsDataType> = ({ testimonialsData }) => {
   return (

@@ -1,6 +1,6 @@
-import { BadgeDataType } from '@/types/types';
+import { BadgeDataType } from './BadgeDataType.interface';
 
-export const Badge: React.FC<BadgeDataType> = ({ title, variant }) => {
+const Badge: React.FC<BadgeDataType> = ({ title, variant }) => {
   const variants = {
     rectangle:
       'flex h-fit items-center gap-1 font-semibold bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300 group-hover:bg-gray-200 dark:group-hover:bg-gray-600 rounded px-2 py-0.5',
@@ -9,3 +9,5 @@ export const Badge: React.FC<BadgeDataType> = ({ title, variant }) => {
 
   return <span className={variants[variant]}>{title}</span>;
 };
+
+export default Badge;

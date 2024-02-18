@@ -1,5 +1,5 @@
 import ExperienceCard from '@/components/experiences/ExperienceCard';
-import SectionHeader from '@/components/global/SectionHeader';
+import SectionHeader from '@/components/global/sectionHeader/SectionHeader';
 import data from '@/constants/data.json';
 
 const Experiences = () => {
