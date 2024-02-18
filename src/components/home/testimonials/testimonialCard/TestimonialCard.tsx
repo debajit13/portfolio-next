@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { TestimonialDataType } from './TestimonialDataType.interface';
+import { TestimonialDataType } from '../TestimonialDataType.interface';
 
 const TestimonialCard: React.FC<TestimonialDataType> = ({
   name,

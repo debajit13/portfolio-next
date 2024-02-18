@@ -1,4 +1,4 @@
-import { SectionHeaderDataType } from '@/types/types';
+import { SectionHeaderDataType } from './SectionHeader.interface';
 
 const SectionHeader: React.FC<SectionHeaderDataType> = ({ title }) => {
   return (

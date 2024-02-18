@@ -1,4 +1,4 @@
-import { ButtonDataType } from '@/types/types';
+import { ButtonDataType } from './ButtonDataType.interface';
 import Link from 'next/link';
 
 const Button: React.FC<ButtonDataType> = ({

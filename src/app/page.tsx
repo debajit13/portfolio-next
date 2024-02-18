@@ -4,7 +4,7 @@ import Skills from '@/components/home/skills/Skills';
 import Image from 'next/image';
 import data from '@/constants/data.json';
 import Testimonials from '@/components/home/testimonials/Testimonials';
-import Achivements from '@/components/home/achivements/Achivements';
+import Achivements from '@/components/home/achivements/Achievements';
 import Contact from '@/components/home/contact/Contact';
 
 const Home = () => {
@@ -64,7 +64,7 @@ const Home = () => {
       </section>
       <Skills skillsData={data?.home?.skills} />
       <Testimonials testimonialsData={data?.home?.testimonials} />
-      <Achivements achivementsData={data?.home?.achivements} />
+      <Achivements achievementsData={data?.home?.achivements} />
       <Contact contactsData={data?.home?.socialLinks} />
     </>
   );
