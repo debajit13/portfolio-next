@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    },
+    {
+      "src": ".storybook",
+      "use": "@vercel/static-build",
+      "config": {
+        "outputDirectory": "storybook-build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/storybook/(.*)",
+      "dest": "/storybook-build/$1",
+      "condition": { "branch": "qa" }
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "github": {
+    "mainBranch": "main",
+    "autoAlias": true
+  }
+}
