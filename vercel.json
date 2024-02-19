@@ -4,7 +4,10 @@
     {
       "src": ".storybook",
       "use": "@vercel/static-build",
-      "config": { "outputDirectory": "storybook-build" }
+      "config": { "outputDirectory": "storybook-build" },
+      "scale": 1,
+      "use": "@vercel/static-build",
+      "config": { "zeroConfig": true }
     },
     {
       "src": "next.config.js",
@@ -12,14 +15,21 @@
     }
   ],
   "routes": [
-    { "src": "/storybook/(.*)", "dest": "/storybook-build/$1" },
-    { "src": "/(.*)", "dest": "/" }
+    {
+      "src": "/storybook/(.*)",
+      "dest": "/storybook-build/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
   ],
   "env": {
     "NODE_ENV": "production"
   },
   "github": {
     "mainBranch": "main",
-    "autoAlias": true
+    "autoAlias": true,
+    "deploymentBranches": ["main", "qa"]
   }
 }
