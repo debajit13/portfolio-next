@@ -4,10 +4,7 @@
     {
       "src": ".storybook",
       "use": "@vercel/static-build",
-      "config": { "outputDirectory": "storybook-build" },
-      "scale": 1,
-      "use": "@vercel/static-build",
-      "config": { "zeroConfig": true }
+      "config": { "outputDirectory": "storybook-build" }
     },
     {
       "src": "next.config.js",
