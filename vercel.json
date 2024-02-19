@@ -17,12 +17,16 @@
     {
       "src": "/",
       "dest": "/index.html",
-      "headers": { "x-branch": "main" }
+      "headers": {
+        "x-branch": "${VERCEL_GIT_COMMIT_REF}"
+      }
     },
     {
       "src": "/storybook/(.*)",
       "dest": "/storybook-build/$1",
-      "headers": { "x-branch": "qa" }
+      "headers": {
+        "x-branch": "${VERCEL_GIT_COMMIT_REF}"
+      }
     }
   ],
   "env": {
