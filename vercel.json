@@ -15,6 +15,21 @@
     { "src": "/storybook/(.*)", "dest": "/storybook-build/$1" },
     { "src": "/(.*)", "dest": "/" }
   ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "postcss": {
+      "plugins": {
+        "postcss-import": {},
+        "tailwindcss": {},
+        "autoprefixer": {}
+      }
+    }
+  },
   "github": {
     "mainBranch": "main",
     "autoAlias": true
