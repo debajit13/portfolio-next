@@ -12,14 +12,21 @@
     }
   ],
   "routes": [
-    { "src": "/storybook/(.*)", "dest": "/storybook-build/$1" },
-    { "src": "/(.*)", "dest": "/" }
+    {
+      "src": "/storybook/(.*)",
+      "dest": "/storybook-build/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
   ],
   "env": {
     "NODE_ENV": "production"
   },
   "github": {
     "mainBranch": "main",
-    "autoAlias": true
+    "autoAlias": true,
+    "deploymentBranches": ["main", "qa"]
   }
 }
