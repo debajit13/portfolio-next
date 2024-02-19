@@ -16,13 +16,11 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/index.html",
-      "headers": { "x-branch": "main" }
+      "dest": "/index.html"
     },
     {
       "src": "/storybook/(.*)",
-      "dest": "/storybook-build/$1",
-      "headers": { "x-branch": "qa" }
+      "dest": "/storybook-build/$1"
     }
   ],
   "env": {
@@ -31,5 +29,22 @@
   "github": {
     "mainBranch": "main",
     "autoAlias": true
+  },
+  "$default": {
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/index.html"
+      }
+    ]
+  },
+  "build": {
+    "storybook-build": {
+      "src": ".storybook",
+      "use": "@vercel/static-build",
+      "config": {
+        "outputDirectory": "storybook-build"
+      }
+    }
   }
 }
