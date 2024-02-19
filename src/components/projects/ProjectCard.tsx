@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ProjectDataType } from './ProjectDataType.interface';
-import Button from '../global/Button';
-import { Badge } from '../global/Badge';
+import Button from '../global/button/Button';
+import Badge from '../global/badge/Badge';
 
 const ProjectCard: React.FC<ProjectDataType> = ({
   title,

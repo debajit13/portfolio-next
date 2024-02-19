@@ -1,6 +1,6 @@
 'use client';
-import SectionHeader from '@/components/global/SectionHeader';
-import SkillCard from './SkillCard';
+import SectionHeader from '../../../components/global/sectionHeader/SectionHeader';
+import SkillCard from './skillCard/SkillCard';
 import { SkillDataType, SkillsDataType } from './SkillDataType.interface';
 
 const Skills: React.FC<SkillsDataType> = ({ skillsData }) => {

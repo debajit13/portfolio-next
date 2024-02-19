@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { SkillDataType } from './SkillDataType.interface';
+import { SkillDataType } from '../SkillDataType.interface';
 
 const SkillCard: React.FC<SkillDataType> = ({ name, image }) => {
   return (

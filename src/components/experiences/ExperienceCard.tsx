@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { ExperienceDataType } from './ExperienceDataType.interface';
-import { Badge } from '../global/Badge';
+import Badge from '../global/badge/Badge';
 
 const ExperienceCard: React.FC<ExperienceDataType> = ({
   companyName,

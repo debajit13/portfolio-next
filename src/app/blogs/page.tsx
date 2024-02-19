@@ -1,5 +1,5 @@
 import BlogCard from '@/components/blogs/BlogCard';
-import SectionHeader from '@/components/global/SectionHeader';
+import SectionHeader from '@/components/global/sectionHeader/SectionHeader';
 import data from '@/constants/data.json';
 
 const Blogs = () => {
