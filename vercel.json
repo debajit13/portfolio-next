@@ -16,12 +16,13 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/index.html"
+      "dest": "/index.html",
+      "headers": { "x-branch": "main" }
     },
     {
       "src": "/storybook/(.*)",
       "dest": "/storybook-build/$1",
-      "condition": { "branch": "qa" }
+      "headers": { "x-branch": "qa" }
     }
   ],
   "env": {
