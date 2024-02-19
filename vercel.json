@@ -15,6 +15,9 @@
     { "src": "/storybook/(.*)", "dest": "/storybook-build/$1" },
     { "src": "/(.*)", "dest": "/" }
   ],
+  "env": {
+    "NODE_ENV": "production"
+  },
   "github": {
     "mainBranch": "main",
     "autoAlias": true
