@@ -28,6 +28,7 @@ const Contact: React.FC<ContactsDataType> = ({ contactsData }) => {
             {contactsData.map((contactData: ContactDataType) => (
               <div key={contactData.title}>
                 <Link
+                  data-testid={contactData?.title}
                   aria-label='LinkedIn'
                   href={contactData.URL}
                   target='_blank'
