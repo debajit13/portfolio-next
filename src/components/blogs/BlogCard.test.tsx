@@ -8,13 +8,15 @@ jest.mock('next/image', () => NextImageMock);
 
 describe('BlogCard', () => {
   it('renders BlogCard', () => {
+    const topicList = ['topic 1', 'topic 2', 'topic 3'];
+
     render(
       <BlogCard
         blogTitle='Sample Blog Title'
         blogDescription='This is a sample blog description. You can put some short description in this section to describe the theme of the blog.'
         blogLink='https://dev.to/'
         blogImage='https://ik.imagekit.io/debajit13/Blogs/Blog%20Placeholder%20Banner.webp?updatedAt=1708254981754'
-        topics={['topic 1', 'topic 2', 'topic 3']}
+        topics={topicList}
       />
     );
 
@@ -56,5 +58,13 @@ describe('BlogCard', () => {
     expect(badge.tagName).toBe('SPAN');
     expect(badge).toHaveTextContent('topic 1');
     expect(badge).toHaveClass('pill');
+
+    // to test the skills of experience card
+    const topics = topicList.map((topic) => screen.queryByText(topic));
+    expect(topics.length).toBe(topicList.length);
+    topics.forEach((topic) => {
+      expect(topic).toBeInTheDocument();
+      expect(topic).toHaveClass('pill');
+    });
   });
 });
