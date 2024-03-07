@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Demystifying Virtual DOM in React",
+      "blogDescription": "Virtual DOM is one of the most crucial topics for a React Developer. The essence of how React renders on the web lies in virtual DOM. This article will explain how virtual DOM works and its nitty-gritty details.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/DemystifyingVirtualDOMinReactBanner.webp?updatedAt=1709788803956",
+      "blogLink": "https://dev.to/debajit13/demystifying-virtual-dom-in-react-17lp",
+      "topics": ["ReactJS", "Virtual DOM", "DOM"]
+    },
+    {
       "blogTitle": "Vite vs Webpack: A Comparative Analysis",
       "blogDescription": "In this article, we'll delve into the features, strengths, and use cases of both Vite and Webpack to help you make an informed decision for your next project.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/viteVsWebpack.webp?updatedAt=1707941355720",
