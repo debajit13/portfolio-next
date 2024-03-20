@@ -45,6 +45,7 @@ const BlogList = () => {
           }}
         />
         <Select
+          data={data.blogTopics}
           label='Topics'
           getSelectedValue={(value) => {
             setSelectedValue(value);

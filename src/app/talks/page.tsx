@@ -1,6 +1,5 @@
 import SectionHeader from '@/components/global/sectionHeader/SectionHeader';
-import TalkCard from '@/components/talks/TalkCard';
-import data from '@/constants/data.json';
+import TalkList from '@/components/talks/TalkList/TalkList';
 
 const Talks = () => {
   return (
@@ -12,22 +11,7 @@ const Talks = () => {
       </div>
 
       <section className='bg-white dark:bg-gray-900'>
-        <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
-          <div className='grid gap-8 lg:grid-cols-2'>
-            {data?.talks.map((talk) => (
-              <TalkCard
-                key={talk.date}
-                title={talk.title}
-                date={talk.date}
-                organiser={talk.organiser}
-                type={talk.type}
-                youtubeLink={talk.youtubeLink}
-                slidesLink={talk.slidesLink}
-                topics={talk.topics}
-              />
-            ))}
-          </div>
-        </div>
+        <TalkList />
       </section>
     </section>
   );

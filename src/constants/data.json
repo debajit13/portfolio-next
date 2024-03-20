@@ -114,6 +114,7 @@
     }
   ],
   "blogTopics": ["Web Tooling", "ReactJS", "JavaScript", "TypeScript", "Git"],
+  "talksTopics": ["Frontend", "Mentorship", "Tech Community", "Git", "ReactJS"],
   "projects": [
     {
       "title": "Short Link",
