@@ -113,6 +113,7 @@
       "topics": ["Git", "Version Control System"]
     }
   ],
+  "blogTopics": ["Web Tooling", "ReactJS", "JavaScript", "TypeScript", "Git"],
   "projects": [
     {
       "title": "Short Link",
@@ -367,6 +368,10 @@
         "image": "https://ik.imagekit.io/debajit13/Skills/css3.svg?updatedAt=1700108678348"
       },
       {
+        "name": "Tailwind CSS",
+        "image": "https://ik.imagekit.io/debajit13/Skills/tailwind.svg?updatedAt=1710824874215"
+      },
+      {
         "name": "JavaScript",
         "image": "https://ik.imagekit.io/debajit13/Skills/javascript.svg?updatedAt=1700108662141"
       },
@@ -377,6 +382,14 @@
       {
         "name": "React.js",
         "image": "https://ik.imagekit.io/debajit13/Skills/react.svg?updatedAt=1700108674259"
+      },
+      {
+        "name": "React Native",
+        "image": "https://ik.imagekit.io/debajit13/Skills/react-native.svg?updatedAt=1710824874084"
+      },
+      {
+        "name": "Next.js",
+        "image": "https://ik.imagekit.io/debajit13/Skills/nextjs.svg?updatedAt=1710824874238"
       },
       {
         "name": "Vue.js",
