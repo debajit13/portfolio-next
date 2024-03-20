@@ -6,6 +6,7 @@ import data from '@/constants/data.json';
 import Testimonials from '@/components/home/testimonials/Testimonials';
 import Achivements from '@/components/home/achivements/Achievements';
 import Contact from '@/components/home/contact/Contact';
+import Button from '@/components/global/button/Button';
 
 const Home = () => {
   return (
@@ -63,6 +64,22 @@ const Home = () => {
         </div>
       </section>
       <Skills skillsData={data?.home?.skills} />
+      <div className='py-4 px-4 mx-auto max-w-screen-xl lg:px-6'>
+        <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-700 dark:border-gray-600'>
+          <h4 className='text-3xl text-gray-900 dark:text-gray-200 mb-2'>
+            Like my site?
+          </h4>
+          <h5 className='text-lg sm:text-xl text-gray-700 dark:text-gray-400 mb-5'>
+            Dive deeper with the comprehensive component documentation below!
+          </h5>
+          <Button
+            variant='primary'
+            href='https://storybook-debajitmallick.netlify.app/'
+            title='Documentation'
+          />
+        </section>
+      </div>
+
       <Testimonials testimonialsData={data?.home?.testimonials} />
       <Achivements achievementsData={data?.home?.achivements} />
       <Contact contactsData={data?.home?.socialLinks} />

@@ -30,7 +30,7 @@ const ExperienceCard: React.FC<ExperienceDataType> = ({
         <h3 className='mb-1 text-lg font-semibold text-gray-500 dark:text-white'>
           {role}
         </h3>
-        <time className='block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
+        <time className='block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-300'>
           {timeline}
         </time>
         <div className='flex flex-row flex-wrap w-full'>

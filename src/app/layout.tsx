@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel='apple-touch-icon' href='./assets/apple-touch-icon.png' />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} h-full pt-2  `}>
         <Header routes={data?.routes} />
         {children}
       </body>

@@ -10,10 +10,10 @@ const Contact: React.FC<ContactsDataType> = ({ contactsData }) => {
         <SectionHeader title='Contact Me' />
         <div className='grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1'>
           <div>
-            <h2 className='text-gray-700 text-3xl font-semibold mb-3'>
+            <h2 className='text-gray-700 dark:text-gray-500 text-3xl font-semibold mb-3'>
               Let&apos;s Get in Touch
             </h2>
-            <p className='text-gray-500'>
+            <p className='text-gray-500 dark:text-gray-400'>
               Feel free to reach out to me through the following social media
               platforms. I&apos;d love to connect with you!
             </p>
