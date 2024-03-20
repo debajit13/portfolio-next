@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { SelectDataType } from './Select.interface';
 import data from '../../../constants/data.json';
 
-const Select: React.FC<SelectDataType> = ({ label, getSelectedValue }) => {
+const Select: React.FC<SelectDataType> = ({ getSelectedValue }) => {
   const [selected, setSelected] = useState<string>('');
   useEffect(() => {
     if (selected) {
@@ -12,13 +12,7 @@ const Select: React.FC<SelectDataType> = ({ label, getSelectedValue }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected]);
   return (
-    <form className='max-w-sm mb-3 ml-auto'>
-      <label
-        htmlFor='countries'
-        className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
-      >
-        {label}
-      </label>
+    <form className='sm:w-[25%] w-[40%]'>
       <select
         onChange={(e) => {
           setSelected(e?.target?.value);
