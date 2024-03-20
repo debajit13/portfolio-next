@@ -46,7 +46,6 @@ const TalkList = () => {
         />
         <Select
           data={data.talksTopics}
-          label='Topics'
           getSelectedValue={(value) => {
             setSelectedValue(value);
           }}
