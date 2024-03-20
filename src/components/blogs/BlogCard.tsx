@@ -46,7 +46,7 @@ const BlogCard: React.FC<BlogDataType> = ({
           rel='noopener noreferrer'
           target='_blank'
           href={blogLink}
-          className='inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline'
+          className='inline-flex items-center font-medium text-gray-900 dark:text-gray-400 hover:underline'
         >
           Read more
           <svg
