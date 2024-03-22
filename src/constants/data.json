@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Optimizing UX: The Art of Adaptive Loading in Web Performance",
+      "blogDescription": "In today's time, becoming a web developer is not that easy as more and more challenges come hand in hand. You can't build one solution that will work for all the users. In this article, we are going to discuss one such topic called Adaptive Loading.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/adaptive-loading.webp?updatedAt=1711108751617",
+      "blogLink": "https://dev.to/debajit13/optimizing-ux-the-art-of-adaptive-loading-in-web-performance-2ml5",
+      "topics": ["ReactJS", "Web Performance"]
+    },
+    {
       "blogTitle": "Demystifying Virtual DOM in React",
       "blogDescription": "Virtual DOM is one of the most crucial topics for a React Developer. The essence of how React renders on the web lies in virtual DOM. This article will explain how virtual DOM works and its nitty-gritty details.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/DemystifyingVirtualDOMinReactBanner.webp?updatedAt=1709788803956",
