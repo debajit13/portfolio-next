@@ -1,4 +1,4 @@
-import BlogList from '@/components/blogs/BlogList';
+import BlogList from '@/components/blogs/BlogList/BlogList';
 import SectionHeader from '@/components/global/sectionHeader/SectionHeader';
 
 const Blogs = () => {
