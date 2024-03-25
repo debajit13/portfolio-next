@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BlogDataType } from './BlogDataType.interface';
-import Badge from '../global/badge/Badge';
+import Badge from '../../global/badge/Badge';
 
 const BlogCard: React.FC<BlogDataType> = ({
   blogTitle,

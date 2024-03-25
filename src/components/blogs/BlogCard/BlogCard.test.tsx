@@ -1,8 +1,8 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import NextImageMock from '../../utils/nextImageMock';
+import NextImageMock from '../../../utils/nextImageMock';
 import BlogCard from './BlogCard';
-import '../../utils/intersectionObserverMock';
+import '../../../utils/intersectionObserverMock';
 
 jest.mock('next/image', () => NextImageMock);
 
