@@ -1,9 +1,9 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import BlogCard from './BlogCard';
-import Select from '../global/select/Select';
+import BlogCard from '../BlogCard/BlogCard';
+import Select from '../../global/select/Select';
 import data from '@/constants/data.json';
-import Search from '../global/search/Search';
+import Search from '../../global/search/Search';
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([...data.blogs]);
