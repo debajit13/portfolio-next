@@ -406,6 +406,12 @@
     ],
     "testimonials": [
       {
+        "name": "Akash Bilung",
+        "role": "Lead Frontend Engineer @P360",
+        "testimonial": "Debajit's passion for front-end development is evident in his proactive learning and willingness to share insights. His commitment to best practices ensured our project maintained high quality. His deep understanding of frontend technologies and collaborative spirit make him invaluable. He is always open to feedback, eager to brainstorm solutions, and quick to offer support to teammates. His enthusiasm and expertise are truly commendable.",
+        "image": "https://ik.imagekit.io/debajit13/Testimonials/Akash%20Bilung.webp?updatedAt=1711624219281"
+      },
+      {
         "name": "Haimantika Mitra",
         "role": "Developer Advocate @Hashnode",
         "testimonial": "I have worked with Debajit for Smart India Hackathon 2020, being a part of the winning team, I can vouch on Debajit's technical skills. His expertise on React and quick learning power amazed me! A dedicated learner with amazing tech skills!",
