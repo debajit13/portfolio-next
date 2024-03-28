@@ -209,6 +209,15 @@
       "topics": ["Frontend", "ReactJS", "Web Performance", "Web Accessibility"]
     },
     {
+      "title": "Exploring The Angular Ecosystem",
+      "date": "September 20, 2023",
+      "organiser": "GDSC JGEC X GDG Siliguri",
+      "type": "Offline",
+      "youtubeLink": "https://youtu.be/kfdZKSY7GVc",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Exploring%20The%20Angular%20Ecosystem.pdf",
+      "topics": ["Frontend", "Mentorship"]
+    },
+    {
       "title": "Tech Talks and Beyond: Enhancing Learning in Technical Communities",
       "date": "August 30, 2023",
       "organiser": "GDSC SurTech",
