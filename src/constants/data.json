@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "The Magic of Hot Reloading in React",
+      "blogDescription": "Have you ever been working on a React app and found yourself continuously refreshing the page whenever you changed to see the updates? It can be a tedious and time-consuming process. Well, that's where hot reloading or HMR (Hot Module Replacement) comes in.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/MagicOfHotRealoadingInReact.webp?updatedAt=1715663679078",
+      "blogLink": "https://dev.to/debajit13/the-magic-of-hot-reloading-in-react-5d48",
+      "topics": ["ReactJS", "Web Tooling"]
+    },
+    {
       "blogTitle": "Optimizing UX: The Art of Adaptive Loading in Web Performance",
       "blogDescription": "In today's time, becoming a web developer is not that easy as more and more challenges come hand in hand. You can't build one solution that will work for all the users. In this article, we are going to discuss one such topic called Adaptive Loading.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/adaptive-loading.webp?updatedAt=1711108751617",
