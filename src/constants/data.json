@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Firebase Realtime Database vs Cloud Firestore",
+      "blogDescription": "For the last couple of years, I am using Firebase extensively in my personal projects. One of the most difficult choice is to make between Firebase Real-time Database vs Cloud Firestore. After using both of them here are some of the key points I found which can help you to choose between both of the storage options.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/FirestoreVsRealtimeDatabase.webp?updatedAt=1715807506908",
+      "blogLink": "https://dev.to/debajit13/firebase-realtime-database-vs-cloud-firestore-4325",
+      "topics": ["Firebase", "Web Tooling"]
+    },
+    {
       "blogTitle": "The Magic of Hot Reloading in React",
       "blogDescription": "Have you ever been working on a React app and found yourself continuously refreshing the page whenever you changed to see the updates? It can be a tedious and time-consuming process. Well, that's where hot reloading or HMR (Hot Module Replacement) comes in.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/MagicOfHotRealoadingInReact.webp?updatedAt=1715663679078",
