@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Exploring Web Rendering Strategies: A Deep Dive into CSR, SSR, SSG and ISG",
+      "blogDescription": "In this article, I will explain different web rendering strategies and how to choose one.  What are SSR, SSG, CSR and ISG? and how to choose one for your next frontend project?",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-rendering-stratigies.webp?updatedAt=1716826805430",
+      "blogLink": "https://dev.to/debajit13/exploring-web-rendering-strategies-a-deep-dive-into-csr-ssr-ssg-and-isg-22da",
+      "topics": ["Frontend", "SSR", "SSG", "ISG", "CSR"]
+    },
+    {
       "blogTitle": "Firebase Realtime Database vs Cloud Firestore",
       "blogDescription": "For the last couple of years, I am using Firebase extensively in my personal projects. One of the most difficult choice is to make between Firebase Real-time Database vs Cloud Firestore. After using both of them here are some of the key points I found which can help you to choose between both of the storage options.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/FirestoreVsRealtimeDatabase.webp?updatedAt=1715807506908",
