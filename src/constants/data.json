@@ -203,6 +203,21 @@
   },
   "talks": [
     {
+      "title": "Navigating the Future of Web: Insights for Google I/O 2024",
+      "date": "September 14, 2024",
+      "organiser": "GDG Kolkata (Google I/O Extended Kolkata 2024)",
+      "type": "Offline",
+      "youtubeLink": "https://youtu.be/hmF-pIFI6Ws",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Navigating%20the%20Future%20of%20the%20Web_%20Insights%20from%20Google%20I_O%202024_%20GDG%20Kolkata.pdf",
+      "topics": [
+        "Frontend",
+        "Web Performance",
+        "CSS",
+        "JavaScript",
+        "Web Tooling"
+      ]
+    },
+    {
       "title": "Performance-Driven Web Development: Mastering Speed and Optimization",
       "date": "September 8, 2024",
       "organiser": "GDG Durgapur (Developer Summit 2024)",
