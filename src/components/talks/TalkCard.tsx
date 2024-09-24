@@ -13,11 +13,7 @@ const TalkCard: React.FC<TalkDataType> = ({
   youtubeLink,
   slidesLink,
   topics,
-  image,
 }) => {
-  // Fallback image if no image is provided
-  const fallbackImage = '/images/fallback-image.png'; // Ensure this fallback image is in your public folder
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -28,17 +24,6 @@ const TalkCard: React.FC<TalkDataType> = ({
       className='h-full'
     >
       <div className='flex flex-col bg-white h-full rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
-        {/* Image Section */}
-        <div className='relative w-full h-64'>
-          <Image
-            src={image || fallbackImage}
-            alt={title}
-            layout='fill' // Ensures the image takes up the full space of the container
-            objectFit='cover' // Crops the image to cover the entire area
-            className='rounded-t-lg'
-          />
-        </div>
-
         <div className='flex h-full flex-col justify-center gap-4 p-6'>
           <div className='flex justify-between items-center mb-5 text-gray-500'>
             <Badge title={type} variant='rectangle' />
