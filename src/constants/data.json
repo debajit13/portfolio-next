@@ -145,36 +145,67 @@
   "talksTopics": ["Frontend", "Mentorship", "Tech Community", "Git", "ReactJS"],
   "projects": [
     {
+      "title": "Sheets",
+      "description": "Sheets is a lightweight spreadsheet application built using React, TypeScript, Tailwind CSS, and Vite. The application allows users to create, manage, and edit spreadsheet-like data stored locally in the browser using localStorage.",
+      "image": "https://ik.imagekit.io/debajit13/Projects/sheets.webp?updatedAt=1727194621135",
+      "webURL": "https://sheets-web.netlify.app",
+      "githubURL": "https://github.com/debajit13/sheets",
+      "techstack": [
+        "ReactJS",
+        "TypeScript",
+        "TailwindCSS",
+        "React Toastify",
+        "Vite",
+        "React Router",
+        "React Icons"
+      ],
+      "features": [
+        "Create multiple sheets (files) with unique filenames.",
+        "Add infinite amount of rows and columns without putting much load on the device.",
+        "View a list of available files on the homepage.",
+        "Edit spreadsheet data for each sheet with full support for cell selection and input.",
+        "Persist sheet data and filenames using localStorage for offline use.",
+        "Smooth routing to different sheet files using react-router-dom."
+      ]
+    },
+    {
       "title": "Short Link",
-      "description": "A ReactJS based URL shortener",
+      "description": "Short Link is a web app that uses the SHRTCODE API to shorten URLs. This project is designed to simplify the process of creating shorter URLs, and as a Progressive Web App (PWA), it can be installed directly on your device for quick access.",
       "image": "https://ik.imagekit.io/debajit13/Projects/short_link_logo.webp?updatedAt=1700108916890",
       "webURL": "https://short-link-app.netlify.app/",
       "githubURL": "https://github.com/debajit13/short-link",
-      "techstack": ["ReactJS", "ReactStrap"]
+      "techstack": [
+        "ReactJS",
+        "TypeScript",
+        "ReactStrap",
+        "Bootstrap",
+        "React Toastify",
+        "React Router",
+        "Axios"
+      ],
+      "features": [
+        "Leverages the SHRTCODE API to shorten long URLs.",
+        "Can be installed as an app on your device for seamless offline usage.",
+        "Built with Bootstrap and ReactStrap for a consistent, mobile-friendly interface.",
+        "Uses React Toastify to notify users about the success or failure of shortening a URL.",
+        "React Router Dom handles navigation within the app smoothly."
+      ]
     },
     {
       "title": "Game Star",
-      "description": "A project to display the list of your favourite games",
+      "description": "Game Star is a platform for discovering and managing your favorite games. It provides detailed game info, including platform support, screenshots, genre, and device requirements.",
       "image": "https://ik.imagekit.io/debajit13/Projects/game_star_logo.webp?updatedAt=1700108916778",
       "webURL": "https://gamestar.netlify.app/",
       "githubURL": "https://github.com/debajit13/Game-Star",
-      "techstack": ["ReactJS", "MUI"]
-    },
-    {
-      "title": "Joke React",
-      "description": "A simple Joke App that makes you laugh.",
-      "image": "https://ik.imagekit.io/debajit13/Projects/joke_react.webp?updatedAt=1700108916771",
-      "webURL": "https://joke-react.netlify.app/",
-      "githubURL": "https://github.com/debajit13/joke-react",
-      "techstack": ["ReactJS", "ReactStrap"]
-    },
-    {
-      "title": "JSeekr",
-      "description": "Find jobs of top multinational companies",
-      "image": "https://ik.imagekit.io/debajit13/Projects/jseekr.webp?updatedAt=1700108916884",
-      "webURL": "https://jseekr.netlify.app/",
-      "githubURL": "https://github.com/debajit13/JSeeker",
-      "techstack": ["ReactJS", "MDBReact"]
+      "techstack": ["ReactJS", "TypeScript", "MUI", "React Router", "Axios"],
+      "features": [
+        "Browse a list of your favorite games with details about each game.",
+        "View game types and creators of each game.",
+        "Access the game details page to see in-depth information including platform support, screenshots, and genre.",
+        "Check the device configuration required to run each game.",
+        "Built using modern UI components with MUI for a clean, responsive design.",
+        "Fetch game data dynamically using Axios and Free-To-Play Games API."
+      ]
     }
   ],
   "metaData": {

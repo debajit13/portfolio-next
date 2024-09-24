@@ -5,4 +5,5 @@ export interface ProjectDataType {
   description: string;
   githubURL: string;
   webURL: string;
+  features: string[];
 }

@@ -11,7 +11,7 @@ const Projects = () => {
         </div>
         <section className='bg-white dark:bg-gray-900 antialiased'>
           <div className='max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24'>
-            <div className='grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 '>
               {data.projects.map((projectData) => (
                 <ProjectCard
                   key={projectData.title}
@@ -21,6 +21,7 @@ const Projects = () => {
                   githubURL={projectData.githubURL}
                   webURL={projectData.webURL}
                   image={projectData.image}
+                  features={projectData.features}
                 />
               ))}
             </div>
