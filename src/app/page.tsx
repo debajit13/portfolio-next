@@ -27,8 +27,8 @@ const Home = () => {
                 alt='mockup'
                 loading='eager'
                 className='rounded-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]'
-                width={500}
-                height={500}
+                width={433}
+                height={433}
                 priority
               />
             </motion.div>
