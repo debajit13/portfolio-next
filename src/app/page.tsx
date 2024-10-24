@@ -38,7 +38,7 @@ const Home = () => {
               👋 Hi, Welcome to my space
             </h1>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
-              I am Debajit, a 23 years old Software Engineer with 2+ years of
+              I am Debajit, a 24 years old Software Engineer with 3+ years of
               experience. Currently, I am working at P360 as a Software
               Engineer. My expertise is in Frontend Web Development.
             </p>
