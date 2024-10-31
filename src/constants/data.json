@@ -275,7 +275,11 @@
       "youtubeLink": "https://youtu.be/N7ayafLm4GI",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20the%20Browser_%20A%20Look%20at%20Google%20I_O%202023's%20Web%20Enhancements.pdf",
       "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur23/ioextendeddurgapur2023.jpeg?updatedAt=1730398767301",
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur23/ioextendeddurgapur20231.jpeg?updatedAt=1730398767218",
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur23/ioextended.jpeg?updatedAt=1730398767346"
+      ]
     },
     {
       "title": "Top Web Things at Google I/O 2k23",
@@ -285,7 +289,11 @@
       "youtubeLink": "https://youtu.be/ovSLa2AWScA",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Google%20IO%202023%20Web%20Updates.pdf",
       "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/iosiliguri23/Screenshot%202024-10-31%20at%2011.59.10%E2%80%AFPM.png?updatedAt=1730399439426",
+        "https://ik.imagekit.io/debajit13/Talks/iosiliguri23/Screenshot%202024-10-31%20at%2011.59.39%E2%80%AFPM.png?updatedAt=1730399439856",
+        "https://ik.imagekit.io/debajit13/Talks/iosiliguri23/Screenshot%202024-10-31%20at%2011.57.51%E2%80%AFPM.png?updatedAt=1730399439381"
+      ]
     },
     {
       "title": "Building Engaging User Interfaces: A Frontend Journey",
