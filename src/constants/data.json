@@ -246,6 +246,11 @@
         "CSS",
         "JavaScript",
         "Web Tooling"
+      ],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/IOKolkata24/iokolkata3.jpeg?updatedAt=1729970336028",
+        "https://ik.imagekit.io/debajit13/Talks/IOKolkata24/iokolkata1.jpeg?updatedAt=1729970336001",
+        "https://ik.imagekit.io/debajit13/Talks/IOKolkata24/iokolkata2.jpeg?updatedAt=1729970335896"
       ]
     },
     {
@@ -255,7 +260,12 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/WEkR2IwNIlk",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Performance-Driven%20Web%20Development%20Mastering%20Speed%20and%20Optimization.pdf",
-      "topics": ["Frontend", "Web Performance", "CSS", "JavaScript", "ReactJS"]
+      "topics": ["Frontend", "Web Performance", "CSS", "JavaScript", "ReactJS"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur3.JPG?updatedAt=1730393689197",
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur.jpeg?updatedAt=1730393425389",
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur2.jpeg?updatedAt=1730393425359"      
+      ]
     },
     {
       "title": "Beyond the Browser: A Look at Google I/O 2023's Web Enhancements",
@@ -264,7 +274,8 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/N7ayafLm4GI",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20the%20Browser_%20A%20Look%20at%20Google%20I_O%202023's%20Web%20Enhancements.pdf",
-      "topics": ["Frontend", "HTML", "CSS", "JavaScript"]
+      "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
+      "images": []
     },
     {
       "title": "Top Web Things at Google I/O 2k23",
@@ -273,7 +284,8 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/ovSLa2AWScA",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Google%20IO%202023%20Web%20Updates.pdf",
-      "topics": ["Frontend", "HTML", "CSS", "JavaScript"]
+      "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
+      "images": []
     },
     {
       "title": "Building Engaging User Interfaces: A Frontend Journey",
@@ -282,7 +294,8 @@
       "type": "Online",
       "youtubeLink": "https://youtu.be/TI5JotKsfAc",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf",
-      "topics": ["Frontend", "ReactJS", "Web Performance", "Web Accessibility"]
+      "topics": ["Frontend", "ReactJS", "Web Performance", "Web Accessibility"],
+      "images": []
     },
     {
       "title": "Exploring The Angular Ecosystem",
@@ -291,7 +304,8 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/kfdZKSY7GVc",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Exploring%20The%20Angular%20Ecosystem.pdf",
-      "topics": ["Frontend", "Mentorship"]
+      "topics": ["Frontend", "Mentorship"],
+      "images": []
     },
     {
       "title": "Tech Talks and Beyond: Enhancing Learning in Technical Communities",
@@ -300,7 +314,8 @@
       "type": "Online",
       "youtubeLink": "https://youtu.be/bx9BwaVS_QQ",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Tech%20Talks%20and%20Beyond%20Enhancing%20Learning%20in%20Technical%20Communities.pdf",
-      "topics": ["Mentorship", "Tech Community"]
+      "topics": ["Mentorship", "Tech Community"],
+      "images": []
     },
     {
       "title": "Build Your First CRUD App using React and Firebase",
@@ -308,7 +323,8 @@
       "organiser": "GDSC WOW Kolkata",
       "type": "Offline",
       "youtubeLink": "https://youtu.be/bfv-pJA-YNw",
-      "topics": ["Frontend", "ReactJS", "Firebase"]
+      "topics": ["Frontend", "ReactJS", "Firebase"],
+      "images": []
     },
     {
       "title": "Frontend: The Hard Parts",
@@ -316,7 +332,8 @@
       "organiser": "GDSC SIT",
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Frontend%20Hard%20Parts.pdf",
-      "topics": ["Frontend", "Mentorship"]
+      "topics": ["Frontend", "Mentorship"],
+      "images": []
     },
     {
       "title": "Take Your First Steps with VueJS",
@@ -324,7 +341,8 @@
       "organiser": "Frontenddays Siliguri",
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Take%20Your%20First%20Steps%20With%20VueJS.pdf",
-      "topics": ["Frontend", "VueJS"]
+      "topics": ["Frontend", "VueJS"],
+      "images": []
     },
     {
       "title": "Intro to ReactJS (Frontend Marathon)",
@@ -333,7 +351,8 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/eJjrkygLwew",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Intro%20To%20ReactJS.pdf",
-      "topics": ["Frontend", "ReactJS"]
+      "topics": ["Frontend", "ReactJS"],
+      "images": []
     },
     {
       "title": "Demystifying The Frontend Development ",
@@ -341,14 +360,16 @@
       "organiser": "GDG Siliguri",
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Demystifying%20Frontend%20Development.pdf",
-      "topics": ["Frontend", "HTML", "CSS", "JavaScript", "ReactJS"]
+      "topics": ["Frontend", "HTML", "CSS", "JavaScript", "ReactJS"],
+      "images": []
     },
     {
       "title": "All About Frontend",
       "date": "May 11, 2022",
       "organiser": "Hack Club SIT",
       "type": "Offline",
-      "topics": ["Frontend", "Mentorship"]
+      "topics": ["Frontend", "Mentorship"],
+      "images": []
     },
     {
       "title": "How you should React: For Beginners",
@@ -356,7 +377,8 @@
       "organiser": "GDG Bhopal X NEXTJS Developer Community India",
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/tkm9fR3G5TI?feature=share",
-      "topics": ["Frontend", "ReactJS"]
+      "topics": ["Frontend", "ReactJS"],
+      "images": []
     },
     {
       "title": "Boost Your Career in Frontend Development ",
@@ -364,14 +386,16 @@
       "organiser": "Techne Association",
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Boost%20your%20Career%20in%20Frontend%20Development%20PPT.pdf",
-      "topics": ["Frontend", "Mentorship"]
+      "topics": ["Frontend", "Mentorship"],
+      "images": []
     },
     {
       "title": "How to become a Job Ready Frontend Developer",
       "date": "February 18, 2023",
       "organiser": "JWOC",
       "type": "Offline",
-      "topics": ["Frontend", "Mentorship"]
+      "topics": ["Frontend", "Mentorship"],
+      "images": []
     },
     {
       "title": "Overview of Azure Technology",
@@ -379,7 +403,8 @@
       "organiser": "Azure DevDay Siliguri",
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf",
-      "topics": ["Cloud", "Azure"]
+      "topics": ["Cloud", "Azure"],
+      "images": []
     },
     {
       "title": "Get Started with Git and GitHub",
@@ -387,7 +412,8 @@
       "organiser": "Microsoft Learn Student Ambassadors",
       "type": "Online",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
-      "topics": ["Git", "GitHub", "Version Control System"]
+      "topics": ["Git", "GitHub", "Version Control System"],
+      "images": []
     },
     {
       "title": "Getting Started with Git and GitHub",
@@ -395,35 +421,40 @@
       "organiser": "Hack Club SIT",
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
-      "topics": ["Git", "GitHub", "Version Control System"]
+      "topics": ["Git", "GitHub", "Version Control System"],
+      "images": []
     },
     {
       "title": "Hack the Best: Hacktoberfest",
       "date": "October 2, 2020",
       "organiser": "DSC SIT X Hack Club SIT",
       "type": "Online",
-      "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"]
+      "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"],
+      "images": []
     },
     {
       "title": "An Introduction to Engineering",
       "date": "October 11, 2020",
       "organiser": "Hack Club SIT",
       "type": "Online",
-      "topics": ["Web", "Mentorship"]
+      "topics": ["Web", "Mentorship"],
+      "images": []
     },
     {
       "title": "Learn Git and GitHub with Abhinav and Debajit",
       "date": "March 18, 2020",
       "organiser": "GDG Siliguri",
       "type": "Online",
-      "topics": ["Git", "GitHub", "Version Control System"]
+      "topics": ["Git", "GitHub", "Version Control System"],
+      "images": []
     },
     {
       "title": "Open Source and GSSoC 2020",
       "date": "December 15, 2019",
       "organiser": "GirlScript Siliguri",
       "type": "Offline",
-      "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"]
+      "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"],
+      "images": []
     }
   ],
   "routes": [

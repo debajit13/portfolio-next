@@ -6,4 +6,5 @@ export interface TalkDataType {
   youtubeLink?: string;
   slidesLink?: string;
   topics: string[];
+  images: string[];
 }
