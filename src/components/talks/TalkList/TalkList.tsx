@@ -66,6 +66,7 @@ const TalkList = () => {
               youtubeLink={talk.youtubeLink}
               slidesLink={talk.slidesLink}
               topics={talk.topics}
+              images={talk.images}
             />
           ))}
         </div>
