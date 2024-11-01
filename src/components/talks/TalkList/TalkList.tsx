@@ -55,7 +55,7 @@ const TalkList = () => {
       {talks.length === 0 ? (
         <p className='text-center text-gray-500 text-xl'>No talks found!</p>
       ) : (
-        <div className='grid gap-8 lg:grid-cols-2'>
+        <div className='grid gap-8 sm:grid-cols-2'>
           {talks.map((talk) => (
             <TalkCard
               key={talk.title}
