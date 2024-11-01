@@ -33,7 +33,7 @@ const Home = () => {
               />
             </motion.div>
           </div>
-          <div className='mr-auto place-self-center lg:col-span-7'>
+          <div className='mx-auto place-self-center lg:col-span-7'>
             <h1 className='max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white mb-6'>
               👋 Hi, Welcome to my space
             </h1>
@@ -63,6 +63,23 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <div className='py-4 px-4 mx-auto max-w-screen-xl lg:px-6'>
+        <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-700 dark:border-gray-600'>
+          <h4 className='text-3xl text-gray-900 dark:text-gray-200 mb-2'>
+            Let&apos;s have a 1:1 call
+          </h4>
+          <h5 className='text-lg sm:text-xl text-gray-700 dark:text-gray-400 mb-5'>
+            To book a 1:1 mentorship call, check my topmate profile
+          </h5>
+          <Button
+            variant='red'
+            href='https://topmate.io/debajit_mallick'
+            title='Topmate'
+          />
+        </section>
+      </div>
+
       <Skills skillsData={data?.home?.skills} />
       <div className='py-4 px-4 mx-auto max-w-screen-xl lg:px-6'>
         <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-700 dark:border-gray-600'>

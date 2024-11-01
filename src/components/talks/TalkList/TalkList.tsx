@@ -36,7 +36,7 @@ const TalkList = () => {
   };
 
   return (
-    <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
+    <div className='pb-8 px-4 mx-auto max-w-screen-xl lg:pb-16 lg:px-6'>
       <section className='flex justify-center items-center flex-row w-full mb-3'>
         <Search
           placeholder='Search Talks...'
