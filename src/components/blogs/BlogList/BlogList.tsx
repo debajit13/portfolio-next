@@ -36,7 +36,7 @@ const BlogList = () => {
   };
 
   return (
-    <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
+    <div className='pb-8 px-4 mx-auto max-w-screen-xl lg:pb-16 lg:px-6'>
       <section className='flex justify-center items-center flex-row w-full mb-3'>
         <Search
           placeholder='Search Blogs...'
@@ -55,7 +55,7 @@ const BlogList = () => {
       {blogs.length === 0 ? (
         <p className='text-center text-gray-500 text-xl'>No blogs found!</p>
       ) : (
-        <div className='grid gap-8 lg:grid-cols-2'>
+        <div className='grid gap-8 sm:grid-cols-2'>
           {blogs.map((blog) => (
             <BlogCard
               key={blog.blogTitle}
