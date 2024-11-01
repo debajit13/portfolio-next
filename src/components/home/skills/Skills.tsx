@@ -10,7 +10,7 @@ const Skills: React.FC<SkillsDataType> = ({ skillsData }) => {
         <div className='max-w-screen-md mb-4 lg:mb-8'>
           <SectionHeader title='Skills' />
         </div>
-        <div className='space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
+        <div className='grid sm:grid-cols-3 grid-cols-2 gap-8 space-y-0'>
           {skillsData?.map((skill: SkillDataType) => (
             <SkillCard
               key={skill?.name}

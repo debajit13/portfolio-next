@@ -345,8 +345,8 @@
       "youtubeLink": "https://youtu.be/bfv-pJA-YNw",
       "topics": ["Frontend", "ReactJS", "Firebase"],
       "images": [
-        "https://ik.imagekit.io/debajit13/Talks/gdscwow/image1.jpeg?updatedAt=1730442449099",
         "https://ik.imagekit.io/debajit13/Talks/gdscwow/image2.jpeg?updatedAt=1730442449035",
+        "https://ik.imagekit.io/debajit13/Talks/gdscwow/image1.jpeg?updatedAt=1730442449099",
         "https://ik.imagekit.io/debajit13/Talks/gdscwow/image3.jpeg?updatedAt=1730442449029"
       ]
     },
@@ -396,7 +396,10 @@
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Demystifying%20Frontend%20Development.pdf",
       "topics": ["Frontend", "HTML", "CSS", "JavaScript", "ReactJS"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/demistyingfrontend/image2.jpeg?updatedAt=1730466437458",
+        "https://ik.imagekit.io/debajit13/Talks/demistyingfrontend/image1.jpeg?updatedAt=1730466437119"
+      ]
     },
     {
       "title": "All About Frontend",
@@ -428,7 +431,10 @@
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Boost%20your%20Career%20in%20Frontend%20Development%20PPT.pdf",
       "topics": ["Frontend", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/techneassociation/image1.jpeg?updatedAt=1730467847110",
+        "https://ik.imagekit.io/debajit13/Talks/techneassociation/image2.jpeg?updatedAt=1730467847158"
+      ]
     },
     {
       "title": "How to become a Job Ready Frontend Developer",
@@ -450,8 +456,8 @@
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf",
       "topics": ["Cloud", "Azure"],
       "images": [
-        "https://ik.imagekit.io/debajit13/Talks/azuredevday/image1.jpeg?updatedAt=1730459399849",
-        "https://ik.imagekit.io/debajit13/Talks/azuredevday/image2.jpeg?updatedAt=1730459399804"
+        "https://ik.imagekit.io/debajit13/Talks/azuredevday/image2.jpeg?updatedAt=1730459399804",
+        "https://ik.imagekit.io/debajit13/Talks/azuredevday/image1.jpeg?updatedAt=1730459399849"
       ]
     },
     {
@@ -461,7 +467,10 @@
       "type": "Online",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
       "topics": ["Git", "GitHub", "Version Control System"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/mlsaevent/image1.jpeg?updatedAt=1730466396461",
+        "https://ik.imagekit.io/debajit13/Talks/mlsaevent/image2.jpeg?updatedAt=1730466609652"
+      ]
     },
     {
       "title": "Getting Started with Git and GitHub",
@@ -470,7 +479,11 @@
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
       "topics": ["Git", "GitHub", "Version Control System"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/hackclubgithub/image1.jpeg?updatedAt=1730467425261",
+        "https://ik.imagekit.io/debajit13/Talks/hackclubgithub/image2.jpeg?updatedAt=1730467425456",
+        "https://ik.imagekit.io/debajit13/Talks/hackclubgithub/image3.jpeg?updatedAt=1730467425332"
+      ]
     },
     {
       "title": "Hack the Best: Hacktoberfest",
@@ -478,7 +491,10 @@
       "organiser": "DSC SIT X Hack Club SIT",
       "type": "Online",
       "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/hacktoberfest/image2.jpeg?updatedAt=1730467006001",
+        "https://ik.imagekit.io/debajit13/Talks/hacktoberfest/image1.jpeg?updatedAt=1730467005960"
+      ]
     },
     {
       "title": "An Introduction to Engineering",
@@ -486,7 +502,10 @@
       "organiser": "Hack Club SIT",
       "type": "Online",
       "topics": ["Web", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/allaboutengineering/image1.jpeg?updatedAt=1730466871547",
+        "https://ik.imagekit.io/debajit13/Talks/allaboutengineering/image2.jpeg?updatedAt=1730466871560"
+      ]
     },
     {
       "title": "Learn Git and GitHub with Abhinav and Debajit",
@@ -494,7 +513,10 @@
       "organiser": "GDG Siliguri",
       "type": "Online",
       "topics": ["Git", "GitHub", "Version Control System"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/gdggithub/image1.jpeg?updatedAt=1730469114354",
+        "https://ik.imagekit.io/debajit13/Talks/gdggithub/image2.jpeg?updatedAt=1730469114395"
+      ]
     },
     {
       "title": "Open Source and GSSoC 2020",
@@ -502,7 +524,11 @@
       "organiser": "GirlScript Siliguri",
       "type": "Offline",
       "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/gssoc/image2.jpeg?updatedAt=1730467367673",
+        "https://ik.imagekit.io/debajit13/Talks/gssoc/image1.jpeg?updatedAt=1730467367704",
+        "https://ik.imagekit.io/debajit13/Talks/gssoc/image3.jpeg?updatedAt=1730467367624"
+      ]
     }
   ],
   "routes": [
