@@ -264,7 +264,7 @@
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur3.JPG?updatedAt=1730393689197",
         "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur.jpeg?updatedAt=1730393425389",
-        "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur2.jpeg?updatedAt=1730393425359"      
+        "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur2.jpeg?updatedAt=1730393425359"
       ]
     },
     {
@@ -303,7 +303,11 @@
       "youtubeLink": "https://youtu.be/TI5JotKsfAc",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf",
       "topics": ["Frontend", "ReactJS", "Web Performance", "Web Accessibility"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/ieeepib/image1.jpeg?updatedAt=1730441559994",
+        "https://ik.imagekit.io/debajit13/Talks/ieeepib/image2.jpeg?updatedAt=1730441559978",
+        "https://ik.imagekit.io/debajit13/Talks/ieeepib/image3.jpeg?updatedAt=1730441559974"
+      ]
     },
     {
       "title": "Exploring The Angular Ecosystem",
@@ -313,7 +317,11 @@
       "youtubeLink": "https://youtu.be/kfdZKSY7GVc",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Exploring%20The%20Angular%20Ecosystem.pdf",
       "topics": ["Frontend", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/jgecangularevent/image3.jpeg?updatedAt=1730458312735",
+        "https://ik.imagekit.io/debajit13/Talks/jgecangularevent/image1.jpeg?updatedAt=1730458138143",
+        "https://ik.imagekit.io/debajit13/Talks/jgecangularevent/image2.jpeg?updatedAt=1730458138138"
+      ]
     },
     {
       "title": "Tech Talks and Beyond: Enhancing Learning in Technical Communities",
@@ -323,7 +331,11 @@
       "youtubeLink": "https://youtu.be/bx9BwaVS_QQ",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Tech%20Talks%20and%20Beyond%20Enhancing%20Learning%20in%20Technical%20Communities.pdf",
       "topics": ["Mentorship", "Tech Community"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/gdscsurtech/image1.png?updatedAt=1730458824477",
+        "https://ik.imagekit.io/debajit13/Talks/gdscsurtech/image2.png?updatedAt=1730458824545",
+        "https://ik.imagekit.io/debajit13/Talks/gdscsurtech/image3.png?updatedAt=1730458824507"
+      ]
     },
     {
       "title": "Build Your First CRUD App using React and Firebase",
@@ -332,7 +344,11 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/bfv-pJA-YNw",
       "topics": ["Frontend", "ReactJS", "Firebase"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/gdscwow/image1.jpeg?updatedAt=1730442449099",
+        "https://ik.imagekit.io/debajit13/Talks/gdscwow/image2.jpeg?updatedAt=1730442449035",
+        "https://ik.imagekit.io/debajit13/Talks/gdscwow/image3.jpeg?updatedAt=1730442449029"
+      ]
     },
     {
       "title": "Frontend: The Hard Parts",
@@ -341,7 +357,10 @@
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Frontend%20Hard%20Parts.pdf",
       "topics": ["Frontend", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/frontendHardParts/image1.jpeg?updatedAt=1730445064537",
+        "https://ik.imagekit.io/debajit13/Talks/frontendHardParts/images2.jpeg?updatedAt=1730445064640"
+      ]
     },
     {
       "title": "Take Your First Steps with VueJS",
@@ -350,7 +369,11 @@
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Take%20Your%20First%20Steps%20With%20VueJS.pdf",
       "topics": ["Frontend", "VueJS"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/frontenddays/image1.jpeg?updatedAt=1730459083510",
+        "https://ik.imagekit.io/debajit13/Talks/frontenddays/image2.jpeg?updatedAt=1730459083507",
+        "https://ik.imagekit.io/debajit13/Talks/frontenddays/image3.jpeg?updatedAt=1730459083491"
+      ]
     },
     {
       "title": "Intro to ReactJS (Frontend Marathon)",
@@ -360,7 +383,11 @@
       "youtubeLink": "https://youtu.be/eJjrkygLwew",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Intro%20To%20ReactJS.pdf",
       "topics": ["Frontend", "ReactJS"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/codeacademy/image1.jpeg?updatedAt=1730459916100",
+        "https://ik.imagekit.io/debajit13/Talks/codeacademy/image2.jpeg?updatedAt=1730459917132",
+        "https://ik.imagekit.io/debajit13/Talks/codeacademy/image3.jpeg?updatedAt=1730459916043"
+      ]
     },
     {
       "title": "Demystifying The Frontend Development ",
@@ -377,7 +404,10 @@
       "organiser": "Hack Club SIT",
       "type": "Offline",
       "topics": ["Frontend", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/allaboutfrontend/image1.jpeg?updatedAt=1730459349508",
+        "https://ik.imagekit.io/debajit13/Talks/allaboutfrontend/image2.jpeg?updatedAt=1730459349517"
+      ]
     },
     {
       "title": "How you should React: For Beginners",
@@ -386,7 +416,10 @@
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/tkm9fR3G5TI?feature=share",
       "topics": ["Frontend", "ReactJS"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/gdgbhopal/image1.jpeg?updatedAt=1730460182470",
+        "https://ik.imagekit.io/debajit13/Talks/gdgbhopal/image2.jpeg?updatedAt=1730460182515"
+      ]
     },
     {
       "title": "Boost Your Career in Frontend Development ",
@@ -403,7 +436,11 @@
       "organiser": "JWOC",
       "type": "Offline",
       "topics": ["Frontend", "Mentorship"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/jwoc/image1.png?updatedAt=1730445946906",
+        "https://ik.imagekit.io/debajit13/Talks/jwoc/image2.png?updatedAt=1730445946928",
+        "https://ik.imagekit.io/debajit13/Talks/jwoc/image3.png?updatedAt=1730445946950"
+      ]
     },
     {
       "title": "Overview of Azure Technology",
@@ -412,7 +449,10 @@
       "type": "Offline",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf",
       "topics": ["Cloud", "Azure"],
-      "images": []
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/azuredevday/image1.jpeg?updatedAt=1730459399849",
+        "https://ik.imagekit.io/debajit13/Talks/azuredevday/image2.jpeg?updatedAt=1730459399804"
+      ]
     },
     {
       "title": "Get Started with Git and GitHub",
