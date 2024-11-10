@@ -238,7 +238,7 @@
       "date": "September 14, 2024",
       "organiser": "GDG Kolkata (Google I/O Extended Kolkata 2024)",
       "type": "Offline",
-      "youtubeLink": "https://youtu.be/hmF-pIFI6Ws",
+      "youtubeLink": "https://youtu.be/v5YamNrKQRA",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Navigating%20the%20Future%20of%20the%20Web_%20Insights%20from%20Google%20I_O%202024_%20GDG%20Kolkata.pdf",
       "topics": [
         "Frontend",
@@ -258,7 +258,7 @@
       "date": "September 8, 2024",
       "organiser": "GDG Durgapur (Developer Summit 2024)",
       "type": "Offline",
-      "youtubeLink": "https://youtu.be/WEkR2IwNIlk",
+      "youtubeLink": "https://youtu.be/yaDJzNiHx-M",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Performance-Driven%20Web%20Development%20Mastering%20Speed%20and%20Optimization.pdf",
       "topics": ["Frontend", "Web Performance", "CSS", "JavaScript", "ReactJS"],
       "images": [
@@ -272,7 +272,7 @@
       "date": "August 25, 2023",
       "organiser": "GDG Durgapur (Google I/O Extended Durgapur 2023)",
       "type": "Offline",
-      "youtubeLink": "https://youtu.be/N7ayafLm4GI",
+      "youtubeLink": "https://youtu.be/j05iUnM6itU",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20the%20Browser_%20A%20Look%20at%20Google%20I_O%202023's%20Web%20Enhancements.pdf",
       "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
       "images": [
@@ -286,7 +286,7 @@
       "date": "August 02, 2023",
       "organiser": "GDG Siliguri (Google I/O Extended Siliguri 2023)",
       "type": "Offline",
-      "youtubeLink": "https://youtu.be/ovSLa2AWScA",
+      "youtubeLink": "https://youtu.be/0HEYZyIIQCA",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Google%20IO%202023%20Web%20Updates.pdf",
       "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
       "images": [
@@ -296,11 +296,23 @@
       ]
     },
     {
+      "title": "Webology Part - 1",
+      "date": "September 27, 2024",
+      "organiser": "BoltCorps",
+      "type": "Online",
+      "youtubeLink": "https://youtu.be/SlxNPIuiKWE",
+      "topics": ["Frontend", "Mentorship", "Web Performance", "JavaScript"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/webologypart1/image1.jpg?updatedAt=1731269317804",
+        "https://ik.imagekit.io/debajit13/Talks/webologypart1/image2.jpg?updatedAt=1731269388871"
+      ]
+    },
+    {
       "title": "Building Engaging User Interfaces: A Frontend Journey",
       "date": "July 22, 2023",
       "organiser": "IEEE PIT SB",
       "type": "Online",
-      "youtubeLink": "https://youtu.be/TI5JotKsfAc",
+      "youtubeLink": "https://youtu.be/ZVqhcplutcU",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf",
       "topics": ["Frontend", "ReactJS", "Web Performance", "Web Accessibility"],
       "images": [
@@ -314,7 +326,7 @@
       "date": "September 20, 2023",
       "organiser": "GDSC JGEC X GDG Siliguri",
       "type": "Offline",
-      "youtubeLink": "https://youtu.be/kfdZKSY7GVc",
+      "youtubeLink": "https://youtu.be/uL0Sek2NSGw?si=EtAwqW9yjg6cfZoy",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Exploring%20The%20Angular%20Ecosystem.pdf",
       "topics": ["Frontend", "Mentorship"],
       "images": [
@@ -342,7 +354,7 @@
       "date": "April 9, 2023",
       "organiser": "GDSC WOW Kolkata",
       "type": "Offline",
-      "youtubeLink": "https://youtu.be/bfv-pJA-YNw",
+      "youtubeLink": "https://youtu.be/P2COtfA6Wa0?si=CATDGprvGS87x2mu",
       "topics": ["Frontend", "ReactJS", "Firebase"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gdscwow/image2.jpeg?updatedAt=1730442449035",
