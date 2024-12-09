@@ -234,6 +234,25 @@
   },
   "talks": [
     {
+      "title": "Mastering Web Performance Optimization with Chrome DevTools",
+      "date": "December 07, 2024",
+      "organiser": "GDG Guwahati (DevFest Guwahati 2024)",
+      "type": "Offline",
+      "youtubeLink": "https://youtu.be/0aYOA9ddnHA",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Mastering%20Web%20Performance%20Optimization%20with%20Chrome%20DevTools.pdf",
+      "topics": [
+        "Frontend",
+        "Web Performance",
+        "Chrome DevTools",
+        "Web Tooling"
+      ],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202024/devfest%20guwahati1.jpeg?updatedAt=1733750153057",
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202024/devfest%20guwahati2.jpeg?updatedAt=1733750153231",
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202024/devfest%20guwahati3.jpeg?updatedAt=1733750153223"
+      ]
+    },
+    {
       "title": "Navigating the Future of Web: Insights for Google I/O 2024",
       "date": "September 14, 2024",
       "organiser": "GDG Kolkata (Google I/O Extended Kolkata 2024)",
