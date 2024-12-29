@@ -1,6 +1,34 @@
 {
   "blogs": [
     {
+      "blogTitle": "A Comprehensive Guide to Web Vitals: Metrics That Matter for Performance",
+      "blogDescription": "In this article, we will explore the basics of Web Vitals and understand how they can help us to improve web performance.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-vitals.webp?updatedAt=1735480899470",
+      "blogLink": "https://dev.to/debajit13/a-comprehensive-guide-to-web-vitals-metrics-that-matter-for-performance-2ff7",
+      "topics": ["Web Performance", "Web Vitals", "Frontend"]
+    },
+    {
+      "blogTitle": "Mastering React Performance: Tips and Best Practices",
+      "blogDescription": "Building a React app is easy. But optimization is the most difficult part. In this article, I will be discussing some of the most popular techniques to master web performance in React.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/masteringReactPerformance.webp?updatedAt=1700112409761",
+      "blogLink": "https://dev.to/debajit13/mastering-react-performance-tips-and-best-practices-56gp",
+      "topics": ["Web Performance", "Frontend", "ReactJS"]
+    },
+    {
+      "blogTitle": "Boosting Performance: Image Optimization in React",
+      "blogDescription": "Image Optimization is one of the most crucial parameters for optimizing web performance. In many parts of the world, the internet is still slow and takes a lot of time to load the pages. As frontend developers, we have to think about all the users. Our goal is to make the web apps faster. This blog will help you in your journey to make your web app faster.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/boostingPerformanceImageOptimizationInReact.webp?updatedAt=1700111667628",
+      "blogLink": "https://dev.to/debajit13/boosting-performance-image-optimization-in-react-1f4g",
+      "topics": ["Web Performance", "Frontend", "ReactJS"]
+    },
+    {
+      "blogTitle": "Optimizing UX: The Art of Adaptive Loading in Web Performance",
+      "blogDescription": "In today's time, becoming a web developer is not that easy as more and more challenges come hand in hand. You can't build one solution that will work for all the users. In this article, we are going to discuss one such topic called Adaptive Loading.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/adaptive-loading.webp?updatedAt=1711108751617",
+      "blogLink": "https://dev.to/debajit13/optimizing-ux-the-art-of-adaptive-loading-in-web-performance-2ml5",
+      "topics": ["Web Performance", "ReactJS", "Web Performance"]
+    },
+    {
       "blogTitle": "Exploring Web Rendering Strategies: A Deep Dive into CSR, SSR, SSG and ISG",
       "blogDescription": "In this article, I will explain different web rendering strategies and how to choose one.  What are SSR, SSG, CSR and ISG? and how to choose one for your next frontend project?",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-rendering-stratigies.webp?updatedAt=1716826805430",
@@ -20,13 +48,6 @@
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/MagicOfHotRealoadingInReact.webp?updatedAt=1715663679078",
       "blogLink": "https://dev.to/debajit13/the-magic-of-hot-reloading-in-react-5d48",
       "topics": ["ReactJS", "Web Tooling"]
-    },
-    {
-      "blogTitle": "Optimizing UX: The Art of Adaptive Loading in Web Performance",
-      "blogDescription": "In today's time, becoming a web developer is not that easy as more and more challenges come hand in hand. You can't build one solution that will work for all the users. In this article, we are going to discuss one such topic called Adaptive Loading.",
-      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/adaptive-loading.webp?updatedAt=1711108751617",
-      "blogLink": "https://dev.to/debajit13/optimizing-ux-the-art-of-adaptive-loading-in-web-performance-2ml5",
-      "topics": ["ReactJS", "Web Performance"]
     },
     {
       "blogTitle": "Demystifying Virtual DOM in React",
@@ -55,20 +76,6 @@
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zod-banner.webp?updatedAt=1706209337121",
       "blogLink": "https://dev.to/debajit13/exploring-zod-a-comprehensive-guide-1efn",
       "topics": ["Zod", "TypeScript"]
-    },
-    {
-      "blogTitle": "Mastering React Performance: Tips and Best Practices",
-      "blogDescription": "Building a React app is easy. But optimization is the most difficult part. In this article, I will be discussing some of the most popular techniques to master web performance in React.",
-      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/masteringReactPerformance.webp?updatedAt=1700112409761",
-      "blogLink": "https://dev.to/debajit13/mastering-react-performance-tips-and-best-practices-56gp",
-      "topics": ["Frontend", "ReactJS"]
-    },
-    {
-      "blogTitle": "Boosting Performance: Image Optimization in React",
-      "blogDescription": "Image Optimization is one of the most crucial parameters for optimizing web performance. In many parts of the world, the internet is still slow and takes a lot of time to load the pages. As frontend developers, we have to think about all the users. Our goal is to make the web apps faster. This blog will help you in your journey to make your web app faster.",
-      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/boostingPerformanceImageOptimizationInReact.webp?updatedAt=1700111667628",
-      "blogLink": "https://dev.to/debajit13/boosting-performance-image-optimization-in-react-1f4g",
-      "topics": ["Frontend", "ReactJS"]
     },
     {
       "blogTitle": "Deep Dive Into the useReducer() hook",
@@ -141,7 +148,14 @@
       "topics": ["Git", "Version Control System"]
     }
   ],
-  "blogTopics": ["Web Tooling", "ReactJS", "JavaScript", "TypeScript", "Git"],
+  "blogTopics": [
+    "Web Performance",
+    "Web Tooling",
+    "ReactJS",
+    "JavaScript",
+    "TypeScript",
+    "Git"
+  ],
   "talksTopics": ["Frontend", "Mentorship", "Tech Community", "Git", "ReactJS"],
   "projects": [
     {
