@@ -341,6 +341,18 @@
       ]
     },
     {
+      "title": "Building Intuitive Web Interfaces and Mastering Hackathons ",
+      "date": "January 05, 2025",
+      "organiser": "AceHack 4.0",
+      "type": "Online",
+      "youtubeLink": "https://www.youtube.com/live/4ix-p-mXawA?si=nVncDymfPsFuauQA",
+      "topics": ["Frontend", "Mentorship", "Web Performance", "JavaScript"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/acehack/image2.png?updatedAt=1736431190967",
+        "https://ik.imagekit.io/debajit13/Talks/acehack/image1.png?updatedAt=1736431190710"
+      ]
+    },
+    {
       "title": "Building Engaging User Interfaces: A Frontend Journey",
       "date": "July 22, 2023",
       "organiser": "IEEE PIT SB",
