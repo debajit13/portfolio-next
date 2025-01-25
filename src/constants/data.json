@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Redefining Web Performance Standards with INP",
+      "blogDescription": "In this article, we will explore about Web performance, which is no longer a technical detail but a game changer in how users experience the internet. The newest kid on the block of core web vitals is Interaction to Next Paint (INP).",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/inp_web_performance.webp?updatedAt=1737812623053",
+      "blogLink": "https://dev.to/debajit13/redefining-web-performance-standards-with-inp-2m4l",
+      "topics": ["Web Performance", "Web Vitals", "Frontend"]
+    },
+    {
       "blogTitle": "A Comprehensive Guide to Web Vitals: Metrics That Matter for Performance",
       "blogDescription": "In this article, we will explore the basics of Web Vitals and understand how they can help us to improve web performance.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-vitals.webp?updatedAt=1735480899470",
