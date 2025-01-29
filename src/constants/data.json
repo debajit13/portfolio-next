@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Video Optimization 101: Tips for Faster and Smoother Web Delivery",
+      "blogDescription": "In this article, we will understand how to optimize videos for the web to give the end user the best experience. They bring our ideas to life, show off our products, and engage users like no other medium can.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/video_optimization.webp?updatedAt=1738126738898",
+      "blogLink": "https://dev.to/debajit13/video-optimization-101-tips-for-faster-and-smoother-web-delivery-2nlp",
+      "topics": ["Web Performance", "Video Optimization", "Frontend"]
+    },
+    {
       "blogTitle": "Redefining Web Performance Standards with INP",
       "blogDescription": "In this article, we will explore about Web performance, which is no longer a technical detail but a game changer in how users experience the internet. The newest kid on the block of core web vitals is Interaction to Next Paint (INP).",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/inp_web_performance.webp?updatedAt=1737812623053",
