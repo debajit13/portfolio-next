@@ -4,6 +4,7 @@ import { renderIconBasedOnTitle } from '../../../utils/renderIconsBasedOnTitle';
 import SectionHeader from '../../../components/global/sectionHeader/SectionHeader';
 
 const Contact: React.FC<ContactsDataType> = ({ contactsData }) => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className='bg-white dark:bg-gray-900 p-3'>
       <div className='w-full py-8 px-0 mx-auto max-w-screen-xl sm:py-16 lg:px-6'>
@@ -22,7 +23,7 @@ const Contact: React.FC<ContactsDataType> = ({ contactsData }) => {
         <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
         <div className='w-full sm:flex sm:items-center sm:justify-between'>
           <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
-            © 2024 Debajit Mallick
+            © {currentYear} Debajit Mallick
           </span>
           <div className='mt-4 flex space-x-6 sm:mt-0 sm:justify-center'>
             {contactsData.map((contactData: ContactDataType) => (
