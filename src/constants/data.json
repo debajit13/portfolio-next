@@ -1,6 +1,34 @@
 {
   "blogs": [
     {
+      "blogTitle": "Secure your React app with Firebase Auth",
+      "blogDescription": "In this blog, I discussed, how to secure your React app with Firebase Auth. I focus on mostly Email/Password authentication and Google sign-in.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-auth.webp?updatedAt=1739774124836",
+      "blogLink": "https://dev.to/debajit13/secure-your-react-app-with-firebase-auth-4a6o",
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
+    },
+    {
+      "blogTitle": "Firestore CRUD 101: Building Apps with React",
+      "blogDescription": "In this blog, we will learn how to create a basic CRUD (Create, Read, Update, Delete) application using Firebase Firestore and React.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firestore.webp?updatedAt=1739774124969",
+      "blogLink": "https://dev.to/debajit13/firestore-crud-101-building-apps-with-react-3913",
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
+    },
+    {
+      "blogTitle": "Building a Lightning-Fast CRUD App with Firebase Realtime Database & React",
+      "blogDescription": "In this blog, we will learn how to create a basic CRUD (Create, Read, Update, Delete) application using Firebase Realtime Database and React.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/realtime-database.webp?updatedAt=1739774124876",
+      "blogLink": "https://dev.to/debajit13/building-a-lightning-fast-crud-app-with-firebase-realtime-database-react-4m38",
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
+    },
+    {
+      "blogTitle": "Firebase Realtime Database vs Cloud Firestore",
+      "blogDescription": "For the last couple of years, I am using Firebase extensively in my personal projects. One of the most difficult choice is to make between Firebase Real-time Database vs Cloud Firestore. After using both of them here are some of the key points I found which can help you to choose between both of the storage options.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/FirestoreVsRealtimeDatabase.webp?updatedAt=1715807506908",
+      "blogLink": "https://dev.to/debajit13/firebase-realtime-database-vs-cloud-firestore-4325",
+      "topics": ["Firebase", "Web Tooling"]
+    },
+    {
       "blogTitle": "Video Optimization 101: Tips for Faster and Smoother Web Delivery",
       "blogDescription": "In this article, we will understand how to optimize videos for the web to give the end user the best experience. They bring our ideas to life, show off our products, and engage users like no other medium can.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/video_optimization.webp?updatedAt=1738126738898",
@@ -48,13 +76,6 @@
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-rendering-stratigies.webp?updatedAt=1716826805430",
       "blogLink": "https://dev.to/debajit13/exploring-web-rendering-strategies-a-deep-dive-into-csr-ssr-ssg-and-isg-22da",
       "topics": ["Frontend", "SSR", "SSG", "ISG", "CSR"]
-    },
-    {
-      "blogTitle": "Firebase Realtime Database vs Cloud Firestore",
-      "blogDescription": "For the last couple of years, I am using Firebase extensively in my personal projects. One of the most difficult choice is to make between Firebase Real-time Database vs Cloud Firestore. After using both of them here are some of the key points I found which can help you to choose between both of the storage options.",
-      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/FirestoreVsRealtimeDatabase.webp?updatedAt=1715807506908",
-      "blogLink": "https://dev.to/debajit13/firebase-realtime-database-vs-cloud-firestore-4325",
-      "topics": ["Firebase", "Web Tooling"]
     },
     {
       "blogTitle": "The Magic of Hot Reloading in React",
@@ -165,6 +186,7 @@
   "blogTopics": [
     "Web Performance",
     "Web Tooling",
+    "Firebase",
     "ReactJS",
     "JavaScript",
     "TypeScript",
