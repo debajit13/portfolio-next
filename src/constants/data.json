@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Playwright for React Devs: A Complete Guide with API Testing",
+      "blogDescription": "In this blog, I'll walk you through setting up Playwright for a React app built with Vite and TypeScript, with special attention to handling API integration testing.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-auth.webp?updatedAt=1739774124836",
+      "blogLink": "https://ik.imagekit.io/debajit13/Blogs/playwright_react.webp?updatedAt=1742216497985",
+      "topics": ["Testing", "Web Tooling", "ReactJS"]
+    },
+    {
       "blogTitle": "Secure your React app with Firebase Auth",
       "blogDescription": "In this blog, I discussed, how to secure your React app with Firebase Auth. I focus on mostly Email/Password authentication and Google sign-in.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-auth.webp?updatedAt=1739774124836",
