@@ -6,7 +6,7 @@ const SkillCard: React.FC<SkillDataType> = ({ name, image }) => {
   return (
     <div
       key={name}
-      className='flex rounded-lg mx-auto w-full border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col max-w-sm'
+      className='flex rounded-3xl mx-auto w-full border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col max-w-sm'
     >
       <div className='flex h-full flex-col justify-center p-4'>
         <motion.div

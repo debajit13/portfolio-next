@@ -19,11 +19,11 @@ const BlogCard: React.FC<BlogDataType> = ({
         opacity: 1,
       }}
       viewport={{ once: true }}
-      className='p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'
+      className='p-6 bg-white rounded-3xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'
     >
       <div className='flex justify-between items-center mb-5 text-gray-500'>
         <Image
-          className='w-full h-30 rounded-2xl'
+          className='w-full h-30 rounded-3xl'
           src={blogImage}
           height={150}
           width={200}
