@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectDataType> = ({
   return (
     <div
       key={title}
-      className='flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col space-y-4 h-full'
+      className='flex rounded-3xl border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col space-y-4 h-full'
     >
       <div className='flex h-full flex-col justify-center gap-4 p-6'>
         <motion.div
@@ -121,7 +121,7 @@ const ProjectCard: React.FC<ProjectDataType> = ({
           </div>
         )}
 
-        <div className='flex mt-4 md:mt-6 justify-center '>
+        <div className='flex mt-4 md:mt-6 '>
           <Button title='GitHub' variant='primary' href={githubURL} />
           <Button title='Website' variant='white' href={webURL} />
         </div>

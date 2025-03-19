@@ -37,15 +37,17 @@ const TalkCard: React.FC<TalkDataType> = ({
       viewport={{ once: true }}
       className='h-full'
     >
-      <div className='flex flex-col bg-white h-full rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+      <div className='flex flex-col bg-white h-full rounded-3xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
         <div className='h-64 w-full'>
           {images.length > 0 ? (
             <div id='default-carousel' className='relative w-full'>
-              <div className='relative h-64 overflow-hidden rounded-t-lg'>
+              <div className='relative h-64 overflow-hidden rounded-t-3xl'>
                 {images.map((src, index) => (
                   <div
                     key={index}
-                    className={`transition-opacity duration-700 ease-in-out ${index === activeSlide ? 'opacity-100' : 'opacity-0'}`}
+                    className={`transition-opacity duration-700 ease-in-out ${
+                      index === activeSlide ? 'opacity-100' : 'opacity-0'
+                    }`}
                     style={{
                       position: index === activeSlide ? 'relative' : 'absolute',
                       top: 0,
