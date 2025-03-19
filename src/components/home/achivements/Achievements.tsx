@@ -8,9 +8,11 @@ const Achivements: React.FC<AchievementDataType> = ({ achievementsData }) => {
     <section className='bg-white dark:bg-gray-900'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6'>
         <div className='max-w-screen-xl mb-4 lg:mb-8'>
-          <SectionHeader title='Achievements' />
+          <div className='mb-4'>
+            <SectionHeader title='Achievements' />
+          </div>
 
-          <div className='flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col'>
+          <div className='flex rounded-3xl border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col'>
             <div className='flex h-full flex-col justify-center gap-4 p-6'>
               <motion.ul
                 initial='hidden'

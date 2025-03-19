@@ -65,7 +65,7 @@ const Home = () => {
       </section>
 
       <div className='py-4 px-4 mx-auto max-w-screen-xl lg:px-6'>
-        <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-700 dark:border-gray-600'>
+        <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-3xl shadow-sm  dark:bg-gray-700 dark:border-gray-600'>
           <h4 className='text-3xl text-gray-900 dark:text-gray-200 mb-2'>
             Let&apos;s have a 1:1 call
           </h4>
@@ -82,7 +82,7 @@ const Home = () => {
 
       <Skills skillsData={data?.home?.skills} />
       <div className='py-4 px-4 mx-auto max-w-screen-xl lg:px-6'>
-        <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-700 dark:border-gray-600'>
+        <section className='text-center p-3 pt-4 pb-4 sm:p-8 bg-white border border-gray-200 rounded-3xl shadow-sm  dark:bg-gray-700 dark:border-gray-600'>
           <h4 className='text-3xl text-gray-900 dark:text-gray-200 mb-2'>
             Like my site?
           </h4>
