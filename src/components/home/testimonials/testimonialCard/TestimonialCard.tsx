@@ -10,7 +10,7 @@ const TestimonialCard: React.FC<TestimonialDataType> = ({
   return (
     <figure
       key={name}
-      className='flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700'
+      className='flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700 rounded-3xl'
     >
       <blockquote className='mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400'>
         <p className='my-4'>{testimonial}</p>

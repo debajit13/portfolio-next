@@ -9,10 +9,10 @@ const Testimonials: React.FC<TestimonialsDataType> = ({ testimonialsData }) => {
   return (
     <section className='bg-white dark:bg-gray-900'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
-        <div className='text-left'>
+        <div className='text-left mb-4'>
           <SectionHeader title='Testimonials' />
         </div>
-        <div className='grid mb-8 lg:mb-12 lg:grid-cols-2'>
+        <div className='grid mb-8 lg:mb-12 lg:grid-cols-2 gap-6'>
           {testimonialsData.map((testimonialData: TestimonialDataType) => (
             <TestimonialCard
               key={testimonialData?.name}
