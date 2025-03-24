@@ -298,6 +298,20 @@
   },
   "talks": [
     {
+      "title": "Building and Securing Fullstack apps with React and Firebase",
+      "date": "February 28, 2025",
+      "organiser": "CodeNEST",
+      "type": "Offline",
+      "youtubeLink": "https://youtu.be/stCLVz4iHmo?si=I5pScF2fAu4msJCy",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/CodeNEST%20PPT.pdf",
+      "topics": ["Frontend", "Firebase", "ReactJS", "Web Tooling"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img1.webp?updatedAt=1742830781849",
+        "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img3.webp?updatedAt=1742830781738",
+        "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img2.webp?updatedAt=1742830781980"
+      ]
+    },
+    {
       "title": "Mastering Web Performance Optimization with Chrome DevTools",
       "date": "December 07, 2024",
       "organiser": "GDG Guwahati (DevFest Guwahati 2024)",
