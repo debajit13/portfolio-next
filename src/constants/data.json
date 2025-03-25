@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "From Chaos to Containers: Journey of Dockerizing a React App",
+      "blogDescription": " In this blog, I will share how you can start moving your React app to Docker and why you should do that.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_docker.webp?updatedAt=1742919591046",
+      "blogLink": "https://dev.to/debajit13/from-chaos-to-containers-journey-of-dockerizing-a-react-app-9bk",
+      "topics": ["Web Tooling", "ReactJS", "Docker"]
+    },
+    {
       "blogTitle": "Building and Documenting UI Components with Storybook and React",
       "blogDescription": "In this blog, I'll walk you through setting up Storybook in a React project and show you how to build and document components that you can reuse throughout your applications.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_storybook.webp?updatedAt=1742740374170",
