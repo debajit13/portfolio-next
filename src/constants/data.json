@@ -1,8 +1,15 @@
 {
   "blogs": [
     {
+      "blogTitle": "Develop Webapps for Everyone: A Guide to Web Accessibility",
+      "blogDescription": "In this blog, let's talk about something that should be on all our radars but often gets pushed to the backburner: web accessibility",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web_accessibility.png?updatedAt=1743361637571",
+      "blogLink": "https://dev.to/debajit13/develop-webapps-for-everyone-a-guide-to-web-accessibility-4cfc",
+      "topics": ["Web Accessibility", "Frontend"]
+    },
+    {
       "blogTitle": "From Chaos to Containers: Journey of Dockerizing a React App",
-      "blogDescription": " In this blog, I will share how you can start moving your React app to Docker and why you should do that.",
+      "blogDescription": "In this blog, I will share how you can start moving your React app to Docker and why you should do that.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_docker.webp?updatedAt=1742919591046",
       "blogLink": "https://dev.to/debajit13/from-chaos-to-containers-journey-of-dockerizing-a-react-app-9bk",
       "topics": ["Web Tooling", "ReactJS", "Docker"]
