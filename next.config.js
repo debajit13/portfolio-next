@@ -3,6 +3,7 @@ const withPWA = require('next-pwa');
 
 const nextConfig = {
   images: {
+    domains: ['ik.imagekit.io'],
     dangerouslyAllowSVG: true,
     remotePatterns: [
       {

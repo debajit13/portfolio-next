@@ -23,11 +23,13 @@ const BlogCard: React.FC<BlogDataType> = ({
     >
       <div className='flex justify-between items-center mb-5 text-gray-500'>
         <Image
-          className='w-full h-30 rounded-3xl'
+          className='rounded-3xl object-cover' // Remove w-full h-30
           src={blogImage}
-          height={150}
-          width={200}
+          height={300} // Increase for better quality
+          width={600} // Increase and maintain aspect ratio
+          quality={90} // Add quality parameter
           alt={blogTitle}
+          style={{ width: '100%', height: 'auto' }} // Control responsive sizing
         />
       </div>
       <h2 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
