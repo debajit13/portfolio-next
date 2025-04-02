@@ -38,27 +38,53 @@ const Home = () => {
               👋 Hi, Welcome to my space
             </h1>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
-              I am Debajit, a 24 years old Software Engineer with 3+ years of
-              experience. Currently, I am working at P360 as a Software
-              Engineer. My expertise is in Frontend Web Development.
+              I am Debajit, a 25 years old Software Engineer with{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                3+ years
+              </span>{' '}
+              of experience. Currently, I am working at{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                P360
+              </span>{' '}
+              as a{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                Senior Software Engineer (L1)
+              </span>
+              . My expertise is in Frontend Web Development.
             </p>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
-              Currently, I am learning NextJS. I am very active in technical
-              communities. I am the Organizer of GDG Siliguri, Ex β-MLSA, Ex
-              Hack Club Lead, and Ex GSSOC Ambassador.
+              I am very active in technical communities. I am the{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                Organizer of GDG Siliguri, Ex β-MLSA, Ex Hack Club Lead, and Ex
+                GSSOC Ambassador
+              </span>
+              .
             </p>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
-              Also, I am a Tech Speaker too. I have given technical talks at
-              many events like GDSC WOW KOLKATA, FrontendDays Siliguri, GDG
-              Bhopal, JWOC, Azure Devday, Hack Club SIT, GirlScript Siliguri,
-              GDSC SIT, Codecademy Frontend Marathon and many more.
+              Also, I am a{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                Tech Speaker
+              </span>{' '}
+              too. I have given technical talks at many events like{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                GDSC WOW KOLKATA, FrontendDays Siliguri, GDG Bhopal, JWOC, Azure
+                Devday, Hack Club SIT, GirlScript Siliguri, GDSC SIT, Codecademy
+                Frontend Marathon
+              </span>{' '}
+              and many more.
             </p>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
               I also like to participate in Hackathons and Open Source events. I
-              won the Smart India Hackathon 2020 and contributed to
-              HacktoberFest 2019, HacktoberFest 2020, JWOC and GWOC. Also, I
-              mentored a team for Smart India Hackathon 2022 that later won the
-              Hackathon.
+              won the{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                Smart India Hackathon 2020 and contributed to HacktoberFest
+                2019, HacktoberFest 2020, JWOC and GWOC
+              </span>
+              . Also, I mentored a team for{' '}
+              <span className='font-bold text-gray-800 dark:text-gray-300'>
+                Smart India Hackathon 2022
+              </span>{' '}
+              that later won the Hackathon.
             </p>
           </div>
         </div>
