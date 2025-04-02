@@ -1,6 +1,27 @@
 {
   "blogs": [
     {
+      "blogTitle": "Deep Diving into the Next.js App Router",
+      "blogDescription": "In this blog, we will talk about the App Router, how it actually works in practice, and some cool tricks you can use to leverage your app.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/nextjs_app_router.webp?updatedAt=1743580180319",
+      "blogLink": "https://dev.to/debajit13/deep-diving-into-the-nextjs-app-router-288k",
+      "topics": ["NextJS", "Frontend"]
+    },
+    {
+      "blogTitle": "From Zero to Production: Setting Up React with Webpack Explained",
+      "blogDescription": "In this post, we'll break down: What Webpack actually is and How to get a React project up and running with Webpack.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/webpack_react.webp?updatedAt=1743580180266",
+      "blogLink": "https://dev.to/debajit13/from-zero-to-production-setting-up-react-with-webpack-explained-4nc6",
+      "topics": ["Web Tooling", "Frontend"]
+    },
+    {
+      "blogTitle": "Unit Testing React Components with Jest and React Testing Library",
+      "blogDescription": "In this blog, I will deep dive into unit testing React apps with Jest and React Testing Library.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/jest_rtl.webp?updatedAt=1743580180568",
+      "blogLink": "https://dev.to/debajit13/unit-testing-react-components-with-jest-and-react-testing-library-3he",
+      "topics": ["Testing", "Frontend"]
+    },
+    {
       "blogTitle": "Develop Webapps for Everyone: A Guide to Web Accessibility",
       "blogDescription": "In this blog, let's talk about something that should be on all our radars but often gets pushed to the backburner: web accessibility",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web_accessibility.webp?updatedAt=1743362810526",
@@ -216,6 +237,7 @@
     "Web Tooling",
     "Firebase",
     "ReactJS",
+    "NextJS",
     "JavaScript",
     "TypeScript",
     "Git"
@@ -776,6 +798,7 @@
     "achivements": [
       "LinkedIn 2024 Top Voice for Web Development.",
       "Mentor and Judge of Code for Change 2025 Hackathon.",
+      "Mentor and Judge of Hacktopus 2025 Hackathon.",
       "Mentor and Judge of Hack4Bengal 2.0 and 3.0 Hackathon.",
       "Mentor of team OrganiCod3rs, the Winner of Smart India Hackathon 2022, Software Edition.",
       "Mentor of GirlScript Summer of Code 2023.",
@@ -811,7 +834,7 @@
     {
       "id": 1,
       "companyName": "P360",
-      "role": "Software Engineer",
+      "role": "Senior Software Engineer (L1)",
       "skills": [
         "React Native",
         "ReactJS",
@@ -821,22 +844,22 @@
         "Azure DevOps"
       ],
       "keyAchivements": [
-        "Established a React Native and TypeScript style guide for consistent development practices.",
-        "Created and maintained component documentation using Storybook for all frontend developers in the company.",
-        "Designed and implemented a flexible ReactJS autocomplete component for enhanced data search.",
-        "Developed a client-utilized audio-capturing component using webRTC and VueJS."
+        "Architected and optimized the frontend of a healthcare communication app for 1,000+ Doctors and Pharma Sales Reps, enhancing Chat and Call features for seamless real-time interaction.",
+        "Led the creation of a React.js and TypeScript style guide adopted by 50+ developers across multiple teams, improving code consistency and reducing review cycles by 25%.",
+        "Boosted app performance by 15% by implementing lazy loading, code splitting, and image optimization — reducing load times and improving lighthouse scores.",
+        "Built a custom WebRTC-based audio capture module for recording and playing voice messages in real-time, enabling audio processing at scale and strengthening the product’s market edge."
       ],
       "timeline": "May 2022 - Present"
     },
     {
       "id": 2,
       "companyName": "Blackspektro",
-      "role": "Junior Software Engineer",
+      "role": "Software Engineer",
       "skills": ["VueJS", "JavaScript", "BootstrapVue", "API Integration"],
       "keyAchivements": [
-        "Developed an efficient admin dashboard for centralized user data management.",
-        "Implemented vue-chartjs to visually represent user data through various types of graphs.",
-        "Improved user engagement by 20% through the creation and management of HTML email templates for weekly updates."
+        "Developed a Vue.js based admin dashboard for centralized user data management, improving data accessibility and operational efficiency by 40%.",
+        "Implemented interactive visualizations using vue-chartjs to display user engagement and usage metrics, empowering better decision-making with actionable insights.",
+        "Boosted user engagement by 20% by designing and managing responsive HTML5 email templates for weekly updates, increasing interaction through consistent product communication."
       ],
       "timeline": "Apr 2021 - Apr 2022"
     },
@@ -846,9 +869,8 @@
       "role": "Full Stack Intern",
       "skills": ["VueJS", "TypeScript", "StoryBook", "REST API Integration"],
       "keyAchivements": [
-        "Developed a versatile multi-input component to efficiently collect user phone number data using VueJS.",
-        "Created comprehensive documentation for global components using Storybook.",
-        "Translated Figma design concepts into functional and visually appealing web pages."
+        "Built a reusable multi-input component in Vue.js with real-time validation for phone numbers, reducing user input errors by 30% across forms.",
+        "Authored end-to-end Storybook documentation for global components, standardizing UI development and onboarding processes for the frontend team."
       ],
       "timeline": "Feb 2021 - Apr 2021"
     }
