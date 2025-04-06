@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Getting Started with GraphQL and React",
+      "blogDescription": "In this blog, I'll walk you through the basics of GraphQL by building a simple React app that fetches user info using Apollo Client.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_graphql.webp?updatedAt=1743965554869",
+      "blogLink": "https://dev.to/debajit13/getting-started-with-graphql-and-react-b5k",
+      "topics": ["React", "Frontend"]
+    },
+    {
       "blogTitle": "Deep Diving into the Next.js App Router",
       "blogDescription": "In this blog, we will talk about the App Router, how it actually works in practice, and some cool tricks you can use to leverage your app.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/nextjs_app_router.webp?updatedAt=1743580180319",
