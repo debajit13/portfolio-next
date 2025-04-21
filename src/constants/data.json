@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Building Real-Time Apps with React and Socket.IO",
+      "blogDescription": "In this blog, I'll walk you through the basics of websockets and how to implement that using Socket.IO by building a simple Chat Application.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/socket_react.webp?updatedAt=1745235938076",
+      "blogLink": "https://dev.to/debajit13/building-real-time-apps-with-react-and-socketio-2nci",
+      "topics": ["React", "Frontend"]
+    },
+    {
       "blogTitle": "Getting Started with GraphQL and React",
       "blogDescription": "In this blog, I'll walk you through the basics of GraphQL by building a simple React app that fetches user info using Apollo Client.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_graphql.webp?updatedAt=1743965554869",
