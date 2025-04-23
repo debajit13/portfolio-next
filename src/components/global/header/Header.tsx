@@ -13,7 +13,7 @@ const Header: React.FC<HeaderDataType> = ({ routes }) => {
       {routes.map((route) => (
         <Link key={route.title} href={route.path}>
           <span
-            className={`text-sm hover:rounded-full p-1.5 ${
+            className={`clickable text-sm hover:rounded-full p-1.5 ${
               pathName === route.path &&
               'bg-[#1a56db] dark:bg-blue-100 dark:text-black rounded-full text-white'
             }`}
