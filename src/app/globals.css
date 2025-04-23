@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Base cursor style for the entire site */
+* {
+    cursor: none;
+}
+
+/* Add this class to any clickable element */
+.clickable {
+    cursor: none;
+    /* Optional: Add custom styles for hover state */
+    transition: all 0.3s ease;
+}
+
+/* Example of how to use it with common elements */
+a,
+button,
+input,
+select,
+textarea,
+[role="button"],
+[tabindex="0"] {
+    @apply clickable;
+}
+
+/* For mobile and touch devices, revert to normal cursor */
+@media (max-width: 768px) {
+    * {
+        cursor: auto;
+    }
+
+    #cursor-container {
+        display: none;
+    }
+}

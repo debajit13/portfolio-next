@@ -12,7 +12,7 @@ const ThemeToggler = () => {
     <span
       onClick={handleDarkMode}
       id='theme-toggle'
-      className='text-gray-500 rounded-lg text-sm p-2.5'
+      className='text-gray-500 rounded-lg text-sm p-2.5 clickable'
     >
       {darkMode ? (
         <svg
