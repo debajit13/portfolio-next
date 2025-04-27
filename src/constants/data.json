@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Short Polling vs Long Polling - A Comprehensive Guide for Developers",
+      "blogDescription": "In this blog, I'll walk you through short polling and long polling in React—the two most common approaches that can transform your static app into a dynamic, real-time experience.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/short-vs-long-polling.webp?updatedAt=1745778666389",
+      "blogLink": "https://dev.to/debajit13/short-polling-vs-long-polling-a-comprehensive-guide-for-developers-31j3",
+      "topics": ["React", "Frontend"]
+    },
+    {
       "blogTitle": "Building Real-Time Apps with React and Socket.IO",
       "blogDescription": "In this blog, I'll walk you through the basics of websockets and how to implement that using Socket.IO by building a simple Chat Application.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/socket_react.webp?updatedAt=1745235938076",
