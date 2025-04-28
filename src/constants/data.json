@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Deep Dive into Server-sent Events (SSE)",
+      "blogDescription": "In this blog, I will discuss all about SSE and when to use it with the implementation details.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/server-sent-events.webp?updatedAt=1745843077499",
+      "blogLink": "https://dev.to/debajit13/deep-dive-into-server-sent-events-sse-52",
+      "topics": ["React", "Frontend"]
+    },
+    {
       "blogTitle": "Short Polling vs Long Polling - A Comprehensive Guide for Developers",
       "blogDescription": "In this blog, I'll walk you through short polling and long polling in React—the two most common approaches that can transform your static app into a dynamic, real-time experience.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/short-vs-long-polling.webp?updatedAt=1745778666389",
