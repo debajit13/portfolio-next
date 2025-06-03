@@ -781,14 +781,26 @@
     ],
     "testimonials": [
       {
+        "name": "Saumik Sarkar",
+        "role": "Lead SWE @[24]7.ai",
+        "testimonial": "Debajit is a self motivating person. The best part of working with him is that he would come up with innovative ideas and solutions and make the challenges go away in no time. I remember a time when our team was struggling to solve a problem related to API performance, Debajit came to the rescue and in no time motivated the team and solved it. He is a team person, has the ability to visualise future goals. I would consider the team lucky if Debajit is on it.",
+        "image": "https://ik.imagekit.io/debajit13/Testimonials/Saumik%20Sarkar.webp?updatedAt=1700052770335"
+      },
+      {
         "name": "Akash Bilung",
         "role": "Lead Frontend Engineer @P360",
         "testimonial": "Debajit's passion for front-end development is evident in his proactive learning and willingness to share insights. His commitment to best practices ensured our project maintained high quality. His deep understanding of frontend technologies and collaborative spirit make him invaluable. He is always open to feedback, eager to brainstorm solutions, and quick to offer support to teammates. His enthusiasm and expertise are truly commendable.",
         "image": "https://ik.imagekit.io/debajit13/Testimonials/Akash%20Bilung.webp?updatedAt=1711624219281"
       },
       {
+        "name": "Sonali Parab",
+        "role": "Senior Software Engineer @HERE Technologies",
+        "testimonial": "When Debajit joined P360, he was working under me. He is quick learner who is very enthusiastic about his work.He possesses excellent logical skills.I m delighted to work with you. keep going Debajit.",
+        "image": "https://ik.imagekit.io/debajit13/Testimonials/Sonali%20Parab.webp?updatedAt=1700052770193"
+      },
+      {
         "name": "Haimantika Mitra",
-        "role": "Developer Advocate @Hashnode",
+        "role": "Developer Advocate @DigitalOcean",
         "testimonial": "I have worked with Debajit for Smart India Hackathon 2020, being a part of the winning team, I can vouch on Debajit's technical skills. His expertise on React and quick learning power amazed me! A dedicated learner with amazing tech skills!",
         "image": "https://ik.imagekit.io/debajit13/Testimonials/Haimantika%20Mitra.webp?updatedAt=1700052770337"
       },
@@ -805,20 +817,15 @@
         "image": "https://ik.imagekit.io/debajit13/Testimonials/Deeksha%20Gupta.webp?updatedAt=1700052770147"
       },
       {
-        "name": "Sonali Parab",
-        "role": "Senior Software Engineer @P360",
-        "testimonial": "When Debajit joined P360, he was working under me. He is quick learner who is very enthusiastic about his work.He possesses excellent logical skills.I m delighted to work with you. keep going Debajit.",
-        "image": "https://ik.imagekit.io/debajit13/Testimonials/Sonali%20Parab.webp?updatedAt=1700052770193"
+        "name": "Gyanendra Kumar Knojiya",
+        "role": "Senior Software Engineer (L3) @P360",
+        "testimonial": "I had the pleasure of working with Debajit, and I can confidently say that he is an exceptional frontend developer. His expertise in React and React Native is truly impressive, and his ability to solve complex problems efficiently sets him apart. Debajit is highly focused, detail-oriented, and always eager to learn new technologies, which makes him a valuable asset to any team. His dedication to delivering high-quality solutions is evident in every project he works on. If you’re looking for a skilled and motivated frontend developer, I highly recommend Debajit. Any company would be lucky to have him on board!",
+        "image": "https://ik.imagekit.io/debajit13/Testimonials/Gyanendra%20Knojia.webp?updatedAt=1748960965021"
       },
-      {
-        "name": "Saumik Sarkar",
-        "role": "Lead SWE @[24]7.ai",
-        "testimonial": "Debajit is a self motivating person. The best part of working with him is that he would come up with innovative ideas and solutions and make the challenges go away in no time. I remember a time when our team was struggling to solve a problem related to API performance, Debajit came to the rescue and in no time motivated the team and solved it. He is a team person, has the ability to visualise future goals. I would consider the team lucky if Debajit is on it.",
-        "image": "https://ik.imagekit.io/debajit13/Testimonials/Saumik%20Sarkar.webp?updatedAt=1700052770335"
-      },
+
       {
         "name": "Sankalan Dasgupta",
-        "role": "Software Engineer @P360",
+        "role": "Senior Software Engineer (L1) @P360",
         "testimonial": "I've had the pleasure of working alongside Debajit on various projects, and it's always been an enlightening experience. As a frontend developer, he consistently delivers top-notch work, demonstrating a mastery of technology and an innate understanding of user experience that sets him apart. What truly makes Debajit stand out is his leadership ability. He effortlessly guides team through complex challenges, ensuring that everyone's voice is heard and valued. His approach not only enhances projects but also fosters a collaborative and supportive work environment. His passion for the tech community is evident in everything he does, from his proactive engagement in knowledge-sharing sessions to his active participation in tech forums and events. Debajit's enthusiasm and dedication inspire all of us to strive for excellence. I'm grateful for the opportunity to work with such a talented and motivated individual. Keep up the fantastic work, Debajit! 👏",
         "image": "https://ik.imagekit.io/debajit13/Testimonials/Sankalan%20Dasgupta.webp?updatedAt=1713976505546"
       }
