@@ -43,6 +43,20 @@
       "topics": ["Firebase", "Web Tooling"]
     },
     {
+      "blogTitle": "From Mobile to Browser: A Guide to React Native for Web",
+      "blogDescription": "In this blog, we will learn about React Native web. The goal is to build webapps faster with your already existing React Native app codebase.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react-native-web.webp?updatedAt=1751781063363",
+      "blogLink": "https://dev.to/debajit13/from-mobile-to-browser-a-guide-to-react-native-for-web-3n31",
+      "topics": ["React Native", "Frontend"]
+    },
+    {
+      "blogTitle": "Testing Your React App with Cypress",
+      "blogDescription": "In this blog, we will learn how to setup a bulletproof E2E testing setup using React + Cypress.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/testing_cypress.webp?updatedAt=1751781063338",
+      "blogLink": "https://dev.to/debajit13/testing-your-react-app-with-cypress-1god",
+      "topics": ["Testing", "Web Tooling", "ReactJS", "Frontend"]
+    },
+    {
       "blogTitle": "Deep Dive into Server-sent Events (SSE)",
       "blogDescription": "In this blog, I will discuss all about SSE and when to use it with the implementation details.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/server-sent-events.webp?updatedAt=1745843077499",
@@ -282,7 +296,8 @@
     "NextJS",
     "JavaScript",
     "TypeScript",
-    "Git"
+    "Git",
+    "React Native"
   ],
   "talksTopics": ["Frontend", "Mentorship", "Tech Community", "Git", "ReactJS"],
   "projects": [
