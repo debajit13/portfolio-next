@@ -34,15 +34,17 @@ const Home = () => {
             </motion.div>
           </div>
           <div className='mx-auto place-self-center lg:col-span-7'>
-            <h1 className='max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white mb-6'>
+            <h1 className='max-w-2xl text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white mb-6'>
               👋 Hi, Welcome to my space
             </h1>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
               I am Debajit, a 25 years old Software Engineer with{' '}
               <span className='font-bold text-gray-800 dark:text-gray-300'>
-                3+ years
+                with a strong track record of building scalable SaaS
+                applications that are performant, user-focused, and built to
+                last.
               </span>{' '}
-              of experience. Currently, I am working at{' '}
+              . Currently, I am working at{' '}
               <span className='font-bold text-gray-800 dark:text-gray-300'>
                 P360
               </span>{' '}
@@ -50,7 +52,7 @@ const Home = () => {
               <span className='font-bold text-gray-800 dark:text-gray-300'>
                 Senior Software Engineer (L1)
               </span>
-              . My expertise is in Frontend Web Development.
+              . My expertise is in Frontend Development.
             </p>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
               I am very active in technical communities. I am the{' '}
