@@ -4,6 +4,7 @@ import { Providers } from './providers';
 import './globals.css';
 import Header from '@/components/global/header/Header';
 import data from '@/constants/data.json';
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Providers>
           <Header routes={data?.routes} />
           {children}
+          <Analytics />
         </Providers>
       </body>
     </html>
