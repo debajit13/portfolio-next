@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "From Zero to Serverless: Firebase Cloud Functions with React",
+      "blogDescription": "In this codelab, we will explore how to develop a real app using Firebase Cloud Functions with React. We'll start from absolutely nothing and end up with something you can actually deploy and show off.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/CloudFunctions.webp?updatedAt=1755667656281",
+      "blogLink": "https://gradus.dev/labs/from-zero-to-serverless:-firebase-cloud-functions-with-react-dstXs6",
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
+    },
+    {
       "blogTitle": "Supercharge Your React App Deployment with Firebase Hosting",
       "blogDescription": "In this code lab, we will explore Firebase Hosting and how it works. We will start with the basics and then move on to advanced topics like setting environment variables.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/Firebase%20Deployment%20with%20React.webp?updatedAt=1748961852634",
@@ -218,6 +225,20 @@
       "topics": ["Zod", "TypeScript"]
     },
     {
+      "blogTitle": "Implement the useDebounce custom hook in React",
+      "blogDescription": "In this blog, we’ll build a useDebounce custom hook from scratch, explore why it's useful, and show how you can integrate it into real-world projects.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useDebounce.webp?updatedAt=1755667656397",
+      "blogLink": "https://dev.to/debajit13/implement-the-usedebounce-custom-hook-in-react-2og4",
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
+    },
+    {
+      "blogTitle": "Implement the useFetch custom hook in React",
+      "blogDescription": "In this blog, we’ll dive into building a useFetch hook from scratch and understand its benefits by integrating it into a real-world project",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useFetch.webp?updatedAt=1755667656559",
+      "blogLink": "https://dev.to/debajit13/implement-the-usefetch-custom-hook-in-react-50p3",
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
+    },
+    {
       "blogTitle": "Deep Dive Into the useReducer() hook",
       "blogDescription": "In React, useReducer() is one of the most important hooks. We use the useState() hook for component-based state management. That is good if your component only has two or three states. But if you have many states in the component, then useReducer() can be a better choice.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveUseReducer.webp?updatedAt=1700109426589",
@@ -293,11 +314,13 @@
     "Web Tooling",
     "Firebase",
     "ReactJS",
+    "React Native",
     "NextJS",
     "JavaScript",
     "TypeScript",
     "Git",
-    "React Native"
+    "Interview Prep",
+    "Custom Hooks"
   ],
   "talksTopics": ["Frontend", "Mentorship", "Tech Community", "Git", "ReactJS"],
   "projects": [
