@@ -239,6 +239,20 @@
       "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
     },
     {
+      "blogTitle": "Implement the useCopy custom hook in React",
+      "blogDescription": "In this blog, we'll build a useCopy hook from scratch, understand each part of the implementation, and see a real-world example to use it in your UI.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useCopy.webp?updatedAt=1757053577609",
+      "blogLink": "https://dev.to/debajit13/implement-the-usecopy-custom-hook-in-react-1ib2",
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
+    },
+    {
+      "blogTitle": "Implement the useStateWithReset custom hook in React",
+      "blogDescription": "In this blog, we'll walk through the step-by-step creation of a useStateWithReset hook and see how to use it in a real-world scenario.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useStateWithReset.webp?updatedAt=1757053578414",
+      "blogLink": "https://dev.to/debajit13/implement-the-usestatewithreset-custom-hook-in-react-3fh3",
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
+    },
+    {
       "blogTitle": "Deep Dive Into the useReducer() hook",
       "blogDescription": "In React, useReducer() is one of the most important hooks. We use the useState() hook for component-based state management. That is good if your component only has two or three states. But if you have many states in the component, then useReducer() can be a better choice.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveUseReducer.webp?updatedAt=1700109426589",
@@ -420,7 +434,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/stCLVz4iHmo?si=I5pScF2fAu4msJCy",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/CodeNEST%20PPT.pdf",
-      "topics": ["Frontend", "Firebase", "ReactJS", "Web Tooling"],
+      "topics": ["Firebase", "Firestore", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img1.webp?updatedAt=1742830781849",
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img3.webp?updatedAt=1742830781738",
@@ -464,6 +478,48 @@
         "https://ik.imagekit.io/debajit13/Talks/IOKolkata24/iokolkata3.jpeg?updatedAt=1729970336028",
         "https://ik.imagekit.io/debajit13/Talks/IOKolkata24/iokolkata1.jpeg?updatedAt=1729970336001",
         "https://ik.imagekit.io/debajit13/Talks/IOKolkata24/iokolkata2.jpeg?updatedAt=1729970335896"
+      ]
+    },
+    {
+      "title": "From Frontend to Full Power: Add Backend Logic with Firebase Cloud Functions",
+      "date": "August 24, 2025",
+      "organiser": "GDG Lucknow",
+      "type": "Online",
+      "youtubeLink": "https://www.youtube.com/live/HFMCO0UNFrQ?si=Mv5ERYoN4ptT02W4",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/GDG%20Lucknow%20PPT%20(Firebase%20Cloud%20Functions).pdf",
+      "topics": ["Firebase", "Cloud Functions", "Firestore", "ReactJS"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/GDG%20Lucknow/img1.webp?updatedAt=1757054460871",
+        "https://ik.imagekit.io/debajit13/Talks/GDG%20Lucknow/img2.webp?updatedAt=1757054526412",
+        "https://ik.imagekit.io/debajit13/Talks/GDG%20Lucknow/img3.webp?updatedAt=1757054542590"
+      ]
+    },
+    {
+      "title": "Build Production Ready Webapps with Firebase Studio",
+      "date": "August 29, 2025",
+      "organiser": "GDG Siliguri",
+      "type": "Offline",
+      "youtubeLink": "https://youtu.be/q0t74kqrZs8?si=MnH1WPnVEMAR1u5O",
+      "slidesLink": "",
+      "topics": ["Firebase", "Firebase Studio", "Gemini", "NextJS"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/gdgsiliguri-firebase-studio/img1.webp?updatedAt=1757057831089",
+        "https://ik.imagekit.io/debajit13/Talks/gdgsiliguri-firebase-studio/img2.webp?updatedAt=1757057830825",
+        "https://ik.imagekit.io/debajit13/Talks/gdgsiliguri-firebase-studio/img3.webp?updatedAt=1757057830825"
+      ]
+    },
+    {
+      "title": "Finding Success As a Developer in AI era ",
+      "date": "September 04, 2025",
+      "organiser": "DronaHQ",
+      "type": "Online",
+      "youtubeLink": "https://youtu.be/gtnQsZDgqGI?si=0c0OoAsgGOc1HWLj",
+      "slidesLink": "",
+      "topics": ["Frontend", "AI", "Mentorship", "Podcast"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/DronaHQ/img1.webp?updatedAt=1757058656543",
+        "https://ik.imagekit.io/debajit13/Talks/DronaHQ/img2.webp?updatedAt=1757058656245",
+        "https://ik.imagekit.io/debajit13/Talks/DronaHQ/img3.webp?updatedAt=1757058655573"
       ]
     },
     {
