@@ -1,6 +1,13 @@
 {
   "blogs": [
     {
+      "blogTitle": "Dynamic Feature Management with Firebase Remote Config in React",
+      "blogDescription": "In this blog, we'll learn what Firebase Remote Config is and its use cases in a real-world application.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-remote-config.webp?updatedAt=1760246398690",
+      "blogLink": "https://dev.to/debajit13/dynamic-feature-management-with-firebase-remote-config-in-react-4n49",
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
+    },
+    {
       "blogTitle": "From Zero to Serverless: Firebase Cloud Functions with React",
       "blogDescription": "In this codelab, we will explore how to develop a real app using Firebase Cloud Functions with React. We'll start from absolutely nothing and end up with something you can actually deploy and show off.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/CloudFunctions.webp?updatedAt=1755667656281",
