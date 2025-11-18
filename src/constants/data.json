@@ -343,7 +343,7 @@
     "Interview Prep",
     "Custom Hooks"
   ],
-  "talksTopics": ["Frontend", "Mentorship", "Tech Community", "Git", "ReactJS"],
+  "talksTopics": ["Frontend", "Firebase", "Tech Community", "Git", "ReactJS"],
   "projects": [
     {
       "title": "Sheets",
@@ -434,6 +434,40 @@
     }
   },
   "talks": [
+    {
+      "title": "Supercharge Your Webapps with Firebase Remote Config",
+      "date": "November 02, 2025",
+      "organiser": "GDG Durgapur (DevFest Durgapur 2025)",
+      "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/DevFest%20Durgapur%202025.pdf",
+      "topics": ["Firebase", "Remote Config", "ReactJS"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Durgapur%202025/img1.webp",
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Durgapur%202025/img2.webp",
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Durgapur%202025/img3.webp"
+      ]
+    },
+    {
+      "title": "Building AI Powered Apps with Gemini & Firebase",
+      "date": "October 19, 2025",
+      "organiser": "Digital Dominators",
+      "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Build%20AI-powered%20apps%20using%20Gemini%20and%20Firebase%20PPT.pdf",
+      "topics": [
+        "Firebase",
+        "Gemini",
+        "Firebase Auth",
+        "Realtime Database",
+        "ReactJS"
+      ],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/Digital%20Dominators/img1.webp",
+        "https://ik.imagekit.io/debajit13/Talks/Digital%20Dominators/img2.webp",
+        "https://ik.imagekit.io/debajit13/Talks/Digital%20Dominators/img3.webp"
+      ]
+    },
     {
       "title": "Building and Securing Fullstack apps with React and Firebase",
       "date": "February 28, 2025",
