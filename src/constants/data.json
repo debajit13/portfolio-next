@@ -435,6 +435,20 @@
   },
   "talks": [
     {
+      "title": "Beyond Chatbots: Building AI Travel Agent with Genkit",
+      "date": "November 20, 2025",
+      "organiser": "IEEE JGEC",
+      "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20Chatbots%20Building%20AI%20Travel%20Agent%20with%20Genkit.pdf",
+      "topics": ["Firebase", "Genkit", "Gemini"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/ieee-jgec-genkit/img1.webp?updatedAt=1763643575680",
+        "https://ik.imagekit.io/debajit13/Talks/ieee-jgec-genkit/img2.webp?updatedAt=1763643575767",
+        "https://ik.imagekit.io/debajit13/Talks/ieee-jgec-genkit/img3.webp?updatedAt=1763643575837"
+      ]
+    },
+    {
       "title": "Supercharge Your Webapps with Firebase Remote Config",
       "date": "November 02, 2025",
       "organiser": "GDG Durgapur (DevFest Durgapur 2025)",
