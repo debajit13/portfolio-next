@@ -435,6 +435,20 @@
   },
   "talks": [
     {
+      "title": "Build Smarter Web Apps with Firebase Remote Config & Gemini",
+      "date": "November 22, 2025",
+      "organiser": "GDG Guwahati (DevFest Guwahati 2025)",
+      "type": "Offline",
+      "youtubeLink": "https://youtu.be/bEFxrqsIOIM",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/DevFest%20Guwahati%202025.pdf",
+      "topics": ["Firebase", "Remote Config", "Gemini"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202025/img1.webp?updatedAt=1763876196926",
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202025/img2.webp?updatedAt=1763876197269",
+        "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202025/img3.webp?updatedAt=1763876197368"
+      ]
+    },
+    {
       "title": "Beyond Chatbots: Building AI Travel Agent with Genkit",
       "date": "November 20, 2025",
       "organiser": "IEEE JGEC",
