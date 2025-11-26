@@ -57,6 +57,13 @@
       "topics": ["Firebase", "Web Tooling"]
     },
     {
+      "blogTitle": "Make & Makefiles: A Modern Developer's Guide to Classic Automation",
+      "blogDescription": "In this blog, we'll learn why Make deserves a place in your development toolkit and how to leverage it effectively in contemporary projects.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/make_and_makefile.webp",
+      "blogLink": "https://dev.to/debajit13/make-makefiles-a-modern-developers-guide-to-classic-automation-14hl",
+      "topics": ["Automation", "Web Tooling", "DevOps"]
+    },
+    {
       "blogTitle": "From Mobile to Browser: A Guide to React Native for Web",
       "blogDescription": "In this blog, we will learn about React Native web. The goal is to build webapps faster with your already existing React Native app codebase.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react-native-web.webp?updatedAt=1751781063363",
@@ -339,6 +346,7 @@
     "NextJS",
     "JavaScript",
     "TypeScript",
+    "DevOps",
     "Git",
     "Interview Prep",
     "Custom Hooks"
