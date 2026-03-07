@@ -46,19 +46,19 @@ const Home = () => {
               </span>{' '}
               . Currently, I am working at{' '}
               <span className='font-bold text-gray-800 dark:text-gray-300'>
-                P360
+                Ergeon
               </span>{' '}
               as a{' '}
               <span className='font-bold text-gray-800 dark:text-gray-300'>
-                Senior Software Engineer (L1)
+                Software Engineer
               </span>
               . My expertise is in Frontend Development.
             </p>
             <p className='max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>
               I am very active in technical communities. I am the{' '}
               <span className='font-bold text-gray-800 dark:text-gray-300'>
-                Organizer of GDG Siliguri, Ex β-MLSA, Ex Hack Club Lead, and Ex
-                GSSOC Ambassador
+                Organizer of GDG Siliguri and React Siliguri, Ex β-MLSA, Ex Hack
+                Club Lead, and Ex GSSOC Ambassador
               </span>
               .
             </p>
@@ -69,9 +69,9 @@ const Home = () => {
               </span>{' '}
               too. I have given technical talks at many events like{' '}
               <span className='font-bold text-gray-800 dark:text-gray-300'>
-                GDSC WOW KOLKATA, FrontendDays Siliguri, GDG Bhopal, JWOC, Azure
-                Devday, Hack Club SIT, GirlScript Siliguri, GDSC SIT, Codecademy
-                Frontend Marathon
+                DevFest Guwahati, DevFest Durgapur, GDSC WOW KOLKATA,
+                FrontendDays Siliguri, GDG Bhopal, JWOC, Azure Devday, Hack Club
+                SIT, GirlScript Siliguri, GDSC SIT, Codecademy Frontend Marathon
               </span>{' '}
               and many more.
             </p>

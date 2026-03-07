@@ -1,6 +1,20 @@
 {
   "blogs": [
     {
+      "blogTitle": "Build AI-powered React apps with Firebase AI Logic",
+      "blogDescription": "In this hands-on lab, you will embark on a transformative journey to supercharge your frontend development skills by mastering the fundamentals of Firebase AI Logic.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/ai-logic.webp",
+      "blogLink": "https://stepwik.com/labs/build-ai-powered-react-apps-with-firebase-ai-logic-YOcfdj",
+      "topics": ["Firebase", "Web Tooling", "AI"]
+    },
+    {
+      "blogTitle": "Build AI-powered React apps using Genkit",
+      "blogDescription": "In this blog, I will walk you through why I think learning Genkit is useful for you, and then we'll build something practical together.",
+      "blogImage": "https://ik.imagekit.io/debajit13/Blogs/genkit.webp",
+      "blogLink": "https://dev.to/debajit13/build-ai-powered-react-apps-using-genkit-4ifm",
+      "topics": ["Firebase", "Web Tooling", "AI"]
+    },
+    {
       "blogTitle": "Dynamic Feature Management with Firebase Remote Config in React",
       "blogDescription": "In this blog, we'll learn what Firebase Remote Config is and its use cases in a real-world application.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-remote-config.webp?updatedAt=1760246398690",
@@ -342,6 +356,7 @@
     "Web Tooling",
     "Firebase",
     "ReactJS",
+    "AI",
     "React Native",
     "NextJS",
     "JavaScript",
@@ -516,6 +531,20 @@
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img1.webp?updatedAt=1742830781849",
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img3.webp?updatedAt=1742830781738",
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img2.webp?updatedAt=1742830781980"
+      ]
+    },
+    {
+      "title": "Supercharge Your Next.js App Using Firebase and AI",
+      "date": "February 20, 2026",
+      "organiser": "GDG Siliguri",
+      "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "",
+      "topics": ["Firebase", "Google Cloud", "Gemini"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/GDG_Inspiria_workshop/img1.webp",
+        "https://ik.imagekit.io/debajit13/Talks/GDG_Inspiria_workshop/img3.webp",
+        "https://ik.imagekit.io/debajit13/Talks/GDG_Inspiria_workshop/img2.webp"
       ]
     },
     {
@@ -1016,6 +1045,7 @@
       }
     ],
     "achivements": [
+      "Featured in Google For Developers India youtube video for my contribution at GDG Siliguri",
       "LinkedIn 2024 Top Voice for Web Development.",
       "Mentor and Judge of Code for Change 2025 Hackathon.",
       "Mentor and Judge of Hacktopus 2025 Hackathon.",
@@ -1053,6 +1083,20 @@
   "experiences": [
     {
       "id": 1,
+      "companyName": "Ergeon",
+      "role": "Software Engineer",
+      "skills": [
+        "ReactJS",
+        "ThreeJS",
+        "TypeScript",
+        "TailwindCSS",
+        "Azure DevOps"
+      ],
+      "keyAchivements": [],
+      "timeline": "January 2026 - Present"
+    },
+    {
+      "id": 2,
       "companyName": "P360",
       "role": "Senior Software Engineer (L1)",
       "skills": [
@@ -1069,10 +1113,10 @@
         "Boosted app performance by 15% by implementing lazy loading, code splitting, and image optimization — reducing load times and improving lighthouse scores.",
         "Built a custom WebRTC-based audio capture module for recording and playing voice messages in real-time, enabling audio processing at scale and strengthening the product’s market edge."
       ],
-      "timeline": "May 2022 - Present"
+      "timeline": "May 2022 - January 2026"
     },
     {
-      "id": 2,
+      "id": 3,
       "companyName": "Blackspektro",
       "role": "Software Engineer",
       "skills": ["VueJS", "JavaScript", "BootstrapVue", "API Integration"],
@@ -1084,7 +1128,7 @@
       "timeline": "Apr 2021 - Apr 2022"
     },
     {
-      "id": 3,
+      "id": 4,
       "companyName": "TIKAJ",
       "role": "Full Stack Intern",
       "skills": ["VueJS", "TypeScript", "StoryBook", "REST API Integration"],
