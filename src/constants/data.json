@@ -548,6 +548,20 @@
       ]
     },
     {
+      "title": "Building Modern Web Apps with React",
+      "date": "March 07, 2026",
+      "organiser": "React Siliguri (March Meetup 2026)",
+      "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "",
+      "topics": ["Frontend", "React"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/react-siliguri-march/img1.webp",
+        "https://ik.imagekit.io/debajit13/Talks/react-siliguri-march/img2.webp",
+        "https://ik.imagekit.io/debajit13/Talks/react-siliguri-march/img3.webp"
+      ]
+    },
+    {
       "title": "Mastering Web Performance Optimization with Chrome DevTools",
       "date": "December 07, 2024",
       "organiser": "GDG Guwahati (DevFest Guwahati 2024)",
