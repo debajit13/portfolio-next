@@ -458,6 +458,34 @@
   },
   "talks": [
     {
+      "title": "Building AI-powered apps using Gemini and Firebase",
+      "date": "May 25, 2026",
+      "organiser": "GRID Community",
+      "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "",
+      "topics": ["Firebase", "AI", "Gemini"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/grid_community_event/img1.webp",
+        "https://ik.imagekit.io/debajit13/Talks/grid_community_event/img2.webp",
+        "https://ik.imagekit.io/debajit13/Talks/grid_community_event/img3.webp"
+      ]
+    },
+    {
+      "title": "Local-First React: Building Apps That Don't Care If the Network Is Down",
+      "date": "May 23, 2026",
+      "organiser": "React Kolkata",
+      "type": "Offline",
+      "youtubeLink": "https://www.youtube.com/live/8TajvEhbBCY?si=2JAETJbXUmHY6LzZ",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/local_first_react.pdf",
+      "topics": ["Frontend", "Local Storage", "Offline"],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/react-kolkata/img1.webp",
+        "https://ik.imagekit.io/debajit13/Talks/react-kolkata/img2.webp",
+        "https://ik.imagekit.io/debajit13/Talks/react-kolkata/img3.webp"
+      ]
+    },
+    {
       "title": "Build Smarter Web Apps with Firebase Remote Config & Gemini",
       "date": "November 22, 2025",
       "organiser": "GDG Guwahati (DevFest Guwahati 2025)",
