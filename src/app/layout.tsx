@@ -1,34 +1,54 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { Providers } from './providers';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
-import Header from '@/components/global/header/Header';
-import data from '@/constants/data.json';
+import SiteHeader from '@/components/layout/SiteHeader';
+import SiteFooter from '@/components/layout/SiteFooter';
+import GlassLens from '@/components/layout/GlassLens';
+import { THEME_STORAGE_KEY } from '@/lib/theme';
+import { rootMetadata } from '@/lib/metadata';
 import { Analytics } from '@vercel/analytics/next';
 
-const inter = Inter({ subsets: ['latin'] });
+export const revalidate = 86400;
 
-export const metadata: Metadata = {
-  ...data?.metaData,
-  metadataBase: new URL(data?.metaData?.metadataBase),
+export const generateMetadata = (): Metadata => rootMetadata();
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#000000' },
+  ],
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+// Safari accepts backdrop-filter: url() but paints nothing, so @supports cannot gate refraction.
+const prepareDocument = `(() => {
+  const root = document.documentElement;
+  let stored = null;
+  try { stored = localStorage.getItem('${THEME_STORAGE_KEY}'); } catch {}
+  const dark = stored ? stored === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  root.classList.toggle('dark', dark);
+  const brands = navigator.userAgentData && navigator.userAgentData.brands;
+  if (brands && brands.some((entry) => entry.brand === 'Chromium')) root.dataset.refraction = '';
+})()`;
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='en'>
+    <html lang='en' suppressHydrationWarning>
       <head>
-        <link rel='apple-touch-icon' href='./assets/apple-touch-icon.png' />
+        <script dangerouslySetInnerHTML={{ __html: prepareDocument }} />
       </head>
-      <body className={`${inter.className} h-full pt-2  `}>
-        <Providers>
-          <Header routes={data?.routes} />
+      <body className='min-h-screen'>
+        <a
+          href='#main'
+          className='sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-3 focus:z-[60] focus:rounded-full focus:bg-canvas focus:px-4 focus:py-2'
+        >
+          Skip to content
+        </a>
+        <GlassLens />
+        <SiteHeader />
+        <main id='main' className='pt-16'>
           {children}
-          <Analytics />
-        </Providers>
+        </main>
+        <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
