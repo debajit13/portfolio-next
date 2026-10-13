@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
-const withPWA = require('next-pwa');
-
 const nextConfig = {
   images: {
-    domains: ['ik.imagekit.io'],
     dangerouslyAllowSVG: true,
     remotePatterns: [
       {
@@ -14,14 +11,14 @@ const nextConfig = {
       },
     ],
   },
-};
-
-module.exports = withPWA({
-  pwa: {
-    dest: 'public',
-    register: true,
-    skipWaiting: true,
+  async redirects() {
+    return [
+      { source: '/blogs', destination: '/writing', permanent: true },
+      { source: '/talks', destination: '/speaking', permanent: true },
+      { source: '/experiences', destination: '/#experience', permanent: true },
+      { source: '/projects', destination: '/#projects', permanent: true },
+    ];
   },
-});
+};
 
 module.exports = nextConfig;
