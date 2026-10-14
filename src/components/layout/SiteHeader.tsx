@@ -4,11 +4,16 @@ import { usePathname } from 'next/navigation';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 
-export const NAV_ITEMS = [
-  { href: '/#experience', label: 'Experience' },
+type NavItem = { href: string; label: string; section?: string };
+
+export const NAV_ITEMS: NavItem[] = [
+  { href: '/#experience', label: 'Experience', section: 'experience' },
   { href: '/writing', label: 'Writing' },
   { href: '/speaking', label: 'Speaking' },
 ];
+
+const HOME_PATH = '/';
+const READING_BAND = '-40% 0px -55% 0px';
 
 const COMPACT_AFTER_PX = 120;
 const SCROLL_INTENT_PX = 6;
@@ -25,9 +30,7 @@ const useScrollState = () => {
       setState((previous) => ({
         scrolled: y > 8,
         compact:
-          Math.abs(delta) < SCROLL_INTENT_PX
-            ? previous.compact
-            : delta > 0 && y > COMPACT_AFTER_PX,
+          Math.abs(delta) < SCROLL_INTENT_PX ? previous.compact : delta > 0 && y > COMPACT_AFTER_PX,
       }));
       if (Math.abs(delta) >= SCROLL_INTENT_PX) lastY = y;
     };
@@ -45,6 +48,40 @@ const useScrollState = () => {
 
   return state;
 };
+
+const useVisibleSection = (sectionIds: string[], enabled: boolean) => {
+  const [visible, setVisible] = useState<string | null>(null);
+  const idsKey = sectionIds.join(',');
+
+  useEffect(() => {
+    setVisible(null);
+    if (!enabled || typeof IntersectionObserver === 'undefined') return;
+    const sections = idsKey
+      .split(',')
+      .map((id) => document.getElementById(id))
+      .filter((section): section is HTMLElement => section !== null);
+    const observer = new IntersectionObserver(
+      (entries) =>
+        entries.forEach(({ target, isIntersecting }) =>
+          setVisible((current) =>
+            isIntersecting ? target.id : current === target.id ? null : current
+          )
+        ),
+      { rootMargin: READING_BAND }
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, [idsKey, enabled]);
+
+  return visible;
+};
+
+const currentNavIndex = (pathname: string, visibleSection: string | null) =>
+  NAV_ITEMS.findIndex(({ href, section }) =>
+    section ? pathname === HOME_PATH && section === visibleSection : href === pathname
+  );
+
+const sectionIds = NAV_ITEMS.flatMap(({ section }) => (section ? [section] : []));
 
 const useIndicator = (targetIndex: number | null) => {
   const linkRefs = useRef<(HTMLAnchorElement | null)[]>([]);
@@ -69,7 +106,8 @@ const SiteHeader = () => {
   const pathname = usePathname();
   const { scrolled, compact } = useScrollState();
   const [hovered, setHovered] = useState<number | null>(null);
-  const currentIndex = NAV_ITEMS.findIndex(({ href }) => href === pathname);
+  const visibleSection = useVisibleSection(sectionIds, pathname === HOME_PATH);
+  const currentIndex = currentNavIndex(pathname, visibleSection);
   const { linkRefs, box } = useIndicator(hovered ?? (currentIndex >= 0 ? currentIndex : null));
 
   return (
@@ -87,10 +125,7 @@ const SiteHeader = () => {
             compact ? 'scale-[0.92]' : ''
           }`}
         >
-          <Link
-            href='/'
-            className='mr-1 text-[0.9375rem] font-semibold tracking-tight sm:mr-3'
-          >
+          <Link href='/' className='mr-1 text-[0.9375rem] font-semibold tracking-tight sm:mr-3'>
             <span className='sm:hidden'>DM</span>
             <span className='hidden sm:inline'>Debajit Mallick</span>
           </Link>
@@ -102,8 +137,9 @@ const SiteHeader = () => {
                 style={{ transform: `translateX(${box.left}px)`, width: box.width }}
               />
             )}
-            {NAV_ITEMS.map(({ href, label }, index) => {
+            {NAV_ITEMS.map(({ href, label, section }, index) => {
               const isCurrent = index === currentIndex;
+              const currentType = section ? 'location' : 'page';
               return (
                 <Link
                   key={href}
@@ -111,7 +147,7 @@ const SiteHeader = () => {
                     linkRefs.current[index] = node;
                   }}
                   href={href}
-                  aria-current={isCurrent ? 'page' : undefined}
+                  aria-current={isCurrent ? currentType : undefined}
                   onPointerEnter={() => setHovered(index)}
                   onFocus={() => setHovered(index)}
                   onBlur={() => setHovered(null)}

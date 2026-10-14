@@ -1,39 +1,88 @@
 'use client';
-import { useMemo, useState } from 'react';
-import { groupTalksByYear, matchesQuery, talks, talkTopics } from '@/lib/content';
-import FilterBar, { ALL_TOPICS } from '../ui/FilterBar';
+import { useMemo } from 'react';
+import { BsPlayCircle } from 'react-icons/bs';
+import { groupTalksByYear, talkCategories, talks } from '@/lib/content';
+import {
+  matchesTalk,
+  TALK_FORMATS,
+  withoutCategory,
+  type TalkFilters,
+  type TalkFormat,
+} from '@/lib/filters';
+import { categoryCounts, categoryFromSlug, slugify } from '@/lib/taxonomy';
+import { useUrlState } from '@/lib/useUrlState';
+import FilterBar from '../ui/FilterBar';
+import ResultSummary from '../ui/ResultSummary';
+import SegmentedControl from '../ui/SegmentedControl';
+import ToggleChip from '../ui/ToggleChip';
 import TalkRow from './TalkRow';
 
-const TalkArchive = () => {
-  const [query, setQuery] = useState('');
-  const [topic, setTopic] = useState(ALL_TOPICS);
+const DEFAULT_PARAMS = { q: '', topic: '', format: 'all', video: '' };
 
-  const visible = useMemo(
+const isTalkFormat = (value: string): value is TalkFormat =>
+  TALK_FORMATS.some((format) => format.value === value);
+
+const TalkArchive = () => {
+  const [params, update, reset] = useUrlState(DEFAULT_PARAMS);
+
+  const filters: TalkFilters = {
+    query: params.q,
+    category: categoryFromSlug(params.topic),
+    format: isTalkFormat(params.format) ? params.format : 'all',
+    videoOnly: params.video === '1',
+  };
+
+  const visible = talks.filter((talk) => matchesTalk(talk, filters));
+  const counts = useMemo(
     () =>
-      talks.filter(
-        (talk) =>
-          (topic === ALL_TOPICS || talk.topics.includes(topic)) &&
-          matchesQuery(query, talk.title, talk.organiser, ...talk.topics)
+      categoryCounts(
+        talks.filter((talk) => matchesTalk(talk, withoutCategory(filters))),
+        talkCategories
       ),
-    [query, topic]
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- counts depend on the non-topic filters only
+    [params.q, params.format, params.video]
+  );
+  const isFiltered = Object.entries(params).some(
+    ([key, value]) => value !== DEFAULT_PARAMS[key as keyof typeof DEFAULT_PARAMS]
   );
 
   return (
     <>
       <FilterBar
         label='talks'
-        query={query}
-        onQueryChange={setQuery}
-        topics={talkTopics}
-        topic={topic}
-        onTopicChange={setTopic}
+        query={params.q}
+        onQueryChange={(q) => update({ q })}
+        categories={counts}
+        category={filters.category}
+        onCategoryChange={(category) => update({ topic: category ? slugify(category) : '' })}
+        controls={
+          <>
+            <SegmentedControl
+              label='Format'
+              options={TALK_FORMATS}
+              value={filters.format}
+              onChange={(format) => update({ format })}
+            />
+            <ToggleChip
+              pressed={filters.videoOnly}
+              onChange={(pressed) => update({ video: pressed ? '1' : '' })}
+              icon={<BsPlayCircle aria-hidden className='h-3.5 w-3.5' />}
+            >
+              Has video
+            </ToggleChip>
+          </>
+        }
       />
-      <p aria-live='polite' className='text-caption mt-8 text-fg-tertiary'>
-        {visible.length} {visible.length === 1 ? 'talk' : 'talks'}
-      </p>
+      <ResultSummary
+        shown={visible.length}
+        total={talks.length}
+        noun='talks'
+        isFiltered={isFiltered}
+        onReset={reset}
+      />
       {visible.length === 0 && (
         <p className='mt-6 text-fg-secondary'>
-          Nothing matches that search. Try a different word or topic.
+          Nothing matches these filters. Try another topic or a shorter search.
         </p>
       )}
       {groupTalksByYear(visible).map(({ year, talks: talksInYear }) => (

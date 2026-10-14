@@ -10,8 +10,6 @@ import {
   toParagraphs,
   sortTalksByDate,
   talks,
-  talkTopics,
-  topicsByFrequency,
   type Talk,
   yearsOfExperience,
 } from './content';
@@ -94,20 +92,6 @@ describe('groupTalksByYear', () => {
       [2026, 2],
       [2025, 1],
     ]);
-  });
-});
-
-describe('topicsByFrequency', () => {
-  it('keeps topics that meet the threshold, most frequent first', () => {
-    const list = [{ topics: ['React', 'Git'] }, { topics: ['React'] }, { topics: ['Vue'] }];
-    expect(topicsByFrequency(list, 2)).toEqual(['React']);
-    expect(topicsByFrequency(list, 1)[0]).toBe('React');
-  });
-
-  it('only offers talk filters that return results', () => {
-    talkTopics.forEach((topic) =>
-      expect(talks.some(({ topics }) => topics.includes(topic))).toBe(true)
-    );
   });
 });
 
