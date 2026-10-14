@@ -376,6 +376,26 @@
   ],
   "talks": [
     {
+      "title": "Building Production Apps using Firebase and AI",
+      "date": "2026-10-14",
+      "organiser": "GDG On Campus BIT",
+      "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Building%20Production%20Apps%20using%20Firebase%20and%20AI%20PPT.pdf",
+      "topics": [
+        "Firebase",
+        "Firebase Realtime Database",
+        "Firebase Auth",
+        "Gemini",
+        "ReactJS"
+      ],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/Building%20Production%20Grade%20Application%20using%20Firebase%20and%20AI/IMG_7440.webp",
+        "https://ik.imagekit.io/debajit13/Talks/Building%20Production%20Grade%20Application%20using%20Firebase%20and%20AI/IMG_7429.webp",
+        "https://ik.imagekit.io/debajit13/Talks/Building%20Production%20Grade%20Application%20using%20Firebase%20and%20AI/IMG_7393.webp"
+      ]
+    },
+    {
       "title": "Building AI-powered apps using Gemini and Firebase",
       "date": "2026-05-25",
       "organiser": "GRID Community",
@@ -601,6 +621,7 @@
       "organiser": "AceHack 4.0",
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/4ix-p-mXawA?si=nVncDymfPsFuauQA",
+      "slidesLink": "",
       "topics": [
         "Frontend",
         "Mentorship",
@@ -637,6 +658,7 @@
       "organiser": "BoltCorps",
       "type": "Online",
       "youtubeLink": "https://youtu.be/SlxNPIuiKWE",
+      "slidesLink": "",
       "topics": [
         "Frontend",
         "Mentorship",
@@ -785,6 +807,7 @@
       "organiser": "GDSC WOW Kolkata",
       "type": "Offline",
       "youtubeLink": "https://youtu.be/P2COtfA6Wa0?si=CATDGprvGS87x2mu",
+      "slidesLink": "",
       "topics": [
         "Frontend",
         "ReactJS",
@@ -801,6 +824,7 @@
       "date": "2023-03-24",
       "organiser": "Techne Association",
       "type": "Offline",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Boost%20your%20Career%20in%20Frontend%20Development%20PPT.pdf",
       "topics": [
         "Frontend",
@@ -816,6 +840,7 @@
       "date": "2023-03-03",
       "organiser": "GDSC SIT",
       "type": "Offline",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Frontend%20Hard%20Parts.pdf",
       "topics": [
         "Frontend",
@@ -831,6 +856,8 @@
       "date": "2023-02-18",
       "organiser": "JWOC",
       "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "",
       "topics": [
         "Frontend",
         "Mentorship"
@@ -846,6 +873,7 @@
       "date": "2022-09-10",
       "organiser": "Frontenddays Siliguri",
       "type": "Offline",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Take%20Your%20First%20Steps%20With%20VueJS.pdf",
       "topics": [
         "Frontend",
@@ -862,6 +890,7 @@
       "date": "2022-08-13",
       "organiser": "GDG Siliguri",
       "type": "Offline",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Demystifying%20Frontend%20Development.pdf",
       "topics": [
         "Frontend",
@@ -880,6 +909,7 @@
       "date": "2022-06-12",
       "organiser": "Azure DevDay Siliguri",
       "type": "Offline",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf",
       "topics": [
         "Cloud",
@@ -895,6 +925,8 @@
       "date": "2022-05-11",
       "organiser": "Hack Club SIT",
       "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "",
       "topics": [
         "Frontend",
         "Mentorship"
@@ -909,6 +941,7 @@
       "date": "2022-02-03",
       "organiser": "Microsoft Learn Student Ambassadors",
       "type": "Online",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
       "topics": [
         "Git",
@@ -926,6 +959,7 @@
       "organiser": "GDG Bhopal X NEXTJS Developer Community India",
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/tkm9fR3G5TI?feature=share",
+      "slidesLink": "",
       "topics": [
         "Frontend",
         "ReactJS"
@@ -957,6 +991,8 @@
       "date": "2020-10-11",
       "organiser": "Hack Club SIT",
       "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "",
       "topics": [
         "Web",
         "Mentorship"
@@ -971,6 +1007,8 @@
       "date": "2020-10-02",
       "organiser": "DSC SIT X Hack Club SIT",
       "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "",
       "topics": [
         "Git",
         "GitHub",
@@ -987,6 +1025,8 @@
       "date": "2020-03-18",
       "organiser": "GDG Siliguri",
       "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "",
       "topics": [
         "Git",
         "GitHub",
@@ -1002,6 +1042,8 @@
       "date": "2019-12-15",
       "organiser": "GirlScript Siliguri",
       "type": "Offline",
+      "youtubeLink": "",
+      "slidesLink": "",
       "topics": [
         "Git",
         "GitHub",
@@ -1019,6 +1061,7 @@
       "date": "2019-11-18",
       "organiser": "Hack Club SIT",
       "type": "Offline",
+      "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
       "topics": [
         "Git",
@@ -1567,20 +1610,117 @@
       ]
     }
   ],
-  "blogTopics": [
-    "Web Performance",
-    "Web Tooling",
-    "Firebase",
-    "ReactJS",
-    "AI",
-    "React Native",
-    "NextJS",
-    "JavaScript",
-    "TypeScript",
-    "DevOps",
-    "Git",
-    "Interview Prep",
-    "Custom Hooks"
+  "topicCategories": [
+    {
+      "name": "React",
+      "tags": [
+        "ReactJS",
+        "React",
+        "NextJS",
+        "React Native",
+        "Custom Hooks",
+        "Virtual DOM",
+        "State Management",
+        "Zustand"
+      ]
+    },
+    {
+      "name": "JavaScript & TypeScript",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Zod",
+        "VueJS"
+      ]
+    },
+    {
+      "name": "HTML, CSS & the Web",
+      "tags": [
+        "HTML",
+        "CSS",
+        "DOM",
+        "Web",
+        "Web Accessibility",
+        "Local Storage",
+        "Offline"
+      ]
+    },
+    {
+      "name": "Web Performance",
+      "tags": [
+        "Web Performance",
+        "Web Vitals",
+        "Video Optimization",
+        "Chrome DevTools",
+        "SSR",
+        "SSG",
+        "ISG",
+        "CSR"
+      ]
+    },
+    {
+      "name": "Firebase & Cloud",
+      "tags": [
+        "Firebase",
+        "Firebase Auth",
+        "Firestore",
+        "Realtime Database",
+        "Firebase Realtime Database",
+        "Remote Config",
+        "Firebase Studio",
+        "Cloud Functions",
+        "Google Cloud",
+        "Cloud",
+        "Azure"
+      ]
+    },
+    {
+      "name": "AI",
+      "tags": [
+        "AI",
+        "Gemini",
+        "Genkit"
+      ]
+    },
+    {
+      "name": "Testing",
+      "tags": [
+        "Testing"
+      ]
+    },
+    {
+      "name": "Tooling & DevOps",
+      "tags": [
+        "Web Tooling",
+        "Vite",
+        "Webpack",
+        "Docker",
+        "DevOps",
+        "Automation",
+        "Documentation"
+      ]
+    },
+    {
+      "name": "Git & Open Source",
+      "tags": [
+        "Git",
+        "GitHub",
+        "Version Control System",
+        "Open Source Contribution"
+      ]
+    },
+    {
+      "name": "Career & Community",
+      "tags": [
+        "Mentorship",
+        "Interview Prep",
+        "Tech Community",
+        "Podcast"
+      ]
+    }
+  ],
+  "broadTags": [
+    "Frontend"
   ],
   "writingStats": {
     "platform": "Dev.to",

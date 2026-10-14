@@ -1,36 +1,48 @@
 'use client';
-import { useMemo, useState } from 'react';
-import { articles, articleTopics, matchesQuery } from '@/lib/content';
-import FilterBar, { ALL_TOPICS } from '../ui/FilterBar';
+import { useMemo } from 'react';
+import { articleCategories, articles } from '@/lib/content';
+import { matchesArticle, withoutCategory, type ArticleFilters } from '@/lib/filters';
+import { categoryCounts, categoryFromSlug, slugify } from '@/lib/taxonomy';
+import { useUrlState } from '@/lib/useUrlState';
+import FilterBar from '../ui/FilterBar';
+import ResultSummary from '../ui/ResultSummary';
 import ArticleCard from './ArticleCard';
 
-const ArticleArchive = () => {
-  const [query, setQuery] = useState('');
-  const [topic, setTopic] = useState(ALL_TOPICS);
+const DEFAULT_PARAMS = { q: '', topic: '' };
 
-  const visible = useMemo(
+const ArticleArchive = () => {
+  const [params, update, reset] = useUrlState(DEFAULT_PARAMS);
+
+  const filters: ArticleFilters = { query: params.q, category: categoryFromSlug(params.topic) };
+  const visible = articles.filter((article) => matchesArticle(article, filters));
+  const counts = useMemo(
     () =>
-      articles.filter(
-        (article) =>
-          (topic === ALL_TOPICS || article.topics.includes(topic)) &&
-          matchesQuery(query, article.blogTitle, article.blogDescription, ...article.topics)
+      categoryCounts(
+        articles.filter((article) => matchesArticle(article, withoutCategory(filters))),
+        articleCategories
       ),
-    [query, topic]
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- counts depend on the search only
+    [params.q]
   );
+  const isFiltered = params.q !== '' || params.topic !== '';
 
   return (
     <>
       <FilterBar
         label='articles'
-        query={query}
-        onQueryChange={setQuery}
-        topics={articleTopics}
-        topic={topic}
-        onTopicChange={setTopic}
+        query={params.q}
+        onQueryChange={(q) => update({ q })}
+        categories={counts}
+        category={filters.category}
+        onCategoryChange={(category) => update({ topic: category ? slugify(category) : '' })}
       />
-      <p aria-live='polite' className='text-caption mt-8 text-fg-tertiary'>
-        {visible.length} {visible.length === 1 ? 'article' : 'articles'}
-      </p>
+      <ResultSummary
+        shown={visible.length}
+        total={articles.length}
+        noun='articles'
+        isFiltered={isFiltered}
+        onReset={reset}
+      />
       {visible.length > 0 ? (
         <ul className='mt-6 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3'>
           {visible.map((article) => (
@@ -39,7 +51,7 @@ const ArticleArchive = () => {
         </ul>
       ) : (
         <p className='mt-6 text-fg-secondary'>
-          Nothing matches that search. Try a different word or topic.
+          Nothing matches these filters. Try another topic or a shorter search.
         </p>
       )}
     </>

@@ -1,7 +1,10 @@
 import data from '@/constants/data.json';
+import { categoriesOf, usedCategories } from './taxonomy';
 
-export type Talk = (typeof data.talks)[number];
-export type Article = (typeof data.blogs)[number];
+type RawTalk = (typeof data.talks)[number];
+type RawArticle = (typeof data.blogs)[number];
+export type Talk = RawTalk & { categories: string[] };
+export type Article = RawArticle & { categories: string[] };
 export type Experience = (typeof data.experiences)[number];
 export type Project = (typeof data.projects)[number];
 export type Testimonial = (typeof data.testimonials)[number];
@@ -18,11 +21,16 @@ export const community = data.community;
 export const recognition = data.recognition;
 export const socialLinks = data.socialLinks;
 export const testimonials = data.testimonials;
-export const articles = data.blogs;
-export const articleTopics = data.blogTopics;
+
+const withCategories = <T extends { topics: string[] }>(item: T) => ({
+  ...item,
+  categories: categoriesOf(item.topics),
+});
+
+export const articles: Article[] = data.blogs.map(withCategories);
+export const articleCategories = usedCategories(articles);
 
 const MS_PER_YEAR = 365.25 * 24 * 60 * 60 * 1000;
-const MIN_TALKS_PER_TOPIC = 4;
 
 export const yearsOfExperience = (
   careerStart: string = profile.careerStart,
@@ -62,23 +70,11 @@ export const plainText = (text: string) => text.replace(/\*\*/g, '');
 
 export const yearOf = (isoDate: string) => Number(isoDate.slice(0, 4));
 
-export const sortTalksByDate = (list: Talk[]) =>
+export const sortTalksByDate = <T extends { date: string }>(list: T[]) =>
   [...list].sort((a, b) => b.date.localeCompare(a.date));
 
-export const talks = sortTalksByDate(data.talks);
-
-export const topicsByFrequency = (list: { topics: string[] }[], minCount: number) => {
-  const counts = new Map<string, number>();
-  list.forEach(({ topics }) =>
-    topics.forEach((topic) => counts.set(topic, (counts.get(topic) ?? 0) + 1))
-  );
-  return Array.from(counts)
-    .filter(([, count]) => count >= minCount)
-    .sort((a, b) => b[1] - a[1])
-    .map(([topic]) => topic);
-};
-
-export const talkTopics = topicsByFrequency(talks, MIN_TALKS_PER_TOPIC);
+export const talks: Talk[] = sortTalksByDate(data.talks.map(withCategories));
+export const talkCategories = usedCategories(talks);
 
 export const groupTalksByYear = (list: Talk[]) =>
   list.reduce<{ year: number; talks: Talk[] }[]>((groups, talk) => {
