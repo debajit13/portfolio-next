@@ -17,6 +17,51 @@ const controlClass =
 
 const prefersReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const PLACEHOLDER_RATIO = 4 / 3;
+
+const ViewerPhoto = ({
+  photo,
+  onEmptySpaceClick,
+}: {
+  photo: Photo;
+  onEmptySpaceClick: (event: React.MouseEvent) => void;
+}) => {
+  const [ratio, setRatio] = useState<number | null>(null);
+  const frameRatio = ratio ?? PLACEHOLDER_RATIO;
+
+  return (
+    <div
+      onClick={onEmptySpaceClick}
+      className='relative h-full w-full'
+      style={{ containerType: 'size' }}
+    >
+      <div
+        className={`absolute inset-0 m-auto overflow-hidden rounded-2xl bg-white/5 shadow-[0_0_0_1px_rgb(255_255_255/0.12),0_24px_60px_-20px_rgb(0_0_0/0.6)] transition-opacity duration-300 motion-reduce:transition-none sm:rounded-outer ${
+          ratio ? 'opacity-100' : 'opacity-0'
+        }`}
+        style={{
+          width: `min(100cqw, calc(100cqh * ${frameRatio}))`,
+          height: `min(100cqh, calc(100cqw / ${frameRatio}))`,
+        }}
+      >
+        <Image
+          src={photo.src}
+          alt={photo.alt}
+          fill
+          sizes='100vw'
+          quality={85}
+          loading='eager'
+          onLoad={(event) => {
+            const { naturalWidth, naturalHeight } = event.currentTarget;
+            if (naturalWidth && naturalHeight) setRatio(naturalWidth / naturalHeight);
+          }}
+          className='object-cover'
+        />
+      </div>
+    </div>
+  );
+};
+
 const PhotoViewer = ({ photos, startIndex, caption, onClose }: PhotoViewerProps) => {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -89,17 +134,7 @@ const PhotoViewer = ({ photos, startIndex, caption, onClose }: PhotoViewerProps)
             onClick={closeOnEmptySpace}
             className='flex h-full w-full shrink-0 snap-center items-center justify-center px-2 pb-16 pt-16 sm:px-20 sm:pb-14 sm:pt-6'
           >
-            <div className='relative h-full w-full'>
-              <Image
-                src={photo.src}
-                alt={photo.alt}
-                fill
-                sizes='100vw'
-                quality={85}
-                loading='eager'
-                className='object-contain'
-              />
-            </div>
+            <ViewerPhoto photo={photo} onEmptySpaceClick={closeOnEmptySpace} />
           </div>
         ))}
       </div>
