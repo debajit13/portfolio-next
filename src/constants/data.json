@@ -302,20 +302,26 @@
   ],
   "testimonials": [
     {
+      "name": "Rami Yakoub",
+      "role": "Senior Software Engineer L1 @Ergeon",
+      "testimonial": "I was Debajit's team lead during his year on Ergeon's CAD engineering team. He worked on our 3D drawing editor and quoting tools, delivering UI improvements for customer-facing features along with tech debt cleanup and developer tooling.\n\nDebajit is curious, quick to pick up new areas, and responsive to feedback. In a short time, he grew from onboarding into owning medium-sized features, and he works well with product managers and the wider team.\n\nI wish him the best in his next role.",
+      "image": "https://ik.imagekit.io/debajit13/Testimonials/Rami_Yakoub.webp"
+    },
+    {
       "name": "Reshab Das",
-      "role": "Senior Software Engineer 2 @Ergeon",
+      "role": "Senior Software Engineer L2 @Ergeon",
       "testimonial": "I’ve had the chance to see Debajit’s growth as part of our CAD team over the past year. Though he came in as a frontend engineer, he took on backend work without hesitation and got up to speed remarkably quickly. The feedback from those who’ve worked closely with him has been consistently positive.\n\nWhat really sets Debajit apart is how well he understands AI and how effectively he puts it to work, both to automate recurring tasks and to accelerate his own development. That mindset makes him a genuinely high-impact individual contributor, and I’m confident he’d be a valuable addition to any engineering team.",
       "image": "https://ik.imagekit.io/debajit13/Testimonials/Reshab%20Das.webp"
     },
     {
       "name": "Saumik Sarkar",
-      "role": "Lead SWE @[24]7.ai",
+      "role": "Programmer Analyst II @Amazon",
       "testimonial": "Debajit is a self motivating person. The best part of working with him is that he would come up with innovative ideas and solutions and make the challenges go away in no time. I remember a time when our team was struggling to solve a problem related to API performance, Debajit came to the rescue and in no time motivated the team and solved it. He is a team person, has the ability to visualise future goals. I would consider the team lucky if Debajit is on it.",
       "image": "https://ik.imagekit.io/debajit13/Testimonials/Saumik%20Sarkar.webp?updatedAt=1700052770335"
     },
     {
       "name": "Haimantika Mitra",
-      "role": "Developer Advocate @DigitalOcean",
+      "role": "Senior Developer Advocate and Forward Deployed Engineer @Entire",
       "testimonial": "I have worked with Debajit for Smart India Hackathon 2020, being a part of the winning team, I can vouch on Debajit's technical skills. His expertise on React and quick learning power amazed me! A dedicated learner with amazing tech skills!",
       "image": "https://ik.imagekit.io/debajit13/Testimonials/Haimantika%20Mitra.webp?updatedAt=1700052770337"
     },
@@ -327,7 +333,7 @@
     },
     {
       "name": "Avirup Basu",
-      "role": "Tech Lead(IoT) @P360",
+      "role": "CTO and Founder @Kernopy",
       "testimonial": "Debajit is a great individual and has amazing skills when it comes to frontend development. He is a quick learner and knows how to handle tasks real well. I have worked with him on several occasions and every time, it was a great experience. He can empower others too through community events.",
       "image": "https://ik.imagekit.io/debajit13/Testimonials/Avirup%20Basu.webp?updatedAt=1700052770154"
     },
@@ -339,7 +345,7 @@
     },
     {
       "name": "Deeksha Gupta",
-      "role": "Product Manager @TIKAJ | Co-Founder @Hunto AI",
+      "role": "Engineering Manager @Vymo",
       "testimonial": "Debajit has been a very dedicated and sincere addition to our team. The time span he has spent with us, he proved his worth and his passion towards learning new concepts. I am sure he will be an indispensable asset to any team or project!",
       "image": "https://ik.imagekit.io/debajit13/Testimonials/Deeksha%20Gupta.webp?updatedAt=1700052770147"
     },
@@ -351,7 +357,7 @@
     },
     {
       "name": "Sankalan Dasgupta",
-      "role": "Senior Software Engineer (L1) @P360",
+      "role": "Senior Software Engineer @Deel",
       "testimonial": "I've had the pleasure of working alongside Debajit on various projects, and it's always been an enlightening experience. As a frontend developer, he consistently delivers top-notch work, demonstrating a mastery of technology and an innate understanding of user experience that sets him apart. What truly makes Debajit stand out is his leadership ability. He effortlessly guides team through complex challenges, ensuring that everyone's voice is heard and valued. His approach not only enhances projects but also fosters a collaborative and supportive work environment. His passion for the tech community is evident in everything he does, from his proactive engagement in knowledge-sharing sessions to his active participation in tech forums and events. Debajit's enthusiasm and dedication inspire all of us to strive for excellence. I'm grateful for the opportunity to work with such a talented and motivated individual. Keep up the fantastic work, Debajit! 👏",
       "image": "https://ik.imagekit.io/debajit13/Testimonials/Sankalan%20Dasgupta.webp?updatedAt=1713976505546"
     }
