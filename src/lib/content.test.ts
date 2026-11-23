@@ -46,6 +46,23 @@ describe('formatTenure', () => {
   });
 });
 
+describe('experiences', () => {
+  it('lists roles newest first with only the first one ongoing', () => {
+    const spans = experiences.map(experienceSpan);
+    expect(spans[0].end).toBeNull();
+    spans.slice(1).forEach(({ end }) => expect(end).not.toBeNull());
+    const starts = spans.map(({ start }) => start);
+    expect(starts).toEqual([...starts].sort().reverse());
+  });
+
+  it('gives every company a secure website and a hosted logo', () => {
+    experiences.forEach(({ website, logo }) => {
+      expect(website).toMatch(/^https:\/\//);
+      expect(logo).toMatch(/^https:\/\/ik\.imagekit\.io\/debajit13\//);
+    });
+  });
+});
+
 describe('experienceSpan', () => {
   it('spans from the earliest position to the latest one', () => {
     const span = experienceSpan({
