@@ -1347,6 +1347,7 @@
         "Realtime Database",
         "Firebase Realtime Database",
         "Remote Config",
+        "Firebase Remote Config",
         "Firebase Studio",
         "Cloud Functions",
         "Google Cloud",
@@ -1356,7 +1357,7 @@
     },
     {
       "name": "AI",
-      "tags": ["AI", "Gemini", "Genkit"]
+      "tags": ["AI", "Gemini", "Genkit", "Firebase AI Logic"]
     },
     {
       "name": "Testing",
