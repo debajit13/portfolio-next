@@ -127,23 +127,13 @@
         "Built an admin dashboard for centralized user-data management with interactive charts (Vue.js, vue-chartjs), improving data accessibility and operational efficiency by **40%**",
         "Few users opened the app to check their investments, so I built an automated email flow that sends each user their investment stats, **increasing app engagement by 20%**"
       ],
-      "skills": [
-        "Vue.js",
-        "JavaScript",
-        "vue-chartjs"
-      ]
+      "skills": ["Vue.js", "JavaScript", "vue-chartjs"]
     }
   ],
   "toolkit": [
     {
       "group": "Languages",
-      "items": [
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "SQL",
-        "HTML/CSS"
-      ]
+      "items": ["TypeScript", "JavaScript", "Python", "SQL", "HTML/CSS"]
     },
     {
       "group": "Frontend",
@@ -256,13 +246,7 @@
       "image": "https://ik.imagekit.io/debajit13/Projects/game_star_logo.webp?updatedAt=1700108916778",
       "webURL": "https://gamestar.netlify.app/",
       "githubURL": "https://github.com/debajit13/Game-Star",
-      "techstack": [
-        "ReactJS",
-        "TypeScript",
-        "MUI",
-        "React Router",
-        "Axios"
-      ]
+      "techstack": ["ReactJS", "TypeScript", "MUI", "React Router", "Axios"]
     }
   ],
   "community": [
@@ -382,6 +366,26 @@
   ],
   "talks": [
     {
+      "title": "Stop Hardcoding AI Prompts",
+      "date": "2026-11-21",
+      "organiser": "GDG On Campus JIS & GDG On Campus KIIIT",
+      "type": "Online",
+      "youtubeLink": "",
+      "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Stop%20Hardcoding%20AI%20Prompts.pdf",
+      "topics": [
+        "Firebase",
+        "AI",
+        "Firebase Remote Config",
+        "Firebase AI Logic",
+        "Firestore"
+      ],
+      "images": [
+        "https://ik.imagekit.io/debajit13/Talks/GDG%20On%20Campus%20JIS/img1.png",
+        "https://ik.imagekit.io/debajit13/Talks/GDG%20On%20Campus%20JIS/img2.png",
+        "https://ik.imagekit.io/debajit13/Talks/GDG%20On%20Campus%20JIS/img3.png"
+      ]
+    },
+    {
       "title": "Building Production Apps using Firebase and AI",
       "date": "2026-10-14",
       "organiser": "GDG On Campus BIT",
@@ -408,11 +412,7 @@
       "type": "Online",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Firebase",
-        "AI",
-        "Gemini"
-      ],
+      "topics": ["Firebase", "AI", "Gemini"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/grid_community_event/img1.webp",
         "https://ik.imagekit.io/debajit13/Talks/grid_community_event/img2.webp",
@@ -426,11 +426,7 @@
       "type": "Offline",
       "youtubeLink": "https://www.youtube.com/live/8TajvEhbBCY?si=2JAETJbXUmHY6LzZ",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/local_first_react.pdf",
-      "topics": [
-        "Frontend",
-        "Local Storage",
-        "Offline"
-      ],
+      "topics": ["Frontend", "Local Storage", "Offline"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/react-kolkata/img1.webp",
         "https://ik.imagekit.io/debajit13/Talks/react-kolkata/img2.webp",
@@ -444,10 +440,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "React"
-      ],
+      "topics": ["Frontend", "React"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/react-siliguri-march/img1.webp",
         "https://ik.imagekit.io/debajit13/Talks/react-siliguri-march/img2.webp",
@@ -461,11 +454,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Firebase",
-        "Google Cloud",
-        "Gemini"
-      ],
+      "topics": ["Firebase", "Google Cloud", "Gemini"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/GDG_Inspiria_workshop/img1.webp",
         "https://ik.imagekit.io/debajit13/Talks/GDG_Inspiria_workshop/img3.webp",
@@ -479,11 +468,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/bEFxrqsIOIM",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/DevFest%20Guwahati%202025.pdf",
-      "topics": [
-        "Firebase",
-        "Remote Config",
-        "Gemini"
-      ],
+      "topics": ["Firebase", "Remote Config", "Gemini"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202025/img1.webp?updatedAt=1763876196926",
         "https://ik.imagekit.io/debajit13/Talks/DevFest%20Guwahati%202025/img2.webp?updatedAt=1763876197269",
@@ -497,11 +482,7 @@
       "type": "Online",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20Chatbots%20Building%20AI%20Travel%20Agent%20with%20Genkit.pdf",
-      "topics": [
-        "Firebase",
-        "Genkit",
-        "Gemini"
-      ],
+      "topics": ["Firebase", "Genkit", "Gemini"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/ieee-jgec-genkit/img1.webp?updatedAt=1763643575680",
         "https://ik.imagekit.io/debajit13/Talks/ieee-jgec-genkit/img2.webp?updatedAt=1763643575767",
@@ -515,11 +496,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/DevFest%20Durgapur%202025.pdf",
-      "topics": [
-        "Firebase",
-        "Remote Config",
-        "ReactJS"
-      ],
+      "topics": ["Firebase", "Remote Config", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/DevFest%20Durgapur%202025/img1.webp",
         "https://ik.imagekit.io/debajit13/Talks/DevFest%20Durgapur%202025/img2.webp",
@@ -553,12 +530,7 @@
       "type": "Online",
       "youtubeLink": "https://youtu.be/gtnQsZDgqGI?si=0c0OoAsgGOc1HWLj",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "AI",
-        "Mentorship",
-        "Podcast"
-      ],
+      "topics": ["Frontend", "AI", "Mentorship", "Podcast"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/DronaHQ/img1.webp?updatedAt=1757058656543",
         "https://ik.imagekit.io/debajit13/Talks/DronaHQ/img2.webp?updatedAt=1757058656245",
@@ -572,12 +544,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/q0t74kqrZs8?si=MnH1WPnVEMAR1u5O",
       "slidesLink": "",
-      "topics": [
-        "Firebase",
-        "Firebase Studio",
-        "Gemini",
-        "NextJS"
-      ],
+      "topics": ["Firebase", "Firebase Studio", "Gemini", "NextJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gdgsiliguri-firebase-studio/img1.webp?updatedAt=1757057831089",
         "https://ik.imagekit.io/debajit13/Talks/gdgsiliguri-firebase-studio/img2.webp?updatedAt=1757057830825",
@@ -591,12 +558,7 @@
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/HFMCO0UNFrQ?si=Mv5ERYoN4ptT02W4",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/GDG%20Lucknow%20PPT%20(Firebase%20Cloud%20Functions).pdf",
-      "topics": [
-        "Firebase",
-        "Cloud Functions",
-        "Firestore",
-        "ReactJS"
-      ],
+      "topics": ["Firebase", "Cloud Functions", "Firestore", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/GDG%20Lucknow/img1.webp?updatedAt=1757054460871",
         "https://ik.imagekit.io/debajit13/Talks/GDG%20Lucknow/img2.webp?updatedAt=1757054526412",
@@ -610,11 +572,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/stCLVz4iHmo?si=I5pScF2fAu4msJCy",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/CodeNEST%20PPT.pdf",
-      "topics": [
-        "Firebase",
-        "Firestore",
-        "ReactJS"
-      ],
+      "topics": ["Firebase", "Firestore", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img1.webp?updatedAt=1742830781849",
         "https://ik.imagekit.io/debajit13/Talks/react-firebase-durgapur/img3.webp?updatedAt=1742830781738",
@@ -628,12 +586,7 @@
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/4ix-p-mXawA?si=nVncDymfPsFuauQA",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "Mentorship",
-        "Web Performance",
-        "JavaScript"
-      ],
+      "topics": ["Frontend", "Mentorship", "Web Performance", "JavaScript"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/acehack/image2.png?updatedAt=1736431190967",
         "https://ik.imagekit.io/debajit13/Talks/acehack/image1.png?updatedAt=1736431190710"
@@ -665,12 +618,7 @@
       "type": "Online",
       "youtubeLink": "https://youtu.be/SlxNPIuiKWE",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "Mentorship",
-        "Web Performance",
-        "JavaScript"
-      ],
+      "topics": ["Frontend", "Mentorship", "Web Performance", "JavaScript"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/webologypart1/image1.jpg?updatedAt=1731269317804",
         "https://ik.imagekit.io/debajit13/Talks/webologypart1/image2.jpg?updatedAt=1731269388871"
@@ -703,13 +651,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/yaDJzNiHx-M",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Performance-Driven%20Web%20Development%20Mastering%20Speed%20and%20Optimization.pdf",
-      "topics": [
-        "Frontend",
-        "Web Performance",
-        "CSS",
-        "JavaScript",
-        "ReactJS"
-      ],
+      "topics": ["Frontend", "Web Performance", "CSS", "JavaScript", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur3.JPG?updatedAt=1730393689197",
         "https://ik.imagekit.io/debajit13/Talks/iodurgapur2024/iodurgapur.jpeg?updatedAt=1730393425389",
@@ -723,10 +665,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/uL0Sek2NSGw?si=EtAwqW9yjg6cfZoy",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Exploring%20The%20Angular%20Ecosystem.pdf",
-      "topics": [
-        "Frontend",
-        "Mentorship"
-      ],
+      "topics": ["Frontend", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/jgecangularevent/image3.jpeg?updatedAt=1730458312735",
         "https://ik.imagekit.io/debajit13/Talks/jgecangularevent/image1.jpeg?updatedAt=1730458138143",
@@ -740,10 +679,7 @@
       "type": "Online",
       "youtubeLink": "https://youtu.be/bx9BwaVS_QQ",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Tech%20Talks%20and%20Beyond%20Enhancing%20Learning%20in%20Technical%20Communities.pdf",
-      "topics": [
-        "Mentorship",
-        "Tech Community"
-      ],
+      "topics": ["Mentorship", "Tech Community"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gdscsurtech/image1.png?updatedAt=1730458824477",
         "https://ik.imagekit.io/debajit13/Talks/gdscsurtech/image2.png?updatedAt=1730458824545",
@@ -757,12 +693,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/j05iUnM6itU",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20the%20Browser_%20A%20Look%20at%20Google%20I_O%202023's%20Web%20Enhancements.pdf",
-      "topics": [
-        "Frontend",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/iodurgapur23/ioextendeddurgapur2023.jpeg?updatedAt=1730398767301",
         "https://ik.imagekit.io/debajit13/Talks/iodurgapur23/ioextendeddurgapur20231.jpeg?updatedAt=1730398767218",
@@ -776,12 +707,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/0HEYZyIIQCA",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Google%20IO%202023%20Web%20Updates.pdf",
-      "topics": [
-        "Frontend",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "topics": ["Frontend", "HTML", "CSS", "JavaScript"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/iosiliguri23/Screenshot%202024-10-31%20at%2011.59.10%E2%80%AFPM.png?updatedAt=1730399439426",
         "https://ik.imagekit.io/debajit13/Talks/iosiliguri23/Screenshot%202024-10-31%20at%2011.59.39%E2%80%AFPM.png?updatedAt=1730399439856",
@@ -795,12 +721,7 @@
       "type": "Online",
       "youtubeLink": "https://youtu.be/ZVqhcplutcU",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf",
-      "topics": [
-        "Frontend",
-        "ReactJS",
-        "Web Performance",
-        "Web Accessibility"
-      ],
+      "topics": ["Frontend", "ReactJS", "Web Performance", "Web Accessibility"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/ieeepib/image1.jpeg?updatedAt=1730441559994",
         "https://ik.imagekit.io/debajit13/Talks/ieeepib/image2.jpeg?updatedAt=1730441559978",
@@ -814,11 +735,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/P2COtfA6Wa0?si=CATDGprvGS87x2mu",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "ReactJS",
-        "Firebase"
-      ],
+      "topics": ["Frontend", "ReactJS", "Firebase"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gdscwow/image2.jpeg?updatedAt=1730442449035",
         "https://ik.imagekit.io/debajit13/Talks/gdscwow/image1.jpeg?updatedAt=1730442449099",
@@ -832,10 +749,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Boost%20your%20Career%20in%20Frontend%20Development%20PPT.pdf",
-      "topics": [
-        "Frontend",
-        "Mentorship"
-      ],
+      "topics": ["Frontend", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/techneassociation/image1.jpeg?updatedAt=1730467847110",
         "https://ik.imagekit.io/debajit13/Talks/techneassociation/image2.jpeg?updatedAt=1730467847158"
@@ -848,10 +762,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Frontend%20Hard%20Parts.pdf",
-      "topics": [
-        "Frontend",
-        "Mentorship"
-      ],
+      "topics": ["Frontend", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/frontendHardParts/image1.jpeg?updatedAt=1730445064537",
         "https://ik.imagekit.io/debajit13/Talks/frontendHardParts/images2.jpeg?updatedAt=1730445064640"
@@ -864,10 +775,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "Mentorship"
-      ],
+      "topics": ["Frontend", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/jwoc/image1.png?updatedAt=1730445946906",
         "https://ik.imagekit.io/debajit13/Talks/jwoc/image2.png?updatedAt=1730445946928",
@@ -881,10 +789,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Take%20Your%20First%20Steps%20With%20VueJS.pdf",
-      "topics": [
-        "Frontend",
-        "VueJS"
-      ],
+      "topics": ["Frontend", "VueJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/frontenddays/image1.jpeg?updatedAt=1730459083510",
         "https://ik.imagekit.io/debajit13/Talks/frontenddays/image2.jpeg?updatedAt=1730459083507",
@@ -898,13 +803,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Demystifying%20Frontend%20Development.pdf",
-      "topics": [
-        "Frontend",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ReactJS"
-      ],
+      "topics": ["Frontend", "HTML", "CSS", "JavaScript", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/demistyingfrontend/image2.jpeg?updatedAt=1730466437458",
         "https://ik.imagekit.io/debajit13/Talks/demistyingfrontend/image1.jpeg?updatedAt=1730466437119"
@@ -917,10 +816,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf",
-      "topics": [
-        "Cloud",
-        "Azure"
-      ],
+      "topics": ["Cloud", "Azure"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/azuredevday/image2.jpeg?updatedAt=1730459399804",
         "https://ik.imagekit.io/debajit13/Talks/azuredevday/image1.jpeg?updatedAt=1730459399849"
@@ -933,10 +829,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "Mentorship"
-      ],
+      "topics": ["Frontend", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/allaboutfrontend/image1.jpeg?updatedAt=1730459349508",
         "https://ik.imagekit.io/debajit13/Talks/allaboutfrontend/image2.jpeg?updatedAt=1730459349517"
@@ -949,11 +842,7 @@
       "type": "Online",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
-      "topics": [
-        "Git",
-        "GitHub",
-        "Version Control System"
-      ],
+      "topics": ["Git", "GitHub", "Version Control System"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/mlsaevent/image1.jpeg?updatedAt=1730466396461",
         "https://ik.imagekit.io/debajit13/Talks/mlsaevent/image2.jpeg?updatedAt=1730466609652"
@@ -966,10 +855,7 @@
       "type": "Online",
       "youtubeLink": "https://www.youtube.com/live/tkm9fR3G5TI?feature=share",
       "slidesLink": "",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ],
+      "topics": ["Frontend", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gdgbhopal/image1.jpeg?updatedAt=1730460182470",
         "https://ik.imagekit.io/debajit13/Talks/gdgbhopal/image2.jpeg?updatedAt=1730460182515"
@@ -982,10 +868,7 @@
       "type": "Offline",
       "youtubeLink": "https://youtu.be/eJjrkygLwew",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/Intro%20To%20ReactJS.pdf",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ],
+      "topics": ["Frontend", "ReactJS"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/codeacademy/image1.jpeg?updatedAt=1730459916100",
         "https://ik.imagekit.io/debajit13/Talks/codeacademy/image2.jpeg?updatedAt=1730459917132",
@@ -999,10 +882,7 @@
       "type": "Online",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Web",
-        "Mentorship"
-      ],
+      "topics": ["Web", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/allaboutengineering/image1.jpeg?updatedAt=1730466871547",
         "https://ik.imagekit.io/debajit13/Talks/allaboutengineering/image2.jpeg?updatedAt=1730466871560"
@@ -1015,12 +895,7 @@
       "type": "Online",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Git",
-        "GitHub",
-        "Open Source Contribution",
-        "Mentorship"
-      ],
+      "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/hacktoberfest/image2.jpeg?updatedAt=1730467006001",
         "https://ik.imagekit.io/debajit13/Talks/hacktoberfest/image1.jpeg?updatedAt=1730467005960"
@@ -1033,11 +908,7 @@
       "type": "Online",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Git",
-        "GitHub",
-        "Version Control System"
-      ],
+      "topics": ["Git", "GitHub", "Version Control System"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gdggithub/image1.jpeg?updatedAt=1730469114354",
         "https://ik.imagekit.io/debajit13/Talks/gdggithub/image2.jpeg?updatedAt=1730469114395"
@@ -1050,12 +921,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "",
-      "topics": [
-        "Git",
-        "GitHub",
-        "Open Source Contribution",
-        "Mentorship"
-      ],
+      "topics": ["Git", "GitHub", "Open Source Contribution", "Mentorship"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/gssoc/image2.jpeg?updatedAt=1730467367673",
         "https://ik.imagekit.io/debajit13/Talks/gssoc/image1.jpeg?updatedAt=1730467367704",
@@ -1069,11 +935,7 @@
       "type": "Offline",
       "youtubeLink": "",
       "slidesLink": "https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf",
-      "topics": [
-        "Git",
-        "GitHub",
-        "Version Control System"
-      ],
+      "topics": ["Git", "GitHub", "Version Control System"],
       "images": [
         "https://ik.imagekit.io/debajit13/Talks/hackclubgithub/image1.jpeg?updatedAt=1730467425261",
         "https://ik.imagekit.io/debajit13/Talks/hackclubgithub/image2.jpeg?updatedAt=1730467425456",
@@ -1087,533 +949,350 @@
       "blogDescription": "In this hands-on lab, you will embark on a transformative journey to supercharge your frontend development skills by mastering the fundamentals of Firebase AI Logic.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/ai-logic.webp",
       "blogLink": "https://stepwik.com/labs/build-ai-powered-react-apps-with-firebase-ai-logic-YOcfdj",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "AI"
-      ]
+      "topics": ["Firebase", "Web Tooling", "AI"]
     },
     {
       "blogTitle": "Build AI-powered React apps using Genkit",
       "blogDescription": "In this blog, I will walk you through why I think learning Genkit is useful for you, and then we'll build something practical together.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/genkit.webp",
       "blogLink": "https://dev.to/debajit13/build-ai-powered-react-apps-using-genkit-4ifm",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "AI"
-      ]
+      "topics": ["Firebase", "Web Tooling", "AI"]
     },
     {
       "blogTitle": "Dynamic Feature Management with Firebase Remote Config in React",
       "blogDescription": "In this blog, we'll learn what Firebase Remote Config is and its use cases in a real-world application.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-remote-config.webp?updatedAt=1760246398690",
       "blogLink": "https://dev.to/debajit13/dynamic-feature-management-with-firebase-remote-config-in-react-4n49",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "From Zero to Serverless: Firebase Cloud Functions with React",
       "blogDescription": "In this codelab, we will explore how to develop a real app using Firebase Cloud Functions with React. We'll start from absolutely nothing and end up with something you can actually deploy and show off.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/CloudFunctions.webp?updatedAt=1755667656281",
       "blogLink": "https://gradus.dev/labs/from-zero-to-serverless:-firebase-cloud-functions-with-react-dstXs6",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Supercharge Your React App Deployment with Firebase Hosting",
       "blogDescription": "In this code lab, we will explore Firebase Hosting and how it works. We will start with the basics and then move on to advanced topics like setting environment variables.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/Firebase%20Deployment%20with%20React.webp?updatedAt=1748961852634",
       "blogLink": "https://gradus.dev/labs/deploy-your-react-app-to-firebase-hosting-US32E9",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Exploring Firebase Storage with React",
       "blogDescription": "In this blog, we will explore Firebase Storage with React. Why you should consider Firebase Storage for your next project?",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/Firebase%20Storage%20with%20React.webp?updatedAt=1748961852798",
       "blogLink": "https://dev.to/debajit13/exploring-firebase-storage-with-react-5424",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Secure your React app with Firebase Auth",
       "blogDescription": "In this blog, I discussed, how to secure your React app with Firebase Auth. I focus on mostly Email/Password authentication and Google sign-in.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firebase-auth.webp?updatedAt=1739774124836",
       "blogLink": "https://dev.to/debajit13/secure-your-react-app-with-firebase-auth-4a6o",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Firestore CRUD 101: Building Apps with React",
       "blogDescription": "In this blog, we will learn how to create a basic CRUD (Create, Read, Update, Delete) application using Firebase Firestore and React.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/firestore.webp?updatedAt=1739774124969",
       "blogLink": "https://dev.to/debajit13/firestore-crud-101-building-apps-with-react-3913",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Building a Lightning-Fast CRUD App with Firebase Realtime Database & React",
       "blogDescription": "In this blog, we will learn how to create a basic CRUD (Create, Read, Update, Delete) application using Firebase Realtime Database and React.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/realtime-database.webp?updatedAt=1739774124876",
       "blogLink": "https://dev.to/debajit13/building-a-lightning-fast-crud-app-with-firebase-realtime-database-react-4m38",
-      "topics": [
-        "Firebase",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Firebase", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Firebase Realtime Database vs Cloud Firestore",
       "blogDescription": "For the last couple of years, I am using Firebase extensively in my personal projects. One of the most difficult choice is to make between Firebase Real-time Database vs Cloud Firestore. After using both of them here are some of the key points I found which can help you to choose between both of the storage options.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/FirestoreVsRealtimeDatabase.webp?updatedAt=1715807506908",
       "blogLink": "https://dev.to/debajit13/firebase-realtime-database-vs-cloud-firestore-4325",
-      "topics": [
-        "Firebase",
-        "Web Tooling"
-      ]
+      "topics": ["Firebase", "Web Tooling"]
     },
     {
       "blogTitle": "Make & Makefiles: A Modern Developer's Guide to Classic Automation",
       "blogDescription": "In this blog, we'll learn why Make deserves a place in your development toolkit and how to leverage it effectively in contemporary projects.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/make_and_makefile.webp",
       "blogLink": "https://dev.to/debajit13/make-makefiles-a-modern-developers-guide-to-classic-automation-14hl",
-      "topics": [
-        "Automation",
-        "Web Tooling",
-        "DevOps"
-      ]
+      "topics": ["Automation", "Web Tooling", "DevOps"]
     },
     {
       "blogTitle": "From Mobile to Browser: A Guide to React Native for Web",
       "blogDescription": "In this blog, we will learn about React Native web. The goal is to build webapps faster with your already existing React Native app codebase.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react-native-web.webp?updatedAt=1751781063363",
       "blogLink": "https://dev.to/debajit13/from-mobile-to-browser-a-guide-to-react-native-for-web-3n31",
-      "topics": [
-        "React Native",
-        "Frontend"
-      ]
+      "topics": ["React Native", "Frontend"]
     },
     {
       "blogTitle": "Testing Your React App with Cypress",
       "blogDescription": "In this blog, we will learn how to setup a bulletproof E2E testing setup using React + Cypress.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/testing_cypress.webp?updatedAt=1751781063338",
       "blogLink": "https://dev.to/debajit13/testing-your-react-app-with-cypress-1god",
-      "topics": [
-        "Testing",
-        "Web Tooling",
-        "ReactJS",
-        "Frontend"
-      ]
+      "topics": ["Testing", "Web Tooling", "ReactJS", "Frontend"]
     },
     {
       "blogTitle": "Deep Dive into Server-sent Events (SSE)",
       "blogDescription": "In this blog, I will discuss all about SSE and when to use it with the implementation details.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/server-sent-events.webp?updatedAt=1745843077499",
       "blogLink": "https://dev.to/debajit13/deep-dive-into-server-sent-events-sse-52",
-      "topics": [
-        "React",
-        "Frontend"
-      ]
+      "topics": ["React", "Frontend"]
     },
     {
       "blogTitle": "Short Polling vs Long Polling - A Comprehensive Guide for Developers",
       "blogDescription": "In this blog, I'll walk you through short polling and long polling in React—the two most common approaches that can transform your static app into a dynamic, real-time experience.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/short-vs-long-polling.webp?updatedAt=1745778666389",
       "blogLink": "https://dev.to/debajit13/short-polling-vs-long-polling-a-comprehensive-guide-for-developers-31j3",
-      "topics": [
-        "React",
-        "Frontend"
-      ]
+      "topics": ["React", "Frontend"]
     },
     {
       "blogTitle": "Building Real-Time Apps with React and Socket.IO",
       "blogDescription": "In this blog, I'll walk you through the basics of websockets and how to implement that using Socket.IO by building a simple Chat Application.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/socket_react.webp?updatedAt=1745235938076",
       "blogLink": "https://dev.to/debajit13/building-real-time-apps-with-react-and-socketio-2nci",
-      "topics": [
-        "React",
-        "Frontend"
-      ]
+      "topics": ["React", "Frontend"]
     },
     {
       "blogTitle": "Getting Started with GraphQL and React",
       "blogDescription": "In this blog, I'll walk you through the basics of GraphQL by building a simple React app that fetches user info using Apollo Client.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_graphql.webp?updatedAt=1743965554869",
       "blogLink": "https://dev.to/debajit13/getting-started-with-graphql-and-react-b5k",
-      "topics": [
-        "React",
-        "Frontend"
-      ]
+      "topics": ["React", "Frontend"]
     },
     {
       "blogTitle": "Deep Diving into the Next.js App Router",
       "blogDescription": "In this blog, we will talk about the App Router, how it actually works in practice, and some cool tricks you can use to leverage your app.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/nextjs_app_router.webp?updatedAt=1743580180319",
       "blogLink": "https://dev.to/debajit13/deep-diving-into-the-nextjs-app-router-288k",
-      "topics": [
-        "NextJS",
-        "Frontend"
-      ]
+      "topics": ["NextJS", "Frontend"]
     },
     {
       "blogTitle": "From Zero to Production: Setting Up React with Webpack Explained",
       "blogDescription": "In this post, we'll break down: What Webpack actually is and How to get a React project up and running with Webpack.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/webpack_react.webp?updatedAt=1743580180266",
       "blogLink": "https://dev.to/debajit13/from-zero-to-production-setting-up-react-with-webpack-explained-4nc6",
-      "topics": [
-        "Web Tooling",
-        "Frontend"
-      ]
+      "topics": ["Web Tooling", "Frontend"]
     },
     {
       "blogTitle": "Unit Testing React Components with Jest and React Testing Library",
       "blogDescription": "In this blog, I will deep dive into unit testing React apps with Jest and React Testing Library.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/jest_rtl.webp?updatedAt=1743580180568",
       "blogLink": "https://dev.to/debajit13/unit-testing-react-components-with-jest-and-react-testing-library-3he",
-      "topics": [
-        "Testing",
-        "Frontend"
-      ]
+      "topics": ["Testing", "Frontend"]
     },
     {
       "blogTitle": "Develop Webapps for Everyone: A Guide to Web Accessibility",
       "blogDescription": "In this blog, let's talk about something that should be on all our radars but often gets pushed to the backburner: web accessibility",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web_accessibility.webp?updatedAt=1743362810526",
       "blogLink": "https://dev.to/debajit13/develop-webapps-for-everyone-a-guide-to-web-accessibility-4cfc",
-      "topics": [
-        "Web Accessibility",
-        "Frontend"
-      ]
+      "topics": ["Web Accessibility", "Frontend"]
     },
     {
       "blogTitle": "From Chaos to Containers: Journey of Dockerizing a React App",
       "blogDescription": "In this blog, I will share how you can start moving your React app to Docker and why you should do that.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_docker.webp?updatedAt=1742919591046",
       "blogLink": "https://dev.to/debajit13/from-chaos-to-containers-journey-of-dockerizing-a-react-app-9bk",
-      "topics": [
-        "Web Tooling",
-        "ReactJS",
-        "Docker"
-      ]
+      "topics": ["Web Tooling", "ReactJS", "Docker"]
     },
     {
       "blogTitle": "Building and Documenting UI Components with Storybook and React",
       "blogDescription": "In this blog, I'll walk you through setting up Storybook in a React project and show you how to build and document components that you can reuse throughout your applications.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/react_storybook.webp?updatedAt=1742740374170",
       "blogLink": "https://dev.to/debajit13/building-and-documenting-ui-components-with-storybook-in-react-2c1c",
-      "topics": [
-        "Documentation",
-        "Testing",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Documentation", "Testing", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Playwright for React Devs: A Complete Guide with API Testing",
       "blogDescription": "In this blog, I'll walk you through setting up Playwright for a React app built with Vite and TypeScript, with special attention to handling API integration testing.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/playwright_react.webp?updatedAt=1742216497985",
       "blogLink": "https://ik.imagekit.io/debajit13/Blogs/playwright_react.webp?updatedAt=1742216497985",
-      "topics": [
-        "Testing",
-        "Web Tooling",
-        "ReactJS"
-      ]
+      "topics": ["Testing", "Web Tooling", "ReactJS"]
     },
     {
       "blogTitle": "Video Optimization 101: Tips for Faster and Smoother Web Delivery",
       "blogDescription": "In this article, we will understand how to optimize videos for the web to give the end user the best experience. They bring our ideas to life, show off our products, and engage users like no other medium can.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/video_optimization.webp?updatedAt=1738126738898",
       "blogLink": "https://dev.to/debajit13/video-optimization-101-tips-for-faster-and-smoother-web-delivery-2nlp",
-      "topics": [
-        "Web Performance",
-        "Video Optimization",
-        "Frontend"
-      ]
+      "topics": ["Web Performance", "Video Optimization", "Frontend"]
     },
     {
       "blogTitle": "Redefining Web Performance Standards with INP",
       "blogDescription": "In this article, we will explore about Web performance, which is no longer a technical detail but a game changer in how users experience the internet. The newest kid on the block of core web vitals is Interaction to Next Paint (INP).",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/inp_web_performance.webp?updatedAt=1737812623053",
       "blogLink": "https://dev.to/debajit13/redefining-web-performance-standards-with-inp-2m4l",
-      "topics": [
-        "Web Performance",
-        "Web Vitals",
-        "Frontend"
-      ]
+      "topics": ["Web Performance", "Web Vitals", "Frontend"]
     },
     {
       "blogTitle": "A Comprehensive Guide to Web Vitals: Metrics That Matter for Performance",
       "blogDescription": "In this article, we will explore the basics of Web Vitals and understand how they can help us to improve web performance.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-vitals.webp?updatedAt=1735480899470",
       "blogLink": "https://dev.to/debajit13/a-comprehensive-guide-to-web-vitals-metrics-that-matter-for-performance-2ff7",
-      "topics": [
-        "Web Performance",
-        "Web Vitals",
-        "Frontend"
-      ]
+      "topics": ["Web Performance", "Web Vitals", "Frontend"]
     },
     {
       "blogTitle": "Mastering React Performance: Tips and Best Practices",
       "blogDescription": "Building a React app is easy. But optimization is the most difficult part. In this article, I will be discussing some of the most popular techniques to master web performance in React.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/masteringReactPerformance.webp?updatedAt=1700112409761",
       "blogLink": "https://dev.to/debajit13/mastering-react-performance-tips-and-best-practices-56gp",
-      "topics": [
-        "Web Performance",
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Web Performance", "Frontend", "ReactJS"]
     },
     {
       "blogTitle": "Boosting Performance: Image Optimization in React",
       "blogDescription": "Image Optimization is one of the most crucial parameters for optimizing web performance. In many parts of the world, the internet is still slow and takes a lot of time to load the pages. As frontend developers, we have to think about all the users. Our goal is to make the web apps faster. This blog will help you in your journey to make your web app faster.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/boostingPerformanceImageOptimizationInReact.webp?updatedAt=1700111667628",
       "blogLink": "https://dev.to/debajit13/boosting-performance-image-optimization-in-react-1f4g",
-      "topics": [
-        "Web Performance",
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Web Performance", "Frontend", "ReactJS"]
     },
     {
       "blogTitle": "Optimizing UX: The Art of Adaptive Loading in Web Performance",
       "blogDescription": "In today's time, becoming a web developer is not that easy as more and more challenges come hand in hand. You can't build one solution that will work for all the users. In this article, we are going to discuss one such topic called Adaptive Loading.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/adaptive-loading.webp?updatedAt=1711108751617",
       "blogLink": "https://dev.to/debajit13/optimizing-ux-the-art-of-adaptive-loading-in-web-performance-2ml5",
-      "topics": [
-        "Web Performance",
-        "ReactJS",
-        "Web Performance"
-      ]
+      "topics": ["Web Performance", "ReactJS", "Web Performance"]
     },
     {
       "blogTitle": "Exploring Web Rendering Strategies: A Deep Dive into CSR, SSR, SSG and ISG",
       "blogDescription": "In this article, I will explain different web rendering strategies and how to choose one.  What are SSR, SSG, CSR and ISG? and how to choose one for your next frontend project?",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/web-rendering-stratigies.webp?updatedAt=1716826805430",
       "blogLink": "https://dev.to/debajit13/exploring-web-rendering-strategies-a-deep-dive-into-csr-ssr-ssg-and-isg-22da",
-      "topics": [
-        "Frontend",
-        "SSR",
-        "SSG",
-        "ISG",
-        "CSR"
-      ]
+      "topics": ["Frontend", "SSR", "SSG", "ISG", "CSR"]
     },
     {
       "blogTitle": "The Magic of Hot Reloading in React",
       "blogDescription": "Have you ever been working on a React app and found yourself continuously refreshing the page whenever you changed to see the updates? It can be a tedious and time-consuming process. Well, that's where hot reloading or HMR (Hot Module Replacement) comes in.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/MagicOfHotRealoadingInReact.webp?updatedAt=1715663679078",
       "blogLink": "https://dev.to/debajit13/the-magic-of-hot-reloading-in-react-5d48",
-      "topics": [
-        "ReactJS",
-        "Web Tooling"
-      ]
+      "topics": ["ReactJS", "Web Tooling"]
     },
     {
       "blogTitle": "Demystifying Virtual DOM in React",
       "blogDescription": "Virtual DOM is one of the most crucial topics for a React Developer. The essence of how React renders on the web lies in virtual DOM. This article will explain how virtual DOM works and its nitty-gritty details.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/DemystifyingVirtualDOMinReactBanner.webp?updatedAt=1709788803956",
       "blogLink": "https://dev.to/debajit13/demystifying-virtual-dom-in-react-17lp",
-      "topics": [
-        "ReactJS",
-        "Virtual DOM",
-        "DOM"
-      ]
+      "topics": ["ReactJS", "Virtual DOM", "DOM"]
     },
     {
       "blogTitle": "Vite vs Webpack: A Comparative Analysis",
       "blogDescription": "In this article, we'll delve into the features, strengths, and use cases of both Vite and Webpack to help you make an informed decision for your next project.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/viteVsWebpack.webp?updatedAt=1707941355720",
       "blogLink": "https://dev.to/debajit13/vite-vs-webpack-a-comparative-analysis-851",
-      "topics": [
-        "Web Tooling",
-        "Vite",
-        "Webpack"
-      ]
+      "topics": ["Web Tooling", "Vite", "Webpack"]
     },
     {
       "blogTitle": "Decoding Zustand: Simplifying State in React",
       "blogDescription": "Zustand is a state management library for React that offers a minimalistic yet powerful API. It provides a simple way to manage the state of your application without the need for complex abstractions.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zustandbanner.webp?updatedAt=1706344032529",
       "blogLink": "https://dev.to/debajit13/decoding-zustand-simplifying-state-in-react-1g50",
-      "topics": [
-        "State Management",
-        "Zustand",
-        "ReactJS"
-      ]
+      "topics": ["State Management", "Zustand", "ReactJS"]
     },
     {
       "blogTitle": "Exploring Zod: A Comprehensive Guide",
       "blogDescription": "In the world of TypeScript, sometimes, the Typescript validations are not enough for us. In those situations, we want more control over the validations to make our code more robust. This is where Zod comes into the picture.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/zod-banner.webp?updatedAt=1706209337121",
       "blogLink": "https://dev.to/debajit13/exploring-zod-a-comprehensive-guide-1efn",
-      "topics": [
-        "Zod",
-        "TypeScript"
-      ]
+      "topics": ["Zod", "TypeScript"]
     },
     {
       "blogTitle": "Implement the useDebounce custom hook in React",
       "blogDescription": "In this blog, we’ll build a useDebounce custom hook from scratch, explore why it's useful, and show how you can integrate it into real-world projects.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useDebounce.webp?updatedAt=1755667656397",
       "blogLink": "https://dev.to/debajit13/implement-the-usedebounce-custom-hook-in-react-2og4",
-      "topics": [
-        "Frontend",
-        "ReactJS",
-        "Custom Hooks",
-        "Interview Prep"
-      ]
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
     },
     {
       "blogTitle": "Implement the useFetch custom hook in React",
       "blogDescription": "In this blog, we’ll dive into building a useFetch hook from scratch and understand its benefits by integrating it into a real-world project",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useFetch.webp?updatedAt=1755667656559",
       "blogLink": "https://dev.to/debajit13/implement-the-usefetch-custom-hook-in-react-50p3",
-      "topics": [
-        "Frontend",
-        "ReactJS",
-        "Custom Hooks",
-        "Interview Prep"
-      ]
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
     },
     {
       "blogTitle": "Implement the useCopy custom hook in React",
       "blogDescription": "In this blog, we'll build a useCopy hook from scratch, understand each part of the implementation, and see a real-world example to use it in your UI.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useCopy.webp?updatedAt=1757053577609",
       "blogLink": "https://dev.to/debajit13/implement-the-usecopy-custom-hook-in-react-1ib2",
-      "topics": [
-        "Frontend",
-        "ReactJS",
-        "Custom Hooks",
-        "Interview Prep"
-      ]
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
     },
     {
       "blogTitle": "Implement the useStateWithReset custom hook in React",
       "blogDescription": "In this blog, we'll walk through the step-by-step creation of a useStateWithReset hook and see how to use it in a real-world scenario.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/useStateWithReset.webp?updatedAt=1757053578414",
       "blogLink": "https://dev.to/debajit13/implement-the-usestatewithreset-custom-hook-in-react-3fh3",
-      "topics": [
-        "Frontend",
-        "ReactJS",
-        "Custom Hooks",
-        "Interview Prep"
-      ]
+      "topics": ["Frontend", "ReactJS", "Custom Hooks", "Interview Prep"]
     },
     {
       "blogTitle": "Deep Dive Into the useReducer() hook",
       "blogDescription": "In React, useReducer() is one of the most important hooks. We use the useState() hook for component-based state management. That is good if your component only has two or three states. But if you have many states in the component, then useReducer() can be a better choice.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveUseReducer.webp?updatedAt=1700109426589",
       "blogLink": "https://dev.to/debajit13/deep-dive-into-the-usereducer-hook-1kom",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Frontend", "ReactJS"]
     },
     {
       "blogTitle": "Conditional Rendering and Rendering List in React",
       "blogDescription": "Sometimes we want to show a React component when a condition yields true. It is called Conditional Rendering. Also, rendering through a list of values to display a Component multiple times is very common in React. In this blog, we are discussing these two topics.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/conditional%20rendering.webp?updatedAt=1700109426264",
       "blogLink": "https://dev.to/debajit13/conditional-rendering-and-rendering-list-in-react-4886",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Frontend", "ReactJS"]
     },
     {
       "blogTitle": "Prop Types and Default Props in React",
       "blogDescription": "prop-types is a library with which you can check the type of props in React. With defaultProps, we can pass default values to props.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/propTypesDefaultProps.webp?updatedAt=1700109426591",
       "blogLink": "https://dev.to/debajit13/prop-types-and-default-props-in-react-55jh",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Frontend", "ReactJS"]
     },
     {
       "blogTitle": "All You Need to Know About Props in React",
       "blogDescription": "In React, we always think about Components. These components need a way to communicate with each other. Props are a great way to communicate between components by sharing data between them.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/allAboutProps.webp?updatedAt=1700109426188",
       "blogLink": "https://dev.to/debajit13/all-you-need-to-know-about-props-in-react-1l40",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Frontend", "ReactJS"]
     },
     {
       "blogTitle": "An in-depth guide on State in React",
       "blogDescription": "In React, State is one of the essential concepts to learn. If you are new to React or an intermediate-level developer, this article will help you to dive deep into State and help you to write better code.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/inDepthState.webp?updatedAt=1700109426170",
       "blogLink": "https://dev.to/debajit13/an-in-depth-guide-on-state-in-react-34m7",
-      "topics": [
-        "Frontend",
-        "ReactJS"
-      ]
+      "topics": ["Frontend", "ReactJS"]
     },
     {
       "blogTitle": "'this' keyword in JavaScript",
       "blogDescription": "If you are new to the world of JavaScript, then you may find 'this' keyword a little bit tricky. In this blog, I will discuss some basics of 'this' keyword, how we can use and its problems.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/thisKeyword.webp?updatedAt=1700109426120",
       "blogLink": "https://dev.to/debajit13/this-keyword-in-javascript-2gh",
-      "topics": [
-        "JavaScript"
-      ]
+      "topics": ["JavaScript"]
     },
     {
       "blogTitle": "JavaScript Variables (var vs let vs const)",
       "blogDescription": "If you are new to the world of JavaScript, then you might be thinking that why JavaScript uses different keywords to declare a simple variable. So in this blog, I am going to discuss all of this and clear all your doubts.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/javascriptVariables.webp?updatedAt=1700109426593",
       "blogLink": "https://dev.to/debajit13/javascript-variables-var-vs-let-vs-const-57nj",
-      "topics": [
-        "JavaScript"
-      ]
+      "topics": ["JavaScript"]
     },
     {
       "blogTitle": "Get Started with TypeScript",
       "blogDescription": "Do you want to take your first step in the world of TypeScript? Do read this blog to get started on this journey.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/getStartedWithTypeScript.webp?updatedAt=1700109426123",
       "blogLink": "https://debajit13.hashnode.dev/get-started-with-typescript",
-      "topics": [
-        "TypeScript"
-      ]
+      "topics": ["TypeScript"]
     },
     {
       "blogTitle": "Deep Dive into Git (Part I)",
       "blogDescription": "What is Git? Why understanding it is so much important? In this article, we are going to understand it.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveIntoGit1.webp?updatedAt=1700109426181",
       "blogLink": "https://medium.com/@debajit13/deep-dive-into-git-2e190c5404ea",
-      "topics": [
-        "Git",
-        "Version Control System"
-      ]
+      "topics": ["Git", "Version Control System"]
     },
     {
       "blogTitle": "Deep Dive into Git (Part II)",
       "blogDescription": "In my previous blog, I discussed 'what is Git?'. In this blog, I am going to share how you can get started with git commands.",
       "blogImage": "https://ik.imagekit.io/debajit13/Blogs/deepDiveIntoGit2.webp?updatedAt=1700109426267",
       "blogLink": "https://medium.com/@debajit13/deep-dive-into-git-part-ii-e3fe2bb24456",
-      "topics": [
-        "Git",
-        "Version Control System"
-      ]
+      "topics": ["Git", "Version Control System"]
     }
   ],
   "topicCategories": [
@@ -1632,12 +1311,7 @@
     },
     {
       "name": "JavaScript & TypeScript",
-      "tags": [
-        "JavaScript",
-        "TypeScript",
-        "Zod",
-        "VueJS"
-      ]
+      "tags": ["JavaScript", "TypeScript", "Zod", "VueJS"]
     },
     {
       "name": "HTML, CSS & the Web",
@@ -1682,17 +1356,11 @@
     },
     {
       "name": "AI",
-      "tags": [
-        "AI",
-        "Gemini",
-        "Genkit"
-      ]
+      "tags": ["AI", "Gemini", "Genkit"]
     },
     {
       "name": "Testing",
-      "tags": [
-        "Testing"
-      ]
+      "tags": ["Testing"]
     },
     {
       "name": "Tooling & DevOps",
@@ -1717,17 +1385,10 @@
     },
     {
       "name": "Career & Community",
-      "tags": [
-        "Mentorship",
-        "Interview Prep",
-        "Tech Community",
-        "Podcast"
-      ]
+      "tags": ["Mentorship", "Interview Prep", "Tech Community", "Podcast"]
     }
   ],
-  "broadTags": [
-    "Frontend"
-  ],
+  "broadTags": ["Frontend"],
   "writingStats": {
     "platform": "Dev.to",
     "posts": 48,
