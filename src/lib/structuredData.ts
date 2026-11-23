@@ -15,7 +15,7 @@ export const profilePageSchema = () => {
       image: profile.image,
       jobTitle: profile.role,
       description: siteDescription(),
-      worksFor: { '@type': 'Organization', name: current.companyName },
+      worksFor: { '@type': 'Organization', name: current.companyName, url: current.website },
       alumniOf: education.map(({ school }) => ({ '@type': 'CollegeOrUniversity', name: school })),
       knowsAbout: toolkit.flatMap(({ items }) => items),
       sameAs: socialLinks.map(({ URL }) => URL),

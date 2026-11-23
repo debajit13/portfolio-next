@@ -2,7 +2,7 @@
   "metaData": {
     "siteURL": "https://debajitmallick.com",
     "title": "Debajit Mallick — Software Engineer (React, TypeScript, Full-Stack)",
-    "description": "Software engineer with {years}+ years in React, TypeScript, Node.js and Django, building 3D CAD and quoting tools at Ergeon. Speaker and GDG Siliguri organizer.",
+    "description": "Senior software engineer at Quadrant Technologies with {years}+ years in React, TypeScript, Node.js and Django. Speaker and GDG Siliguri organizer.",
     "keywords": [
       "Debajit Mallick",
       "Software Engineer",
@@ -26,12 +26,12 @@
   },
   "profile": {
     "name": "Debajit Mallick",
-    "role": "Software Engineer",
-    "company": "Ergeon",
-    "careerStart": "2021-04-01",
+    "role": "Senior Software Engineer",
+    "company": "Quadrant Technologies",
+    "careerStart": "2021-02-01",
     "image": "https://ik.imagekit.io/debajit13/utilitis/debajit-mallick.jpg?updatedAt=1727675059700",
     "tagline": "Frontend depth, full-stack range.",
-    "summary": "At Ergeon I work across React, TypeScript, Node.js and Django on the 2D/3D CAD and quoting platform behind every customer quote. Before that, I led frontend for a pharma SaaS platform rolled out to 10,000+ sales reps in 50+ countries.",
+    "summary": "Before Quadrant, I worked across React, TypeScript, Node.js and Django at Ergeon on the 2D/3D CAD and quoting platform behind every customer quote, and led frontend for a pharma SaaS platform rolled out to 10,000+ sales reps in 50+ countries.",
     "mentorshipURL": "https://topmate.io/debajit_mallick",
     "stats": [
       {
@@ -49,13 +49,31 @@
   "experiences": [
     {
       "id": 1,
+      "companyName": "Quadrant Technologies",
+      "website": "https://www.quadranttechnologies.com/",
+      "logo": "https://ik.imagekit.io/debajit13/Experiences/Quadranttechnologies%20logo.jpeg",
+      "location": "Bengaluru · Hybrid",
+      "positions": [
+        {
+          "title": "Senior Software Engineer",
+          "start": "2026-11",
+          "end": null
+        }
+      ],
+      "highlights": [],
+      "skills": []
+    },
+    {
+      "id": 2,
       "companyName": "Ergeon",
+      "website": "https://www.ergeon.com/",
+      "logo": "https://ik.imagekit.io/debajit13/Experiences/Ergeon%20logo.jpeg",
       "location": "Remote",
       "positions": [
         {
           "title": "Software Engineer",
           "start": "2026-01",
-          "end": null
+          "end": "2026-10"
         }
       ],
       "highlights": [
@@ -81,8 +99,10 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "companyName": "P360",
+      "website": "https://www.p360.com/",
+      "logo": "https://ik.imagekit.io/debajit13/Experiences/P360%20logo.jpeg",
       "location": "Remote",
       "positions": [
         {
@@ -113,8 +133,10 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "companyName": "Blackspektro",
+      "website": "https://blackspektro.com/",
+      "logo": "https://ik.imagekit.io/debajit13/Experiences/Blackspektro%20logo.jpeg",
       "location": "Remote",
       "positions": [
         {
@@ -128,6 +150,26 @@
         "Few users opened the app to check their investments, so I built an automated email flow that sends each user their investment stats, **increasing app engagement by 20%**"
       ],
       "skills": ["Vue.js", "JavaScript", "vue-chartjs"]
+    },
+    {
+      "id": 5,
+      "companyName": "TIKAJ",
+      "website": "https://www.tikaj.com/",
+      "logo": "https://ik.imagekit.io/debajit13/Experiences/TIKAJ%20logo.jpeg?tr=cm-extract,x-8,y-8,w-384,h-384",
+      "location": "Remote",
+      "positions": [
+        {
+          "title": "Full Stack Developer Intern",
+          "start": "2021-02",
+          "end": "2021-04"
+        }
+      ],
+      "highlights": [
+        "Built a reusable multi-input **Vue.js** component with real-time validation for collecting phone numbers",
+        "Documented global components in **Storybook** for the team",
+        "Turned **Figma** designs into responsive, production web pages"
+      ],
+      "skills": ["Vue.js", "JavaScript", "Storybook", "Figma"]
     }
   ],
   "toolkit": [

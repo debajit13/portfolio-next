@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import { BsArrowUpRight } from 'react-icons/bs';
 import {
   education,
   experiences,
@@ -12,15 +14,45 @@ import HighlightList from './HighlightList';
 
 const VISIBLE_HIGHLIGHTS = 3;
 
+const Company = ({ experience }: { experience: Experience }) => (
+  <div className='relative flex items-start gap-3.5 self-start'>
+    <Image
+      src={experience.logo}
+      alt=''
+      width={44}
+      height={44}
+      sizes='44px'
+      className='h-11 w-11 shrink-0 rounded-[0.625rem] bg-white object-cover ring-1 ring-inset ring-fg/10'
+    />
+    <div className='min-w-0'>
+      <h3 className='text-headline'>
+        <a
+          href={experience.website}
+          target='_blank'
+          rel='noopener noreferrer'
+          className='group transition-colors duration-150 after:absolute after:inset-0 hover:text-accent active:opacity-70'
+        >
+          {experience.companyName}
+          <BsArrowUpRight
+            aria-hidden
+            className='ml-1 inline-block h-3 w-3 align-baseline text-fg-tertiary transition-[color,transform] duration-200 ease-out group-hover:-translate-y-px group-hover:translate-x-px group-hover:text-accent motion-reduce:transition-none'
+          />
+          <span className='sr-only'>(opens company website in a new tab)</span>
+        </a>
+      </h3>
+      <p className='text-caption mt-1 text-fg-tertiary'>
+        {formatTenure(experienceSpan(experience))}
+        <br />
+        {experience.location}
+      </p>
+    </div>
+  </div>
+);
+
 const Role = ({ experience }: { experience: Experience }) => {
   return (
-    <li className='grid gap-3 py-8 md:grid-cols-[14rem_1fr] md:gap-10'>
-      <div>
-        <h3 className='text-headline'>{experience.companyName}</h3>
-        <p className='text-caption mt-1 text-fg-tertiary'>
-          {formatTenure(experienceSpan(experience))} · {experience.location}
-        </p>
-      </div>
+    <li className='grid gap-4 py-8 md:grid-cols-[14rem_1fr] md:gap-10'>
+      <Company experience={experience} />
       <div>
         <ul aria-label={`Roles at ${experience.companyName}`} className='space-y-1'>
           {experience.positions.map((position) => (
@@ -32,14 +64,18 @@ const Role = ({ experience }: { experience: Experience }) => {
             </li>
           ))}
         </ul>
-        <HighlightList highlights={experience.highlights} visibleCount={VISIBLE_HIGHLIGHTS} />
-        <ul aria-label='Technologies' className='mt-5 flex flex-wrap gap-2'>
-          {experience.skills.map((skill) => (
-            <li key={skill}>
-              <Tag>{skill}</Tag>
-            </li>
-          ))}
-        </ul>
+        {experience.highlights.length > 0 && (
+          <HighlightList highlights={experience.highlights} visibleCount={VISIBLE_HIGHLIGHTS} />
+        )}
+        {experience.skills.length > 0 && (
+          <ul aria-label='Technologies' className='mt-5 flex flex-wrap gap-2'>
+            {experience.skills.map((skill) => (
+              <li key={skill}>
+                <Tag>{skill}</Tag>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </li>
   );

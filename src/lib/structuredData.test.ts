@@ -9,7 +9,7 @@ describe('profilePageSchema', () => {
       '@type': 'Person',
       name: profile.name,
       jobTitle: profile.role,
-      worksFor: { name: experiences[0].companyName },
+      worksFor: { name: experiences[0].companyName, url: experiences[0].website },
       sameAs: socialLinks.map(({ URL }) => URL),
     });
     expect(schema.mainEntity.description).not.toContain('{years}');
