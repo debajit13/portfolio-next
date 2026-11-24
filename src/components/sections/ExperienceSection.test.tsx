@@ -1,5 +1,5 @@
 import { render, screen, within } from '@testing-library/react';
-import { experiences } from '@/lib/content';
+import { experiences, formatTenure, plainText } from '@/lib/content';
 import ExperienceSection from './ExperienceSection';
 
 jest.mock('next/image', () => ({
@@ -39,14 +39,31 @@ describe('ExperienceSection', () => {
 
   it('leaves out empty highlight and technology lists', () => {
     render(<ExperienceSection />);
-    experiences.forEach(({ companyName, highlights, skills }) => {
+    experiences.forEach(({ companyName, positions, skills }) => {
       const role = within(roleOf(companyName));
       expect(role.queryAllByRole('list', { name: 'Technologies' })).toHaveLength(
         skills.length > 0 ? 1 : 0
       );
-      if (highlights.length === 0) {
+      if (positions.every(({ highlights }) => highlights.length === 0)) {
         expect(role.queryByRole('button')).toBeNull();
       }
     });
+  });
+
+  it('lists each role at a company with its own dates and highlights', () => {
+    render(<ExperienceSection />);
+    experiences
+      .filter(({ positions }) => positions.length > 1)
+      .forEach(({ companyName, positions }) => {
+        const list = screen.getByRole('list', { name: `Roles at ${companyName}` });
+        const roleEntries = Array.from(list.querySelectorAll<HTMLElement>(':scope > li'));
+        expect(roleEntries).toHaveLength(positions.length);
+        positions.forEach((position, index) => {
+          const entry = within(roleEntries[index]);
+          expect(entry.getByRole('heading', { level: 4 })).toHaveTextContent(position.title);
+          expect(entry.getByText(formatTenure(position))).toBeInTheDocument();
+          expect(roleEntries[index]).toHaveTextContent(plainText(position.highlights[0]));
+        });
+      });
   });
 });

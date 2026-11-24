@@ -1,8 +1,8 @@
 {
   "metaData": {
     "siteURL": "https://debajitmallick.com",
-    "title": "Debajit Mallick — Software Engineer (React, TypeScript, Full-Stack)",
-    "description": "Senior software engineer at Quadrant Technologies with {years}+ years in React, TypeScript, Node.js and Django. Speaker and GDG Siliguri organizer.",
+    "title": "Debajit Mallick — Senior Software Engineer (React, TypeScript, Full-Stack)",
+    "description": "Senior software engineer at Quadrant Technologies. {years}+ years of React, TypeScript, Node.js and Django. I speak at DevFests and meetups and organize GDG Siliguri.",
     "keywords": [
       "Debajit Mallick",
       "Software Engineer",
@@ -31,7 +31,7 @@
     "careerStart": "2021-02-01",
     "image": "https://ik.imagekit.io/debajit13/utilitis/debajit-mallick.jpg?updatedAt=1727675059700",
     "tagline": "Frontend depth, full-stack range.",
-    "summary": "Before Quadrant, I worked across React, TypeScript, Node.js and Django at Ergeon on the 2D/3D CAD and quoting platform behind every customer quote, and led frontend for a pharma SaaS platform rolled out to 10,000+ sales reps in 50+ countries.",
+    "summary": "Before Quadrant, I was at Ergeon, working across React, TypeScript, Node.js and Django on the 2D/3D CAD and quoting tool that every customer quote goes through. Earlier, I led frontend for a pharma SaaS platform used by 10,000+ sales reps in 50+ countries.",
     "mentorshipURL": "https://topmate.io/debajit_mallick",
     "stats": [
       {
@@ -53,14 +53,15 @@
       "website": "https://www.quadranttechnologies.com/",
       "logo": "https://ik.imagekit.io/debajit13/Experiences/Quadranttechnologies%20logo.jpeg",
       "location": "Bengaluru · Hybrid",
+      "summary": "",
       "positions": [
         {
           "title": "Senior Software Engineer",
           "start": "2026-11",
-          "end": null
+          "end": null,
+          "highlights": []
         }
       ],
-      "highlights": [],
       "skills": []
     },
     {
@@ -69,22 +70,23 @@
       "website": "https://www.ergeon.com/",
       "logo": "https://ik.imagekit.io/debajit13/Experiences/Ergeon%20logo.jpeg",
       "location": "Remote",
+      "summary": "Full-stack engineer on Ergeon’s 2D/3D CAD and quoting platform, the browser tool the sales team uses to design every fence project and generate every customer quote. I worked across React/TypeScript, Three.js/WebGPU, Node.js and Django/PostgreSQL.",
       "positions": [
         {
           "title": "Software Engineer",
           "start": "2026-01",
-          "end": "2026-10"
+          "end": "2026-10",
+          "highlights": [
+            "Merged **500** PRs across **25** repositories as a full-stack engineer (React, TypeScript, Node.js, Django) on the 2D/3D CAD and quoting platform behind every customer quote; closed **215** tickets and added Playwright end-to-end tests and Storybook docs for the component library",
+            "Owned the pricing library that prices **16K+** quotes a month. Fixed a rounding bug that had overcharged **948** quotes (**$33K+** on accepted orders) and a race condition that underpriced lines by up to **70%**, then merged 3 copies of the library that had drifted apart",
+            "Fixed lag in the editor: one React context re-rendered **110+** components on every change, so I split it into **7** smaller providers and UI actions stopped touching the 3D canvas. Performance improved by **30%**",
+            "Owned an incident where map loading tripled Google Maps API traffic (**8.4k** errors). Off-screen tiles were being fetched, so I loaded only visible ones and fixed a GPU memory leak, with no rollback needed",
+            "Set up an AI-agent workflow with Claude Code and OpenAI Codex: agents plan, implement and review the code, and I check every change in the real app. It took my output to about **200%** of my old baseline",
+            "Wrote **7** Claude Code skills for the team (ticket pipeline, Sentry triage, GA4/GTM audits, jenkins-watch) so our agent orchestrator could run checks it couldn’t before; team throughput went up **50%**",
+            "Designed data models and REST APIs in Django/PostgreSQL for contractor pricing, with migrations and backfills of existing records, so the field app shows the right pay on every job",
+            "Shipped quote comparison, real-time sun and shadow simulation, and WebGPU rendering with a WebGL fallback. Also fixed GA4 tracking that was quietly dropping metrics on **15%** of events"
+          ]
         }
-      ],
-      "highlights": [
-        "Shipped **500 merged PRs across 25 repositories** as a full-stack engineer (React, TypeScript, Node.js, Django) on a 2D/3D CAD and quoting platform that generates every customer quote; closed **215 tickets**; added **Playwright** end-to-end tests and **Storybook** docs for the component library",
-        "**Owned the pricing library** behind **16K+ quotes/month**: fixed a rounding bug that overcharged **948 quotes** (**$33K+** on accepted orders) and a race underpricing lines by up to 70%; unified 3 drifting copies",
-        "Fixed editor lag by re-architecting React state: split a context re-rendering **110+ components** into 7 focused providers so UI actions skip the 3D canvas, **improving performance by 30%**",
-        "Owned an incident where map loading **tripled Google Maps API traffic** (8.4k errors): traced it to off-screen tile fetches, loaded only visible tiles and fixed a GPU memory leak, **with no rollback**",
-        "Built an AI-agent workflow with **Claude Code and OpenAI Codex** (agents plan, implement and run code reviews; I verify each change in the real app), raising my engineering efficiency to **200% of baseline**",
-        "Built **7 Claude Code skills** for the team (ticket pipeline, Sentry triage, GA4/GTM audits, jenkins-watch) that gave our agent orchestrator checks it couldn’t run before, increasing **team throughput by 50%**",
-        "Designed **data models and REST APIs** in Django/PostgreSQL for contractor pricing, with migrations and **backfills of existing records** so the field app shows correct pay on every job",
-        "Shipped quote comparison, real-time sun/shadow simulation and **WebGPU rendering** with WebGL fallback; fixed GA4 telemetry that was silently **dropping metrics on 15% of events**"
       ],
       "skills": [
         "React",
@@ -104,24 +106,32 @@
       "website": "https://www.p360.com/",
       "logo": "https://ik.imagekit.io/debajit13/Experiences/P360%20logo.jpeg",
       "location": "Remote",
+      "summary": "Led frontend delivery for Zing/Connect, a compliant SaaS platform that connects pharma sales reps with doctors over chat, calls, SMS and WhatsApp.",
       "positions": [
         {
           "title": "Senior Software Engineer",
           "start": "2025-04",
-          "end": "2026-01"
+          "end": "2026-01",
+          "highlights": [
+            "Led frontend delivery for a top global pharma company’s rollout to **10,000+** sales reps in **50+** countries; Zing/Connect shipped to **4** enterprise pharma clients",
+            "Built Automate, an AI assistant module inside Zing, on my own from start to finish. It calls the AI team’s APIs so reps get AI-generated answers to common questions, and it shipped to several enterprise clients",
+            "Built a React design system of reusable components used by **70+** developers, documented in Storybook for the whole company",
+            "Set up the React Native and TypeScript style guide, which cut code review cycles by **25%**",
+            "Managed and mentored **2** engineers, interviewed candidates in a hiring drive, and onboarded a new hire as their buddy"
+          ]
         },
         {
           "title": "Software Engineer",
           "start": "2022-05",
-          "end": "2025-03"
+          "end": "2025-03",
+          "highlights": [
+            "Moved the frontend from Vue.js to React with Material UI, then to React Native with Tailwind, taking the product from web to mobile",
+            "Built compliance messaging features: restricted-word flagging, WhatsApp and SMS integration, and out-of-office handling",
+            "Built a real-time voice-message module with WebRTC and a multilingual template system for users around the world",
+            "Built a reusable React autocomplete component that made data search faster",
+            "Improved app performance by **15%** with lazy loading, code splitting and image optimization"
+          ]
         }
-      ],
-      "highlights": [
-        "Led frontend for **Zing/Connect**, a compliant pharma SaaS platform (chat, calls, SMS, WhatsApp) used by **4 enterprise clients**, incl. a top global pharma’s rollout to **10,000+ reps in 50+ countries**",
-        "Built a React **design system** of reusable components used by **70+ developers** and a TypeScript style guide that **cut code review cycles 25%**; improved app performance **15%** via lazy loading and code splitting",
-        "Moved the frontend from **Vue.js to React (MUI) to React Native**, web to mobile; built **HIPAA safeguards** (auto logout, audit logs, PHI-free notifications), restricted-word flagging and **WebRTC** voice notes",
-        "Built **Automate**, an AI assistant module, end to end as the sole engineer: integrated the AI team’s APIs so reps get instant answers to common queries, **improving sales-rep efficiency by 30%** across multiple enterprise clients",
-        "Managed and mentored **5 engineers**, interviewed candidates in a recruitment drive, and onboarded a new hire"
       ],
       "skills": [
         "React",
@@ -129,6 +139,8 @@
         "Vue.js",
         "TypeScript",
         "MUI",
+        "Tailwind",
+        "Storybook",
         "WebRTC"
       ]
     },
@@ -138,16 +150,17 @@
       "website": "https://blackspektro.com/",
       "logo": "https://ik.imagekit.io/debajit13/Experiences/Blackspektro%20logo.jpeg",
       "location": "Remote",
+      "summary": "Built Vue.js features for an investment app, including an admin dashboard for user data and automated emails that send each user their investment stats.",
       "positions": [
         {
           "title": "Software Engineer",
           "start": "2021-04",
-          "end": "2022-04"
+          "end": "2022-04",
+          "highlights": [
+            "Built an admin dashboard with interactive charts (Vue.js, vue-chartjs) to manage user data in one place, which improved data access and operational efficiency by **40%**",
+            "Few users opened the app to check their investments, so I built an automated email that sends each user their investment stats; app engagement went up **20%**"
+          ]
         }
-      ],
-      "highlights": [
-        "Built an admin dashboard for centralized user-data management with interactive charts (Vue.js, vue-chartjs), improving data accessibility and operational efficiency by **40%**",
-        "Few users opened the app to check their investments, so I built an automated email flow that sends each user their investment stats, **increasing app engagement by 20%**"
       ],
       "skills": ["Vue.js", "JavaScript", "vue-chartjs"]
     },
@@ -157,17 +170,18 @@
       "website": "https://www.tikaj.com/",
       "logo": "https://ik.imagekit.io/debajit13/Experiences/TIKAJ%20logo.jpeg?tr=cm-extract,x-8,y-8,w-384,h-384",
       "location": "Remote",
+      "summary": "A short internship on TIKAJ’s web frontend, where I built Vue.js components and turned Figma designs into production pages.",
       "positions": [
         {
           "title": "Full Stack Developer Intern",
           "start": "2021-02",
-          "end": "2021-04"
+          "end": "2021-04",
+          "highlights": [
+            "Built a reusable Vue.js multi-input component with real-time validation for collecting phone numbers",
+            "Documented the team’s global components in Storybook",
+            "Turned Figma designs into responsive production pages"
+          ]
         }
-      ],
-      "highlights": [
-        "Built a reusable multi-input **Vue.js** component with real-time validation for collecting phone numbers",
-        "Documented global components in **Storybook** for the team",
-        "Turned **Figma** designs into responsive, production web pages"
       ],
       "skills": ["Vue.js", "JavaScript", "Storybook", "Figma"]
     }
@@ -247,12 +261,20 @@
       "end": "2022",
       "grade": "CGPA 8.76/10",
       "location": "Siliguri, West Bengal"
+    },
+    {
+      "school": "Jalpaiguri Zilla School",
+      "degree": "Higher Secondary (Class 12)",
+      "start": "2016",
+      "end": "2018",
+      "grade": "79%",
+      "location": "Jalpaiguri, West Bengal"
     }
   ],
   "projects": [
     {
       "title": "Sheets",
-      "description": "Sheets is a lightweight spreadsheet application built using React, TypeScript, Tailwind CSS, and Vite. The application allows users to create, manage, and edit spreadsheet-like data stored locally in the browser using localStorage.",
+      "description": "A lightweight spreadsheet app built with React, TypeScript, Tailwind CSS and Vite. You can create and edit sheets, and everything is saved in your browser’s localStorage.",
       "image": "https://ik.imagekit.io/debajit13/Projects/sheets.webp?updatedAt=1727194621135",
       "webURL": "https://sheets-web.netlify.app",
       "githubURL": "https://github.com/debajit13/sheets",
@@ -268,7 +290,7 @@
     },
     {
       "title": "Short Link",
-      "description": "Short Link is a web app that uses the SHRTCODE API to shorten URLs. This project is designed to simplify the process of creating shorter URLs, and as a Progressive Web App (PWA), it can be installed directly on your device for quick access.",
+      "description": "A URL shortener built on the SHRTCODE API. It’s a Progressive Web App, so you can install it on your device and open it like any other app.",
       "image": "https://ik.imagekit.io/debajit13/Projects/short_link_logo.webp?updatedAt=1700108916890",
       "webURL": "https://short-link-app.netlify.app/",
       "githubURL": "https://github.com/debajit13/short-link",
@@ -284,7 +306,7 @@
     },
     {
       "title": "Game Star",
-      "description": "Game Star is a platform for discovering and managing your favorite games. It provides detailed game info, including platform support, screenshots, genre, and device requirements.",
+      "description": "Find and keep track of games you like, with details such as supported platforms, screenshots, genre and device requirements.",
       "image": "https://ik.imagekit.io/debajit13/Projects/game_star_logo.webp?updatedAt=1700108916778",
       "webURL": "https://gamestar.netlify.app/",
       "githubURL": "https://github.com/debajit13/Game-Star",
@@ -314,17 +336,17 @@
     }
   ],
   "recognition": [
-    "LinkedIn 2024 Top Voice for Web Development.",
-    "Member of Team Delenitors, the Winner of Smart India Hackathon 2020, Software Edition.",
-    "Featured in Google For Developers India youtube video for my contribution at GDG Siliguri",
-    "Mentor of team OrganiCod3rs, the Winner of Smart India Hackathon 2022, Software Edition.",
-    "Mentor and Judge of Code for Change 2025 Hackathon.",
-    "Mentor and Judge of Hacktopus 2025 Hackathon.",
-    "Mentor and Judge of Hack4Bengal 2.0 and 3.0 Hackathon.",
-    "Mentor of GirlScript Summer of Code 2023.",
-    "Top Contributor of GirlScript Winter of Code 2021.",
-    "Top Contributor of HacktoberFest 2019 and HacktoberFest 2020.",
-    "Top Contributor of JGEC Winter of Code 2020"
+    "LinkedIn Top Voice for Web Development, 2024.",
+    "Won Smart India Hackathon 2020 (Software Edition) with Team Delenitors.",
+    "Featured in a Google for Developers India YouTube video for my work with GDG Siliguri.",
+    "Mentored team OrganiCod3rs, winners of Smart India Hackathon 2022 (Software Edition).",
+    "Mentor and judge at Code for Change 2025.",
+    "Mentor and judge at Hacktopus 2025.",
+    "Mentor and judge at Hack4Bengal 2.0 and 3.0.",
+    "Mentor at GirlScript Summer of Code 2023.",
+    "Top contributor at GirlScript Winter of Code 2021.",
+    "Top contributor at Hacktoberfest 2019 and 2020.",
+    "Top contributor at JGEC Winter of Code 2020."
   ],
   "testimonials": [
     {

@@ -55,6 +55,12 @@ describe('experiences', () => {
     expect(starts).toEqual([...starts].sort().reverse());
   });
 
+  it('gives every experience and every role the same set of fields', () => {
+    const shapeOf = (item: object) => Object.keys(item).sort().join();
+    expect(new Set(experiences.map(shapeOf)).size).toBe(1);
+    expect(new Set(experiences.flatMap(({ positions }) => positions.map(shapeOf))).size).toBe(1);
+  });
+
   it('gives every company a secure website and a hosted logo', () => {
     experiences.forEach(({ website, logo }) => {
       expect(website).toMatch(/^https:\/\//);
