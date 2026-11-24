@@ -49,24 +49,69 @@ const Company = ({ experience }: { experience: Experience }) => (
   </div>
 );
 
+type Position = Experience['positions'][number];
+
+const TimelineMarker = ({ isLast }: { isLast: boolean }) => (
+  <>
+    <span
+      aria-hidden
+      className='absolute left-0 top-2 h-[9px] w-[9px] rounded-full border-2 border-fg-tertiary bg-canvas'
+    />
+    {!isLast && (
+      <span aria-hidden className='absolute -bottom-10 left-1 top-5 w-px bg-line' />
+    )}
+  </>
+);
+
+const PositionEntry = ({
+  position,
+  isTimeline,
+  isLast,
+}: {
+  position: Position;
+  isTimeline: boolean;
+  isLast: boolean;
+}) => (
+  <li className={isTimeline ? 'relative pl-6' : undefined}>
+    {isTimeline && <TimelineMarker isLast={isLast} />}
+    <div className='flex flex-wrap items-baseline gap-x-3'>
+      <h4 className='text-headline text-fg-secondary'>{position.title}</h4>
+      {isTimeline && (
+        <span className='text-caption text-fg-tertiary'>{formatTenure(position)}</span>
+      )}
+    </div>
+    {position.highlights.length > 0 && (
+      <HighlightList highlights={position.highlights} visibleCount={VISIBLE_HIGHLIGHTS} />
+    )}
+  </li>
+);
+
 const Role = ({ experience }: { experience: Experience }) => {
+  const isTimeline = experience.positions.length > 1;
+  const lastIndex = experience.positions.length - 1;
+
   return (
     <li className='grid gap-4 py-8 md:grid-cols-[14rem_1fr] md:gap-10'>
       <Company experience={experience} />
       <div>
-        <ul aria-label={`Roles at ${experience.companyName}`} className='space-y-1'>
-          {experience.positions.map((position) => (
-            <li key={position.title} className='flex flex-wrap items-baseline gap-x-3'>
-              <span className='text-headline text-fg-secondary'>{position.title}</span>
-              {experience.positions.length > 1 && (
-                <span className='text-caption text-fg-tertiary'>{formatTenure(position)}</span>
-              )}
-            </li>
-          ))}
-        </ul>
-        {experience.highlights.length > 0 && (
-          <HighlightList highlights={experience.highlights} visibleCount={VISIBLE_HIGHLIGHTS} />
+        {experience.summary && (
+          <p className='mb-6 max-w-prose text-[1.0625rem] leading-relaxed text-fg'>
+            {experience.summary}
+          </p>
         )}
+        <ol
+          aria-label={`Roles at ${experience.companyName}`}
+          className={isTimeline ? 'space-y-8' : undefined}
+        >
+          {experience.positions.map((position, index) => (
+            <PositionEntry
+              key={position.title}
+              position={position}
+              isTimeline={isTimeline}
+              isLast={index === lastIndex}
+            />
+          ))}
+        </ol>
         {experience.skills.length > 0 && (
           <ul aria-label='Technologies' className='mt-5 flex flex-wrap gap-2'>
             {experience.skills.map((skill) => (
@@ -102,7 +147,7 @@ const ExperienceSection = () => (
     </dl>
 
     <h3 className='text-eyebrow mt-16 text-fg-tertiary'>Education</h3>
-    <ul className='mt-6'>
+    <ul className='mt-6 space-y-6'>
       {education.map((entry) => (
         <li key={entry.school} className='grid gap-1 md:grid-cols-[14rem_1fr] md:gap-10'>
           <p className='text-caption pt-1 text-fg-tertiary'>
